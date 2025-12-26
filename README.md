@@ -1,76 +1,86 @@
-Hi, 
 
-I'm Senior Smart Contract Engineer with 4+ years of experience building secure, scalable, and composable blockchain protocols across DeFi, NFTs, cross-chain systems, and Layer 2s.
+## 👤 About Me 
 
-I specialize in Solidity & EVM-based development, focusing on protocol design, security-first engineering, and production-grade smart contracts used in real-world decentralized systems.
+I’m a **Senior Smart Contract Engineer** with **4+ years of experience** building secure, scalable, and composable blockchain protocols across **DeFi, NFTs, cross-chain systems, and Layer 2s**.
 
-What I Do Best
+I specialize in **Solidity & EVM-based development**, with a strong focus on **protocol design, security-first engineering**, and **production-grade smart contracts** used in real-world decentralized systems.
 
-- 🔐 Design and audit secure smart contracts for DeFi protocols
-- ⚙️ Architect lending/borrowing markets, AMMs, Perpetual DEXs, CDPs
-- 🌉 Build cross-chain bridges & interoperability frameworks
-- 🧩 Work extensively with Account Abstraction & meta-transactions
-- 🧪 Write robust unit, integration, and fork tests
-- 🚀 Optimize gas usage & protocol performance
-- 🤝 Collaborate closely with product, frontend, and research teams
+---
 
-🛠️ Tech Stack
+## 💡 What I Do Best
 
-🔗 Smart Contracts & Blockchain
-- Languages: Solidity, TypeScript, JavaScript  
-- Frameworks: Hardhat, Foundry, Remix  
-- Standards: ERC20, ERC721, ERC1155, EIP-712, EIP-2535, EIP-7702  
-- Account Abstraction: Smart Accounts, Meta-transactions, EOAs → SCAs  
-- Cross-chain: LayerZero, Axelar, LiFi  
+- 🔐 Design and audit secure smart contracts for DeFi protocols  
+- ⚙️ Architect lending/borrowing markets, AMMs, Perpetual DEXs, CDPs  
+- 🌉 Build cross-chain bridges & interoperability frameworks  
+- 🧩 Work extensively with Account Abstraction & meta-transactions  
+- 🧪 Write robust unit, integration, and fork tests  
+- 🚀 Optimize gas usage & protocol performance  
+- 🤝 Collaborate closely with product, frontend, and research teams  
 
-🔐 Security & Tooling
+---
+
+## 🛠️ Tech Stack
+
+### 🔗 Smart Contracts & Blockchain
+- **Languages:** Solidity, TypeScript, JavaScript  
+- **Frameworks:** Hardhat, Foundry, Remix  
+- **Standards:** ERC20, ERC721, ERC1155, EIP-712, EIP-2535, EIP-7702  
+- **Account Abstraction:** Smart Accounts, Meta-transactions, EOAs → SCAs  
+- **Cross-chain:** LayerZero, Axelar, LiFi  
+
+### 🔐 Security & Tooling
 - OpenZeppelin, Solmate, ABDK  
 - Slither, Securify, Tenderly, Metasleuth, Blocksec  
 - Defender, Gnosis Safe, Etherscan  
 
-🌐 Frontend & Integration
+### 🌐 Frontend & Integration
 - React, Next.js  
 - ethers.js, web3.js  
 - REST APIs, Postman, Swagger  
 
-🏗️ Professional Experience Highlights
+---
 
-Senior Smart Contract Engineer — Zerolend
-- Designed and deployed cross-chain bridges using LayerZero & Axelar  
-- Built gas-optimized contracts achieving ~35% gas reduction
-- Implemented EIP-7702 for wallet-less & gas-less transactions  
-- Deployed solutions on Polygon, Arbitrum, Optimism
-- Led security reviews, audits, and protocol upgrades
+## 🏗️ Professional Experience Highlights
 
-Smart Contract Developer — Khalani Labs
-- Built Compound/Aave-style lending protocols
-- Designed adaptive interest rate models
-- Developed interchain liquidity systems
-- Authored extensive Foundry & Hardhat tests
-- Implemented CDP-based omnichain stablecoin
+### **Senior Smart Contract Engineer — Zerolend**
+- Designed and deployed cross-chain bridges using **LayerZero & Axelar**  
+- Built gas-optimized contracts achieving **~35% gas reduction**  
+- Implemented **EIP-7702** for wallet-less & gas-less transactions  
+- Deployed solutions on **Polygon, Arbitrum, Optimism**  
+- Led security reviews, audits, and protocol upgrades  
 
-Smart Contract Developer — MindPath
-- Implemented AMMs, staking, and oracle-based pricing
-- Worked with Chainlink & custom oracle systems
-- Built DeFi dashboards using React + Web3
-- Designed upgradeable proxy contracts (UUPS, Transparent)
+### **Smart Contract Developer — Khalani Labs**
+- Built **Compound/Aave-style** lending protocols  
+- Designed adaptive interest rate models  
+- Developed interchain liquidity systems  
+- Authored extensive **Foundry & Hardhat** test suites  
+- Implemented **CDP-based omnichain stablecoin**  
 
- 🧪 Testing & Security Philosophy
+### **Smart Contract Developer — MindPath**
+- Implemented AMMs, staking, and oracle-based pricing  
+- Worked with **Chainlink** & custom oracle systems  
+- Built DeFi dashboards using **React + Web3**  
+- Designed upgradeable proxy contracts (**UUPS, Transparent**)  
+
+---
+
+## 🧪 Testing & Security Philosophy
 
 - Security-first development mindset  
-- Heavy use of static analysis & formal testing
-- Mainnet-fork testing for edge cases
-- Gas profiling & optimization as a standard practice
-- Clear documentation & reproducible builds
+- Heavy use of static analysis & formal testing  
+- Mainnet-fork testing for edge cases  
+- Gas profiling & optimization as standard practice  
+- Clear documentation & reproducible builds  
 
-🌍 Open to Opportunities
+---
 
-- 💼 Protocol Engineering
-- 🔐 Smart Contract Security
-- 🌉 Cross-chain Infrastructure
-- 🧠 Research-driven DeFi systems
+## 🌍 Open to Opportunities
 
+- 💼 Protocol Engineering  
+- 🔐 Smart Contract Security  
+- 🌉 Cross-chain Infrastructure  
+- 🧠 Research-driven DeFi systems  
 
-Always learning, always building, pushing the boundaries of decentralized finance.
+---
 
-
+Always learning. Always building. Pushing the boundaries of decentralized finance.
