@@ -165,12 +165,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 ---
 
+### Experience
+
 <details>
-<summary><b>&nbsp;💼&nbsp; Experience &amp; Open-source contributions</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
+<summary><b>&nbsp;🏢&nbsp; Zerolend</b> &nbsp;·&nbsp; Senior Blockchain Engineer &nbsp;·&nbsp; <sub>Feb 2024 — present</sub></summary>
 
 <br>
-
-#### Zerolend &nbsp;·&nbsp; Senior Blockchain Engineer &nbsp;·&nbsp; <sub>Feb 2024 — present</sub>
 
 - Architected and shipped a **cross-chain bridge** on top of **Axelar + LayerZero** — contract layer through to the off-chain relayer keeping messages flowing reliably across chains.
 - Wrote the relayer service in **Rust** — message signing, nonce management, retry with backoff, and the operational details that matter when a bridge is under load.
@@ -182,7 +182,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - Integrated **Hexagate** (Python) and **Tenderly** (TypeScript) actions to automate protocol security — instant pauses and parameter adjustments on detected on-chain anomalies or exploits.
 - Built a **Claude-powered automated liquidation engine** monitoring collateral health across deployed EVM chains and triggering cross-chain liquidations the moment thresholds are breached.
 
-#### Khalani Labs (Nervos) &nbsp;·&nbsp; Blockchain Engineer &nbsp;·&nbsp; <sub>Feb 2022 — Dec 2023</sub>
+</details>
+
+<details>
+<summary><b>&nbsp;🏢&nbsp; Khalani Labs (Nervos)</b> &nbsp;·&nbsp; Blockchain Engineer &nbsp;·&nbsp; <sub>Feb 2022 — Dec 2023</sub></summary>
+
+<br>
 
 - Developed **order-matching and RFQ engines** with in-memory position management — sub-millisecond trade flow processing (order-book state, open positions, settlement reconciliation) backed by persistent storage for crash recovery and auditability.
 - Built a **Rust liquidation bot** for an Aave V2 fork — health-factor monitoring across all positions, threshold-triggered liquidations, dynamic gas pricing for profitability.
@@ -193,7 +198,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - Researched and benchmarked **dAMM, SLAMM, VAMM, and the Delta Algorithm** — findings shaped the architecture of Khalani's **Interchain Liquidity Hub** and a **CDP-based omnichain stablecoin**.
 - Conducted rigorous code reviews and **mainnet-fork tests on Foundry + Hardhat** to surface edge cases pre-deployment.
 
-#### MindPath &nbsp;·&nbsp; Blockchain Engineer &nbsp;·&nbsp; <sub>Dec 2020 — Feb 2022</sub>
+</details>
+
+<details>
+<summary><b>&nbsp;🏢&nbsp; MindPath</b> &nbsp;·&nbsp; Blockchain Engineer &nbsp;·&nbsp; <sub>Dec 2020 — Feb 2022</sub></summary>
+
+<br>
 
 - Built **AMM contracts from scratch** — pool logic, swap routing, fee distribution — and integrated **Chainlink** oracles alongside a **Go price-validation service** that cross-checks on-chain feeds against pool state and flags discrepancies before they affect collateral.
 - Wrote and audited **ERC-20, ERC-721, ERC-1155** tokens; built **staking contracts** with time-locked rewards, slashing conditions, and dynamic APY — all behind **Transparent and UUPS proxies** for zero-downtime upgrades.
@@ -201,9 +211,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - Contributed to **React / Redux** dashboards with **Web3.js / Ethers.js** integrations for real-time contract data.
 - Wrote comprehensive unit and integration suites across all contracts using **Hardhat, Foundry, and Chai** — normal flows, edge cases, regression scenarios.
 
-<br>
+</details>
 
 ---
+
+### Open-source contributions
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; Upstream PRs</b> &nbsp;·&nbsp; <sub>aether (MEV) &middot; openclaude (coding-agent CLI)</sub></summary>
+
+<br>
 
 #### [Pablosinyores / aether](https://github.com/Pablosinyores/aether) &nbsp;·&nbsp; MEV / arbitrage engine &nbsp;·&nbsp; [all PRs →](https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr)
 
