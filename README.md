@@ -43,140 +43,132 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 ### Tech stack
 
-<h4>Languages</h4>
-<p>
-  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
-  <img src="https://img.shields.io/badge/Move-4A90D9?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-</p>
+<table>
+<tr>
+<td valign="top" width="50%">
 
-<h4>Smart-contract toolchain</h4>
-<p>
-  <img src="https://img.shields.io/badge/Foundry-000000?style=flat-square&logo=foundry&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black" />
-  <img src="https://img.shields.io/badge/Remix-3E5FBF?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Slither-2C5282?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Securify-1A1A1A?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat-square&logo=openzeppelin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solmate-00A6FF?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/ABDK-7B1FA2?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tenderly-6F4CFF?style=flat-square&logo=tenderly&logoColor=white" />
-  <img src="https://img.shields.io/badge/Defender-2535A0?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/MetaSleuth-1F6FEB?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/BlockSec-DC143C?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Safe-12FF80?style=flat-square&logo=safe&logoColor=black" />
-  <img src="https://img.shields.io/badge/Etherscan-21325B?style=flat-square&logo=etherscan&logoColor=white" />
-</p>
+**Languages**
+<br>
+<img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
+<img src="https://img.shields.io/badge/Move-4A90D9?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
 
-<h4>Web3 libraries</h4>
-<p>
-  <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Viem-FFC517?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/MetaMask-F6851B?style=flat-square&logo=metamask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ganache-E4761B?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/ECDSA-2EA44F?style=flat-square&logoColor=white" />
-</p>
+**Smart-contract toolchain**
+<br>
+<img src="https://img.shields.io/badge/Foundry-000000?style=flat-square&logo=foundry&logoColor=white" />
+<img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black" />
+<img src="https://img.shields.io/badge/Remix-3E5FBF?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Slither-2C5282?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Securify-1A1A1A?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat-square&logo=openzeppelin&logoColor=white" />
+<img src="https://img.shields.io/badge/Solmate-00A6FF?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/ABDK-7B1FA2?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Tenderly-6F4CFF?style=flat-square&logo=tenderly&logoColor=white" />
+<img src="https://img.shields.io/badge/Defender-2535A0?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/MetaSleuth-1F6FEB?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/BlockSec-DC143C?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Safe-12FF80?style=flat-square&logo=safe&logoColor=black" />
+<img src="https://img.shields.io/badge/Etherscan-21325B?style=flat-square&logo=etherscan&logoColor=white" />
 
-<h4>Backend frameworks</h4>
-<p>
-  <img src="https://img.shields.io/badge/Tokio-1A1A1A?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Axum-C75D27?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Actix--web-000000?style=flat-square&logo=actix&logoColor=white" />
-  <img src="https://img.shields.io/badge/serde-D42A2A?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cargo-DEA584?style=flat-square&logo=rust&logoColor=black" />
-  <img src="https://img.shields.io/badge/CosmWasm-2E3148?style=flat-square&logo=cosmos&logoColor=white" />
-  <img src="https://img.shields.io/badge/Substrate-282828?style=flat-square&logo=parity-substrate&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gin-008ECF?style=flat-square&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kratos-1E88E5?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-</p>
+**Web3 libraries**
+<br>
+<img src="https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Viem-FFC517?style=flat-square&logoColor=black" />
+<img src="https://img.shields.io/badge/MetaMask-F6851B?style=flat-square&logo=metamask&logoColor=white" />
+<img src="https://img.shields.io/badge/Ganache-E4761B?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/ECDSA-2EA44F?style=flat-square&logoColor=white" />
 
-<h4>Chains</h4>
-<p>
-  <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" />
-  <img src="https://img.shields.io/badge/SUI-6FBCF0?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arbitrum-28A0F0?style=flat-square&logo=arbitrum&logoColor=white" />
-  <img src="https://img.shields.io/badge/Optimism-FF0420?style=flat-square&logo=optimism&logoColor=white" />
-  <img src="https://img.shields.io/badge/Base-0052FF?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white" />
-  <img src="https://img.shields.io/badge/zkSync-8C8DFC?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cosmos-2E3148?style=flat-square&logo=cosmos&logoColor=white" />
-</p>
+**Standards (EIPs)**
+<br>
+<img src="https://img.shields.io/badge/ERC--20-627EEA?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/ERC--721-F7B500?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/ERC--1155-007ACC?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/EIP--1538-555555?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/ERC--4337-FF6B6B?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/ERC--4626-1F6FEB?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/EIP--7702-DB2777?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/EIP--7939-8957E5?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/EIP--8004-2EA44F?style=flat-square&logoColor=white" />
 
-<h4>Cross-chain messaging</h4>
-<p>
-  <img src="https://img.shields.io/badge/LayerZero-000000?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Axelar-FF6B35?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hyperlane-3C3D44?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/LiFi-3C3C3D?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Chainlink_CCIP-375BD2?style=flat-square&logo=chainlink&logoColor=white" />
-</p>
+</td>
+<td valign="top" width="50%">
 
-<h4>AI dev tools</h4>
-<p>
-  <img src="https://img.shields.io/badge/Claude_Code_CLI-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Copilot-181717?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP_Servers-6366F1?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Conductor-1E88E5?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cline-7B1FA2?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Aider-2EA44F?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/v0_by_Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-</p>
+**Backend frameworks**
+<br>
+<img src="https://img.shields.io/badge/Tokio-1A1A1A?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Axum-C75D27?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Actix--web-000000?style=flat-square&logo=actix&logoColor=white" />
+<img src="https://img.shields.io/badge/serde-D42A2A?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Cargo-DEA584?style=flat-square&logo=rust&logoColor=black" />
+<img src="https://img.shields.io/badge/CosmWasm-2E3148?style=flat-square&logo=cosmos&logoColor=white" />
+<img src="https://img.shields.io/badge/Substrate-282828?style=flat-square&logo=parity-substrate&logoColor=white" />
+<img src="https://img.shields.io/badge/Gin-008ECF?style=flat-square&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Kratos-1E88E5?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
 
-<h4>Standards (EIPs)</h4>
-<p>
-  <img src="https://img.shields.io/badge/ERC--20-627EEA?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/ERC--721-F7B500?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/ERC--1155-007ACC?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/EIP--1538-555555?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/ERC--4337-FF6B6B?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/ERC--4626-1F6FEB?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/EIP--7702-DB2777?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/EIP--7939-8957E5?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/EIP--8004-2EA44F?style=flat-square&logoColor=white" />
-</p>
+**Chains**
+<br>
+<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" />
+<img src="https://img.shields.io/badge/SUI-6FBCF0?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Arbitrum-28A0F0?style=flat-square&logo=arbitrum&logoColor=white" />
+<img src="https://img.shields.io/badge/Optimism-FF0420?style=flat-square&logo=optimism&logoColor=white" />
+<img src="https://img.shields.io/badge/Base-0052FF?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white" />
+<img src="https://img.shields.io/badge/zkSync-8C8DFC?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Cosmos-2E3148?style=flat-square&logo=cosmos&logoColor=white" />
 
-<h4>Infra & monitoring</h4>
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/pprof-2EA44F?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/heaptrack-DC382D?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" />
-</p>
+**Cross-chain messaging**
+<br>
+<img src="https://img.shields.io/badge/LayerZero-000000?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Axelar-FF6B35?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Hyperlane-3C3D44?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/LiFi-3C3C3D?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Chainlink_CCIP-375BD2?style=flat-square&logo=chainlink&logoColor=white" />
 
----
+**AI dev tools**
+<br>
+<img src="https://img.shields.io/badge/Claude_Code_CLI-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Copilot-181717?style=flat-square&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/MCP_Servers-6366F1?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Conductor-1E88E5?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Cline-7B1FA2?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Aider-2EA44F?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/v0_by_Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 
-### Featured work
+**Infra & monitoring**
+<br>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+<img src="https://img.shields.io/badge/pprof-2EA44F?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/heaptrack-DC382D?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
+<img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" />
 
-| Project | Stack | What it does |
-| :--- | :--- | :--- |
-| **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Rust` `Solidity` | UniswapX-style intent execution engine — mempool ingestion, on/off-chain liquidity routing, profitable fill loop. |
-| **[streampay](https://github.com/0xfandom/streampay)** | `Solidity` | Streaming-payment primitives for continuous on-chain salaries and subscriptions. |
-| **[Security-Audit-Agent](https://github.com/0xfandom/Security-Audit-Agent)** | `Python` | Multi-agent pipeline that triages a contract repo — Slither, Foundry invariants, LLM review, written report. |
-| **[Block-Explorer-MCP](https://github.com/0xfandom/Block-Explorer-MCP)** | `TypeScript` | MCP server giving LLMs live on-chain reads via tool calls. |
-| **[Telegram-DevAgent](https://github.com/0xfandom/Telegram-DevAgent)** | `TypeScript` | Telegram bot that reads, edits, and opens PRs through a multi-agent loop. |
-| **[simple-DAO](https://github.com/0xfandom/simple-DAO)** | `Solidity` `TypeScript` | Minimal governance reference — proposals, voting, timelocked execution. |
+</td>
+</tr>
+</table>
 
 ---
 
-### Experience
+<details>
+<summary><b>&nbsp;💼&nbsp; Experience &amp; Open-source contributions</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
+
+<br>
 
 #### Zerolend &nbsp;·&nbsp; Senior Blockchain Engineer &nbsp;·&nbsp; <sub>Feb 2024 — present</sub>
 
@@ -209,17 +201,9 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - Contributed to **React / Redux** dashboards with **Web3.js / Ethers.js** integrations for real-time contract data.
 - Wrote comprehensive unit and integration suites across all contracts using **Hardhat, Foundry, and Chai** — normal flows, edge cases, regression scenarios.
 
----
-
-### Security work
-
-I take on **Solidity audits**, **threat modeling**, and **invariant-suite design** for protocol launches. Workflow is Slither + Foundry invariants + manual review against an explicit threat model — augmented by an in-house Claude-powered audit pipeline that runs reentrancy / access-control / oracle / arithmetic checks before manual passes. Reach out via [LinkedIn](https://www.linkedin.com/in/shivank11/) for scope and engagement details.
-
-- [Security-Audit-Agent](https://github.com/0xfandom/Security-Audit-Agent) — internal multi-agent automation I use to bootstrap reviews.
+<br>
 
 ---
-
-### Open-source contributions
 
 #### [Pablosinyores / aether](https://github.com/Pablosinyores/aether) &nbsp;·&nbsp; MEV / arbitrage engine &nbsp;·&nbsp; [all PRs →](https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr)
 
@@ -240,16 +224,28 @@ I take on **Solidity audits**, **threat modeling**, and **invariant-suite design
 - [`#857`](https://github.com/Gitlawb/openclaude/pull/857) `fix(effort)` persist xhigh and send reasoning_effort on chat_completions
 - [`#837`](https://github.com/Gitlawb/openclaude/pull/837) `feat` add `OPENCLAUDE_DISABLE_TOOL_REMINDERS` env var
 
+</details>
+
 ---
 
-### Stats
+### Featured work
 
-<div align="center">
+| Project | Stack | What it does |
+| :--- | :--- | :--- |
+| **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Rust` `Solidity` | UniswapX-style intent execution engine — mempool ingestion, on/off-chain liquidity routing, profitable fill loop. |
+| **[streampay](https://github.com/0xfandom/streampay)** | `Solidity` | Streaming-payment primitives for continuous on-chain salaries and subscriptions. |
+| **[Security-Audit-Agent](https://github.com/0xfandom/Security-Audit-Agent)** | `Python` | Multi-agent pipeline that triages a contract repo — Slither, Foundry invariants, LLM review, written report. |
+| **[Block-Explorer-MCP](https://github.com/0xfandom/Block-Explorer-MCP)** | `TypeScript` | MCP server giving LLMs live on-chain reads via tool calls. |
+| **[Telegram-DevAgent](https://github.com/0xfandom/Telegram-DevAgent)** | `TypeScript` | Telegram bot that reads, edits, and opens PRs through a multi-agent loop. |
+| **[simple-DAO](https://github.com/0xfandom/simple-DAO)** | `Solidity` `TypeScript` | Minimal governance reference — proposals, voting, timelocked execution. |
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=0xfandom&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=a78bfa&icon_color=a78bfa&text_color=c0caf5&bg_color=0d1117" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xfandom&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=a78bfa&text_color=c0caf5&bg_color=0d1117" />
+---
 
-</div>
+### Security work
+
+I take on **Solidity audits**, **threat modeling**, and **invariant-suite design** for protocol launches. Workflow is Slither + Foundry invariants + manual review against an explicit threat model — augmented by an in-house Claude-powered audit pipeline that runs reentrancy / access-control / oracle / arithmetic checks before manual passes. Reach out via [LinkedIn](https://www.linkedin.com/in/shivank11/) for scope and engagement details.
+
+- [Security-Audit-Agent](https://github.com/0xfandom/Security-Audit-Agent) — internal multi-agent automation I use to bootstrap reviews.
 
 ---
 
