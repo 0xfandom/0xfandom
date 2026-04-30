@@ -218,11 +218,9 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 ### Open-source contributions
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Upstream PRs</b> &nbsp;·&nbsp; <sub>aether (MEV) &middot; openclaude (coding-agent CLI)</sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; MEV / arbitrage engine &nbsp;·&nbsp; <sub><a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
-
-#### [Pablosinyores / aether](https://github.com/Pablosinyores/aether) &nbsp;·&nbsp; MEV / arbitrage engine &nbsp;·&nbsp; [all PRs →](https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr)
 
 - [`#118`](https://github.com/Pablosinyores/aether/pull/118) `feat(mempool)` live tracking — subscribe + decode + MEV-Share SSE
 - [`#114`](https://github.com/Pablosinyores/aether/pull/114) `fix(provider)` adaptive HTTP polling for local / Anvil endpoints
@@ -232,7 +230,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - [`#52`](https://github.com/Pablosinyores/aether/pull/52) &nbsp;`fix(executor)` wire gas oracle and nonce manager to real RPC
 - [`#43`](https://github.com/Pablosinyores/aether/pull/43) &nbsp;`feat(executor)` dynamic tip share based on inclusion rate
 
-#### [Gitlawb / openclaude](https://github.com/Gitlawb/openclaude) &nbsp;·&nbsp; OSS coding-agent CLI &nbsp;·&nbsp; [all PRs →](https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr)
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; OSS coding-agent CLI &nbsp;·&nbsp; <sub><a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
 
 - [`#959`](https://github.com/Gitlawb/openclaude/pull/959) `fix(openai-shim)` strip `store` when baseUrl points at Gemini
 - [`#954`](https://github.com/Gitlawb/openclaude/pull/954) `fix(worktree)` surface git stderr in rev-parse failure message
