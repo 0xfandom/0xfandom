@@ -1,10 +1,12 @@
 <div align="center">
 
 <a href="https://github.com/0xfandom">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Senior+Smart+Contract+Engineer;DeFi+%C2%B7+Cross-Chain+%C2%B7+Account+Abstraction;Solidity+%C2%B7+Rust+%C2%B7+TypeScript+%C2%B7+Go;Properties+before+mainnet.&font=Fira+Code&center=true&width=560&height=45&color=6366f1&vCenter=true&size=18&pause=1200" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Shivank+%C2%B7+Senior+Blockchain+Engineer;DeFi+%C2%B7+Cross-Chain+%C2%B7+Liquidations+%C2%B7+Indexers;Solidity+%C2%B7+Move+%C2%B7+Rust+%C2%B7+Go+%C2%B7+TypeScript;5%2B+years+shipping+protocols+to+mainnet.&font=Fira+Code&center=true&width=600&height=45&color=6366f1&vCenter=true&size=18&pause=1200" alt="typing" />
 </a>
 
 <p>
+  <img src="https://img.shields.io/badge/Bangalore%2C_India-0E1116?style=for-the-badge&logo=googlemaps&logoColor=white" alt="location" />
+  <a href="mailto:kashyapshivank01@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/shivank11/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://twitter.com/KashyapShi8464"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
   <a href="https://medium.com/@shivank011"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
@@ -17,11 +19,11 @@
 
 ### About
 
-Smart-contract engineer focused on **DeFi settlement** — lending markets, omnichain stablecoins, intent-based fillers, and account-abstraction stacks. Solidity is home; I reach for Rust whenever filler or solver logic moves off-chain. The bias is correctness over feature breadth: properties before mainnet, fuzz before audit, audit before launch, and replay-protection on every cross-chain message.
+Senior Blockchain Engineer with **5+ years** across the full stack of decentralized systems — from writing and auditing smart contracts to building the off-chain infrastructure that keeps protocols alive in production. Shipped code across DeFi lending markets, AMMs, CDP stablecoins, cross-chain bridges, and NFT ecosystems on both **EVM and non-EVM** chains.
 
-Currently heads-down on UniswapX-style intent execution and the MEV plumbing around it.
+Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **Go** — liquidation bots, relayers, keepers, and indexers that handle everything the EVM can't. Lately a lot of that work is **agentic**: Claude-powered audit pipelines, MCP-driven tool chains, and an automated cross-chain liquidation engine that triggers the moment health factors break.
 
-> **Open to** smart-contract engagements, protocol engineering, and security audits — DeFi only. Lending, perps/AMMs, CDP stables, AA, intents. &nbsp;[Reach out →](https://www.linkedin.com/in/shivank11/)
+> **Open to** smart-contract engagements, protocol engineering, security audits, and off-chain infra (relayers, indexers, liquidation bots, keepers). DeFi-focused — lending, perps/AMMs, CDP stables, AA, intents, cross-chain. &nbsp;[Reach out →](https://www.linkedin.com/in/shivank11/)
 
 ---
 
@@ -29,11 +31,12 @@ Currently heads-down on UniswapX-style intent execution and the MEV plumbing aro
 
 <p align="center">
   <img src="https://img.shields.io/badge/Lending_Markets-1F6FEB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Cross--Chain_Settlement-6F4CFF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Intent_Execution-DB2777?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cross--Chain_Bridges-6F4CFF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Liquidation_Engines-FF0420?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CDP_Stablecoins-FF6B35?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Account_Abstraction-2EA44F?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Omnichain_Stables-FF6B35?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MEV_Infra-111111?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Indexers_%26_Relayers-DB2777?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Agentic_Audits-111111?style=for-the-badge" />
 </p>
 
 ---
@@ -43,35 +46,70 @@ Currently heads-down on UniswapX-style intent execution and the MEV plumbing aro
 <h4>Languages</h4>
 <p>
   <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Move-4A90D9?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
 </p>
 
 <h4>Smart-contract toolchain</h4>
 <p>
   <img src="https://img.shields.io/badge/Foundry-000000?style=flat-square&logo=foundry&logoColor=white" />
   <img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black" />
+  <img src="https://img.shields.io/badge/Remix-3E5FBF?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Slither-2C5282?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Securify-1A1A1A?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat-square&logo=openzeppelin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Solmate-00A6FF?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/ABDK-7B1FA2?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Tenderly-6F4CFF?style=flat-square&logo=tenderly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Defender-2535A0?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/MetaSleuth-1F6FEB?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/BlockSec-DC143C?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Safe-12FF80?style=flat-square&logo=safe&logoColor=black" />
-  <img src="https://img.shields.io/badge/Viem-FFC517?style=flat-square&logoColor=black" />
+  <img src="https://img.shields.io/badge/Etherscan-21325B?style=flat-square&logo=etherscan&logoColor=white" />
+</p>
+
+<h4>Web3 libraries</h4>
+<p>
+  <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Alloy-CE412B?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Viem-FFC517?style=flat-square&logoColor=black" />
+  <img src="https://img.shields.io/badge/MetaMask-F6851B?style=flat-square&logo=metamask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ganache-E4761B?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/ECDSA-2EA44F?style=flat-square&logoColor=white" />
+</p>
+
+<h4>Backend frameworks</h4>
+<p>
+  <img src="https://img.shields.io/badge/Tokio-1A1A1A?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Axum-C75D27?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Actix--web-000000?style=flat-square&logo=actix&logoColor=white" />
+  <img src="https://img.shields.io/badge/serde-D42A2A?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cargo-DEA584?style=flat-square&logo=rust&logoColor=black" />
+  <img src="https://img.shields.io/badge/CosmWasm-2E3148?style=flat-square&logo=cosmos&logoColor=white" />
+  <img src="https://img.shields.io/badge/Substrate-282828?style=flat-square&logo=parity-substrate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gin-008ECF?style=flat-square&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kratos-1E88E5?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
 </p>
 
 <h4>Chains</h4>
 <p>
   <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" />
+  <img src="https://img.shields.io/badge/SUI-6FBCF0?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Arbitrum-28A0F0?style=flat-square&logo=arbitrum&logoColor=white" />
   <img src="https://img.shields.io/badge/Optimism-FF0420?style=flat-square&logo=optimism&logoColor=white" />
   <img src="https://img.shields.io/badge/Base-0052FF?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white" />
   <img src="https://img.shields.io/badge/zkSync-8C8DFC?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cosmos-2E3148?style=flat-square&logo=cosmos&logoColor=white" />
 </p>
 
 <h4>Cross-chain messaging</h4>
@@ -83,26 +121,44 @@ Currently heads-down on UniswapX-style intent execution and the MEV plumbing aro
   <img src="https://img.shields.io/badge/Chainlink_CCIP-375BD2?style=flat-square&logo=chainlink&logoColor=white" />
 </p>
 
-<h4>Standards</h4>
+<h4>AI dev tools</h4>
+<p>
+  <img src="https://img.shields.io/badge/Claude_Code_CLI-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-181717?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP_Servers-6366F1?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Conductor-1E88E5?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cline-7B1FA2?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Aider-2EA44F?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/v0_by_Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+</p>
+
+<h4>Standards (EIPs)</h4>
 <p>
   <img src="https://img.shields.io/badge/ERC--20-627EEA?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/ERC--721-F7B500?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/ERC--1155-007ACC?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/EIP--1538-555555?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/ERC--4337-FF6B6B?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/ERC--4626-1F6FEB?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/EIP--712-8957E5?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/EIP--2535-2EA44F?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/EIP--4337-FF6B6B?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/EIP--7702-DB2777?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/EIP--7939-8957E5?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/EIP--8004-2EA44F?style=flat-square&logoColor=white" />
 </p>
 
-<h4>Infra</h4>
+<h4>Infra & monitoring</h4>
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/pprof-2EA44F?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/heaptrack-DC382D?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" />
 </p>
 
 ---
@@ -122,29 +178,42 @@ Currently heads-down on UniswapX-style intent execution and the MEV plumbing aro
 
 ### Experience
 
-#### Zerolend &nbsp;·&nbsp; Senior Smart Contract Engineer &nbsp;·&nbsp; <sub>2024 — present</sub>
-- Designed and deployed cross-chain bridges over **LayerZero** and **Axelar**.
-- Drove **~35% gas reduction** on core contracts vs. baseline.
-- Shipped **EIP-7702** delegation for gasless / wallet-less UX.
-- Multi-chain rollouts across Polygon, Arbitrum, Optimism.
+#### Zerolend &nbsp;·&nbsp; Senior Blockchain Engineer &nbsp;·&nbsp; <sub>Feb 2024 — present</sub>
 
-#### Khalani Labs &nbsp;·&nbsp; Smart Contract Developer &nbsp;·&nbsp; <sub>2023 — 2024</sub>
-- Built **Compound / Aave-style** lending markets with adaptive interest-rate models.
-- Implemented a **CDP-backed omnichain stablecoin** with cross-chain mint / burn.
-- Designed interchain liquidity routing.
-- Authored end-to-end Foundry invariant + fuzz suites.
+- Architected and shipped a **cross-chain bridge** on top of **Axelar + LayerZero** — contract layer through to the off-chain relayer keeping messages flowing reliably across chains.
+- Wrote the relayer service in **Rust** — message signing, nonce management, retry with backoff, and the operational details that matter when a bridge is under load.
+- Authored **150+ smart contracts** in **Solidity and Move (SUI)** — LendingPool core, variable/stable rate models, health-factor liquidation, oracle integration, flash loans, aToken/debtToken accounting, and cross-chain bridges. Gas-optimized through storage layout restructuring, calldata efficiency patterns, and redundant state-read elimination.
+- Built an **agentic Claude-powered audit pipeline** with structured prompt chains, MCP server integrations, and automated checklists for reentrancy, access-control, oracle manipulation, arithmetic edges, and DeFi-specific attack vectors — replacing manual review cycles with repeatable workflows.
+- Integrated multiple decentralized oracle networks for on-chain price feeds; built the **off-chain Rust aggregation layer** that validates incoming data, catches outliers, and falls back gracefully when a source goes stale.
+- Designed and deployed real-time **on-chain event indexers in Go** — millions of daily TXs ingested via RPC / WebSocket streams, persisted to structured stores, served at sub-second query latency for trading dashboards and protocol monitoring.
+- Architected **CI/CD pipelines** in TypeScript + Go enforcing mainnet-fork testing, integration suites, and end-to-end coverage on every release.
+- Integrated **Hexagate** (Python) and **Tenderly** (TypeScript) actions to automate protocol security — instant pauses and parameter adjustments on detected on-chain anomalies or exploits.
+- Built a **Claude-powered automated liquidation engine** monitoring collateral health across deployed EVM chains and triggering cross-chain liquidations the moment thresholds are breached.
 
-#### MindPath &nbsp;·&nbsp; Smart Contract Developer &nbsp;·&nbsp; <sub>2022 — 2023</sub>
-- Built AMMs, staking systems, and oracle-priced markets.
-- Integrated **Chainlink** feeds and custom oracle adapters.
-- Designed UUPS / Transparent upgradeable proxies.
-- Shipped React + Web3 dashboards on top of the protocols.
+#### Khalani Labs (Nervos) &nbsp;·&nbsp; Blockchain Engineer &nbsp;·&nbsp; <sub>Feb 2022 — Dec 2023</sub>
+
+- Developed **order-matching and RFQ engines** with in-memory position management — sub-millisecond trade flow processing (order-book state, open positions, settlement reconciliation) backed by persistent storage for crash recovery and auditability.
+- Built a **Rust liquidation bot** for an Aave V2 fork — health-factor monitoring across all positions, threshold-triggered liquidations, dynamic gas pricing for profitability.
+- Instrumented production infra with **Prometheus, Grafana, and structured logging** — real-time alerting on liquidation-bot health, indexer lag, relayer throughput under mainnet load.
+- Integrated **PancakeSwap** contracts directly into the protocol for collateral and loan-token swaps in borrow / repayment flows — fewer transactions, less UX friction.
+- Built **treasury and risk-fund contracts** with automated reserve logic, fee routing, and risk buffers for sustainable protocol economics.
+- Set up **multisig DAO governance** using Safe Wallets for all admin and protocol-critical operations.
+- Researched and benchmarked **dAMM, SLAMM, VAMM, and the Delta Algorithm** — findings shaped the architecture of Khalani's **Interchain Liquidity Hub** and a **CDP-based omnichain stablecoin**.
+- Conducted rigorous code reviews and **mainnet-fork tests on Foundry + Hardhat** to surface edge cases pre-deployment.
+
+#### MindPath &nbsp;·&nbsp; Blockchain Engineer &nbsp;·&nbsp; <sub>Dec 2020 — Feb 2022</sub>
+
+- Built **AMM contracts from scratch** — pool logic, swap routing, fee distribution — and integrated **Chainlink** oracles alongside a **Go price-validation service** that cross-checks on-chain feeds against pool state and flags discrepancies before they affect collateral.
+- Wrote and audited **ERC-20, ERC-721, ERC-1155** tokens; built **staking contracts** with time-locked rewards, slashing conditions, and dynamic APY — all behind **Transparent and UUPS proxies** for zero-downtime upgrades.
+- Built a **Go backend** for staking position tracking and reward distribution; integrated custom on/off-chain oracle pipelines for pricing and risk metrics that standard Chainlink feeds didn't cover.
+- Contributed to **React / Redux** dashboards with **Web3.js / Ethers.js** integrations for real-time contract data.
+- Wrote comprehensive unit and integration suites across all contracts using **Hardhat, Foundry, and Chai** — normal flows, edge cases, regression scenarios.
 
 ---
 
 ### Security work
 
-I take on **Solidity audits**, **threat modeling**, and **invariant-suite design** for protocol launches. The workflow is Slither + Foundry invariants + manual review against an explicit threat model — not a checklist pass. Reach out via [LinkedIn](https://www.linkedin.com/in/shivank11/) for scope and engagement details.
+I take on **Solidity audits**, **threat modeling**, and **invariant-suite design** for protocol launches. Workflow is Slither + Foundry invariants + manual review against an explicit threat model — augmented by an in-house Claude-powered audit pipeline that runs reentrancy / access-control / oracle / arithmetic checks before manual passes. Reach out via [LinkedIn](https://www.linkedin.com/in/shivank11/) for scope and engagement details.
 
 - [Security-Audit-Agent](https://github.com/0xfandom/Security-Audit-Agent) — internal multi-agent automation I use to bootstrap reviews.
 
