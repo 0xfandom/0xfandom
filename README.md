@@ -217,34 +217,127 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 ### Open-source contributions
 
+<sub><i>🟢 open &middot; 🟣 merged &middot; 🔴 closed &nbsp;·&nbsp; auto-refreshed twice daily.</i></sub>
+
+<!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; MEV / arbitrage engine &nbsp;·&nbsp; <sub><a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>31 PRs · 🟣 23 · 🟢 7 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- [`#118`](https://github.com/Pablosinyores/aether/pull/118) `feat(mempool)` live tracking — subscribe + decode + MEV-Share SSE
-- [`#114`](https://github.com/Pablosinyores/aether/pull/114) `fix(provider)` adaptive HTTP polling for local / Anvil endpoints
-- [`#94`](https://github.com/Pablosinyores/aether/pull/94) &nbsp;`fix(ingestion)` decode Uniswap V2 / Sushi Swap events instead of dropping
-- [`#88`](https://github.com/Pablosinyores/aether/pull/88) &nbsp;`feat(replay)` aether-replay binary — historical block + intra-block MEV detection
-- [`#62`](https://github.com/Pablosinyores/aether/pull/62) &nbsp;`perf(detector)` parallel revm simulation with CacheDB pre-warming
-- [`#52`](https://github.com/Pablosinyores/aether/pull/52) &nbsp;`fix(executor)` wire gas oracle and nonce manager to real RPC
-- [`#43`](https://github.com/Pablosinyores/aether/pull/43) &nbsp;`feat(executor)` dynamic tip share based on inclusion rate
+- 🟢 [`#118`](https://github.com/Pablosinyores/aether/pull/118) — feat(mempool): live tracking — subscribe + decode + analytical V2 post-state sim
+- 🟢 [`#116`](https://github.com/Pablosinyores/aether/pull/116) — chore(observability): PR #83 follow-ups (webhook hygiene, alertmanager watchdog, cold-start gating + 6 nits)
+- 🟢 [`#115`](https://github.com/Pablosinyores/aether/pull/115) — feat(ledger): trade-ledger foundation — schema + no-op access layer
+- 🟢 [`#114`](https://github.com/Pablosinyores/aether/pull/114) — fix(provider): adaptive HTTP polling for local/Anvil endpoints
+- 🟣 [`#109`](https://github.com/Pablosinyores/aether/pull/109) — feat(metrics): split aether_decode_errors_total by reason
+- 🟢 [`#108`](https://github.com/Pablosinyores/aether/pull/108) — docs: add mermaid architecture diagrams
+- 🟣 [`#105`](https://github.com/Pablosinyores/aether/pull/105) — feat(replay): production-parity optimizer + tipBps in aether-replay
+- 🟣 [`#104`](https://github.com/Pablosinyores/aether/pull/104) — fix(replay): deploy AetherExecutor to Anvil fork in e2e script
+- 🟣 [`#103`](https://github.com/Pablosinyores/aether/pull/103) — chore(observability): land PR #84 content on main (cherry-pick recovery)
+- 🔴 [`#102`](https://github.com/Pablosinyores/aether/pull/102) — chore(observability): land PR #84 content on main (post-stack recovery)
+- 🟣 [`#94`](https://github.com/Pablosinyores/aether/pull/94) — fix(ingestion): decode Uniswap V2 / Sushi Swap events instead of dropping
+- 🟢 [`#93`](https://github.com/Pablosinyores/aether/pull/93) — feat(shadow): live mainnet shadow-mode runner + WS transport preference
+- 🟣 [`#88`](https://github.com/Pablosinyores/aether/pull/88) — feat(replay): aether-replay binary — historical block + intra-block MEV detection
+- 🟣 [`#87`](https://github.com/Pablosinyores/aether/pull/87) — chore(clippy): fix 12 workspace lint errors (#82)
+- 🟣 [`#85`](https://github.com/Pablosinyores/aether/pull/85) — feat(grpc-server): surface decoder drops via warn log + counter
+- 🟣 [`#81`](https://github.com/Pablosinyores/aether/pull/81) — fix(executor): replace production stubs with on-chain validation (#66)
+- 🟢 [`#79`](https://github.com/Pablosinyores/aether/pull/79) — perf(build): tune [profile.release] with fat LTO and single codegen unit
+- 🟣 [`#64`](https://github.com/Pablosinyores/aether/pull/64) — test(infra): end-to-end staging validation of full pipeline
+- 🟣 [`#62`](https://github.com/Pablosinyores/aether/pull/62) — perf(detector): parallel revm simulation with CacheDB pre-warming
+- 🟣 [`#61`](https://github.com/Pablosinyores/aether/pull/61) — perf(grpc): switch to UDS transport and reduce serialization overhead
+- 🟣 [`#60`](https://github.com/Pablosinyores/aether/pull/60) — feat(metrics): instrument remaining observability spec metrics
+- 🟣 [`#57`](https://github.com/Pablosinyores/aether/pull/57) — chore(infra): remove dead postgres/redis dependencies
+- 🟣 [`#56`](https://github.com/Pablosinyores/aether/pull/56) — feat(monitor): add Prometheus metrics to Rust engine and Go executor
+- 🟣 [`#52`](https://github.com/Pablosinyores/aether/pull/52) — fix(executor): wire gas oracle and nonce manager to real RPC
+- 🟣 [`#49`](https://github.com/Pablosinyores/aether/pull/49) — fix(docker): wire env, observability, and local node for Docker stack
+- 🟣 [`#46`](https://github.com/Pablosinyores/aether/pull/46) — fix(build): align Rust and Go versions across Docker, Ansible, docs, and gRPC config
+- 🟣 [`#43`](https://github.com/Pablosinyores/aether/pull/43) — feat(executor): dynamic tip share based on inclusion rate
+- 🟣 [`#42`](https://github.com/Pablosinyores/aether/pull/42) — fix(risk): tune revert circuit breaker for flash loan execution
+- 🟣 [`#41`](https://github.com/Pablosinyores/aether/pull/41) — fix(executor): implement transaction signing with go-ethereum
+- 🟣 [`#38`](https://github.com/Pablosinyores/aether/pull/38) — fix(engine): bootstrap pools from pools.toml at startup
+- 🟣 [`#15`](https://github.com/Pablosinyores/aether/pull/15) — chore: add dev setup files and env configuration
 
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; OSS coding-agent CLI &nbsp;·&nbsp; <sub><a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>10 PRs · 🟣 5 · 🟢 5 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- [`#959`](https://github.com/Gitlawb/openclaude/pull/959) `fix(openai-shim)` strip `store` when baseUrl points at Gemini
-- [`#954`](https://github.com/Gitlawb/openclaude/pull/954) `fix(worktree)` surface git stderr in rev-parse failure message
-- [`#953`](https://github.com/Gitlawb/openclaude/pull/953) `fix(model)` cap deepseek-v4-pro output at 65536
-- [`#952`](https://github.com/Gitlawb/openclaude/pull/952) `fix(provider)` allow remote Ollama without OPENAI_API_KEY
-- [`#857`](https://github.com/Gitlawb/openclaude/pull/857) `fix(effort)` persist xhigh and send reasoning_effort on chat_completions
-- [`#837`](https://github.com/Gitlawb/openclaude/pull/837) `feat` add `OPENCLAUDE_DISABLE_TOOL_REMINDERS` env var
+- 🟣 [`#959`](https://github.com/Gitlawb/openclaude/pull/959) — fix(openai-shim): strip `store` when baseUrl points at Gemini
+- 🟢 [`#954`](https://github.com/Gitlawb/openclaude/pull/954) — fix(worktree): surface git stderr in rev-parse failure message (#690)
+- 🟢 [`#953`](https://github.com/Gitlawb/openclaude/pull/953) — fix(model): cap deepseek-v4-pro:cloud / :flash output at 65536 (#917)
+- 🟢 [`#952`](https://github.com/Gitlawb/openclaude/pull/952) — fix(provider): allow remote Ollama without OPENAI_API_KEY (#369)
+- 🟣 [`#864`](https://github.com/Gitlawb/openclaude/pull/864) — fix(startup): url authoritative over model name in banner provider detect
+- 🟢 [`#857`](https://github.com/Gitlawb/openclaude/pull/857) — fix(effort): persist xhigh and send reasoning_effort on chat_completions
+- 🟢 [`#854`](https://github.com/Gitlawb/openclaude/pull/854) — feat(cli): honor --model alone without requiring --provider
+- 🟣 [`#840`](https://github.com/Gitlawb/openclaude/pull/840) — fix(test): add missing teammate exports to hookChains integration mock
+- 🟣 [`#837`](https://github.com/Gitlawb/openclaude/pull/837) — feat: add OPENCLAUDE_DISABLE_TOOL_REMINDERS env var to suppress hidden tool-output reminders
+- 🟣 [`#826`](https://github.com/Gitlawb/openclaude/pull/826) — docs(env): document OPENCLAUDE_DISABLE_STRICT_TOOLS in .env.example
 
 </details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; ANCILAR / tokenSwap</b> &nbsp;·&nbsp; — &nbsp;·&nbsp; <sub>5 PRs · 🟣 5 &middot; <a href="https://github.com/ANCILAR/tokenSwap/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟣 [`#18`](https://github.com/ANCILAR/tokenSwap/pull/18) — feat(rfq-service): implements complete rfq service
+- 🟣 [`#13`](https://github.com/ANCILAR/tokenSwap/pull/13) — Add Core Reactor Framework(BaseReactor) + Exclusive Dutch Auction Reactor
+- 🟣 [`#12`](https://github.com/ANCILAR/tokenSwap/pull/12) — User Service: Add User Profile CRUD (JWT Protected)
+- 🟣 [`#11`](https://github.com/ANCILAR/tokenSwap/pull/11) — feat(user-service): add register and login endpoints
+- 🟣 [`#10`](https://github.com/ANCILAR/tokenSwap/pull/10) — feat(user-service): Add Postgres Schema and SQLx Migrations
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lndinit</b> &nbsp;·&nbsp; cloud infra tooling for lnd provisioning/unlocking &nbsp;·&nbsp; <sub>3 PRs · 🟢 3 &middot; <a href="https://github.com/lightninglabs/lndinit/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#86`](https://github.com/lightninglabs/lndinit/pull/86) — migrate-db: warn loudly before writing irreversible tombstones
+- 🟢 [`#85`](https://github.com/lightninglabs/lndinit/pull/85) — migrate-db: skip missing source DBs by default
+- 🟢 [`#84`](https://github.com/lightninglabs/lndinit/pull/84) — migration: default to sqlite and surface flag defaults in -h
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; ANCILAR / rheofi-protocol-documentation</b> &nbsp;·&nbsp; — &nbsp;·&nbsp; <sub>2 PRs · 🟣 2 &middot; <a href="https://github.com/ANCILAR/rheofi-protocol-documentation/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟣 [`#3`](https://github.com/ANCILAR/rheofi-protocol-documentation/pull/3) — Update Content in getting-started
+- 🟣 [`#2`](https://github.com/ANCILAR/rheofi-protocol-documentation/pull/2) — Update Addresses in deployed-contracts
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / loop</b> &nbsp;·&nbsp; Lightning Loop: A Non-Custodial Off/On Chain Bridge &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/lightninglabs/loop/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#1133`](https://github.com/lightninglabs/loop/pull/1133) — staticaddr: move address.Parameters to script package
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; lightningnetwork / lnd</b> &nbsp;·&nbsp; Lightning Network Daemon ⚡️ &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/lightningnetwork/lnd/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#10784`](https://github.com/lightningnetwork/lnd/pull/10784) — cmd/commands: read full stdin for lncli unlock --stdin
+
+</details>
+<!-- END:contributions -->
 
 ---
 

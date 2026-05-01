@@ -1,0 +1,30 @@
+name: Link Check
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+      - '.github/workflows/link-check.yml'
+  schedule:
+    - cron: '37 5 * * 1'  # Mondays 11:07 IST — odd minute to dodge cron queue contention
+  workflow_dispatch:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --max-redirects 3
+            --accept 200,206,429
+            --exclude-mail
+            README.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
