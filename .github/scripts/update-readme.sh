@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
-# Refreshes the README's <!-- START:contributions --> section from live
-# GitHub data — every public PR authored by $USER in any external repo,
-# grouped by repo, in any state (open / merged / closed).
+# Refreshes auto-managed README sections from live GitHub data.
 #
-# Featured work is intentionally left manual — pin the projects you want
-# highlighted by editing the README directly.
+# Sections (driven by sentinel markers):
+#   <!-- START:featured -->        top 6 pinned public repos (GraphQL pinnedItems)
+#   <!-- START:contributions -->   all upstream PRs by $USER, any state, grouped by repo
+#
+# Featured falls back to leaving content as-is when the user has 0 pinned
+# repos — so an empty pin list never wipes the curated table.
 
 set -euo pipefail
 
@@ -13,10 +15,74 @@ README="README.md"
 TMPDIR=$(mktemp -d)
 trap 'rm -rf "$TMPDIR"' EXIT
 
+PRIORITY="Solidity Move Rust Go TypeScript Python Java Vyper Cairo Huff JavaScript C C++"
+SKIP_LANGS="HTML CSS SCSS Shell Dockerfile Makefile Procfile MDX Nix HCL Roff Batchfile PowerShell"
+
+# ---------------------------------------------------------------------------
+# Featured: top 6 pinned public repos via GraphQL pinnedItems.
+# Stack column resolved from /languages with priority + tooling filter.
+# ---------------------------------------------------------------------------
+PINNED_QUERY=$(cat <<EOF
+{
+  user(login: "$USER") {
+    pinnedItems(first: 6, types: REPOSITORY) {
+      totalCount
+      nodes {
+        ... on Repository {
+          name
+          nameWithOwner
+          url
+          description
+          languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+            edges { size node { name } }
+          }
+        }
+      }
+    }
+  }
+}
+EOF
+)
+
+gh api graphql -f query="$PINNED_QUERY" \
+  | jq '.data.user.pinnedItems.nodes // []' > "$TMPDIR/pinned.json"
+
+PINNED_COUNT=$(jq 'length' "$TMPDIR/pinned.json")
+
+if [ "$PINNED_COUNT" -gt 0 ]; then
+  jq -r --arg priority "$PRIORITY" --arg skip "$SKIP_LANGS" '
+    ($skip | split(" ")) as $skip_arr
+    | ($priority | split(" ")) as $prio_arr
+    | map({
+        name,
+        url,
+        desc: ((.description // "—") | gsub("\\|"; "\\|")),
+        stack: (
+          [.languages.edges[].node.name]
+          | map(select(. as $k | $skip_arr | index($k) | not))
+          | . as $langs
+          | ([$prio_arr[] as $p | $langs[] | select(. == $p)] + $langs)
+          | reduce .[] as $k ([]; if any(.[]; . == $k) then . else . + [$k] end)
+          | .[0:2]
+          | map("`\(.)`")
+          | join(" ")
+        )
+      })
+    | .[]
+    | "| **[\(.name)](\(.url))** | \(if .stack == "" then "—" else .stack end) | \(.desc) |"
+  ' "$TMPDIR/pinned.json" > "$TMPDIR/featured_rows"
+
+  {
+    echo "| Project | Stack | What it does |"
+    echo "| :--- | :--- | :--- |"
+    cat "$TMPDIR/featured_rows"
+  } > "$TMPDIR/featured.md"
+else
+  echo "No pinned repos — leaving featured section unchanged."
+fi
+
 # ---------------------------------------------------------------------------
 # Contributions: all upstream PRs by $USER, any state, grouped by repo.
-# `-user:$USER` excludes own-account repos at search time so the result cap
-# isn't burned on self-authored PRs.
 # ---------------------------------------------------------------------------
 gh search prs --author="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" \
   | jq --arg user "$USER" '
@@ -34,7 +100,6 @@ gh search prs --author="$USER" --limit=1000 --json repository,title,url,state --
         })
       | sort_by(-.count)' > "$TMPDIR/contributions.json"
 
-# Build one closed <details> card per upstream repo.
 : > "$TMPDIR/contributions.md"
 jq -c '.[]' "$TMPDIR/contributions.json" | while read -r entry; do
   repo=$(echo "$entry" | jq -r '.repo')
@@ -46,7 +111,6 @@ jq -c '.[]' "$TMPDIR/contributions.json" | while read -r entry; do
   merged_n=$(echo "$entry" | jq -r '[.prs[] | select(.state == "merged")] | length')
   closed_n=$(echo "$entry" | jq -r '[.prs[] | select(.state == "closed")] | length')
 
-  # State summary (e.g., "12 PRs · 🟣 8 · 🟢 3 · 🔴 1")
   parts="$count PR$([ "$count" -gt 1 ] && echo s || true)"
   [ "$merged_n" -gt 0 ] && parts="$parts · 🟣 $merged_n"
   [ "$open_n"   -gt 0 ] && parts="$parts · 🟢 $open_n"
@@ -77,16 +141,21 @@ if [ ! -s "$TMPDIR/contributions.md" ]; then
 fi
 
 # ---------------------------------------------------------------------------
-# Splice into README between <!-- START:contributions --> / <!-- END:contributions --> markers.
+# Splice into README. Skip a marker if its source file wasn't generated
+# (so an empty pinned list doesn't wipe curated content).
 # ---------------------------------------------------------------------------
 python3 - "$README" "$TMPDIR" <<'PY'
 import re, sys, pathlib
 readme_path, tmpdir = sys.argv[1], sys.argv[2]
 data = pathlib.Path(readme_path).read_text()
 
-content = pathlib.Path(f"{tmpdir}/contributions.md").read_text().rstrip()
-pat = re.compile(r"(<!-- START:contributions -->).*?(<!-- END:contributions -->)", re.DOTALL)
-data = pat.sub(lambda m: f"{m.group(1)}\n{content}\n{m.group(2)}", data)
+for marker in ("featured", "contributions"):
+    fp = pathlib.Path(f"{tmpdir}/{marker}.md")
+    if not fp.exists():
+        continue
+    content = fp.read_text().rstrip()
+    pat = re.compile(rf"(<!-- START:{marker} -->).*?(<!-- END:{marker} -->)", re.DOTALL)
+    data = pat.sub(lambda m: f"{m.group(1)}\n{content}\n{m.group(2)}", data)
 
 pathlib.Path(readme_path).write_text(data)
 print(f"README updated: {readme_path}")

@@ -343,14 +343,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 ### Featured work
 
+<sub><i>Pinned on <a href="https://github.com/0xfandom">my profile</a> &nbsp;·&nbsp; auto-refreshed twice daily.</i></sub>
+
+<!-- START:featured -->
 | Project | Stack | What it does |
 | :--- | :--- | :--- |
-| **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Rust` `Solidity` | UniswapX-style intent execution engine — mempool ingestion, on/off-chain liquidity routing, profitable fill loop. |
-| **[streampay](https://github.com/0xfandom/streampay)** | `Solidity` | Streaming-payment primitives for continuous on-chain salaries and subscriptions. |
-| **[Security-Audit-Agent](https://github.com/0xfandom/Security-Audit-Agent)** | `Python` | Multi-agent pipeline that triages a contract repo — Slither, Foundry invariants, LLM review, written report. |
-| **[Block-Explorer-MCP](https://github.com/0xfandom/Block-Explorer-MCP)** | `TypeScript` | MCP server giving LLMs live on-chain reads via tool calls. |
-| **[Telegram-DevAgent](https://github.com/0xfandom/Telegram-DevAgent)** | `TypeScript` | Telegram bot that reads, edits, and opens PRs through a multi-agent loop. |
-| **[simple-DAO](https://github.com/0xfandom/simple-DAO)** | `Solidity` `TypeScript` | Minimal governance reference — proposals, voting, timelocked execution. |
+| **[Block-Explorer-MCP](https://github.com/0xfandom/Block-Explorer-MCP)** | — | MCP server that gives AI assistants live access to on-chain data with different tools. |
+| **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
+| **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
+| **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | — | A Redis-like in-memory key-value store built from scratch in Rust |
+<!-- END:featured -->
 
 ---
 
