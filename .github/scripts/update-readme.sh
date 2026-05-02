@@ -84,7 +84,7 @@ fi
 # ---------------------------------------------------------------------------
 # Contributions: all upstream PRs by $USER, any state, grouped by repo.
 # ---------------------------------------------------------------------------
-gh search prs --author="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" \
+gh search prs --author="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:public" \
   | jq --arg user "$USER" '
       [.[] | select(.repository.nameWithOwner | startswith($user + "/") | not)]
       | group_by(.repository.nameWithOwner)

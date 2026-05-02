@@ -260,12 +260,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>10 PRs · 🟣 5 · 🟢 5 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>10 PRs · 🟣 6 · 🟢 4 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟣 [`#959`](https://github.com/Gitlawb/openclaude/pull/959) — fix(openai-shim): strip `store` when baseUrl points at Gemini
-- 🟢 [`#954`](https://github.com/Gitlawb/openclaude/pull/954) — fix(worktree): surface git stderr in rev-parse failure message (#690)
+- 🟣 [`#954`](https://github.com/Gitlawb/openclaude/pull/954) — fix(worktree): surface git stderr in rev-parse failure message (#690)
 - 🟢 [`#953`](https://github.com/Gitlawb/openclaude/pull/953) — fix(model): cap deepseek-v4-pro:cloud / :flash output at 65536 (#917)
 - 🟢 [`#952`](https://github.com/Gitlawb/openclaude/pull/952) — fix(provider): allow remote Ollama without OPENAI_API_KEY (#369)
 - 🟣 [`#864`](https://github.com/Gitlawb/openclaude/pull/864) — fix(startup): url authoritative over model name in banner provider detect
@@ -278,19 +278,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; ANCILAR / tokenSwap</b> &nbsp;·&nbsp; — &nbsp;·&nbsp; <sub>5 PRs · 🟣 5 &middot; <a href="https://github.com/ANCILAR/tokenSwap/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟣 [`#18`](https://github.com/ANCILAR/tokenSwap/pull/18) — feat(rfq-service): implements complete rfq service
-- 🟣 [`#13`](https://github.com/ANCILAR/tokenSwap/pull/13) — Add Core Reactor Framework(BaseReactor) + Exclusive Dutch Auction Reactor
-- 🟣 [`#12`](https://github.com/ANCILAR/tokenSwap/pull/12) — User Service: Add User Profile CRUD (JWT Protected)
-- 🟣 [`#11`](https://github.com/ANCILAR/tokenSwap/pull/11) — feat(user-service): add register and login endpoints
-- 🟣 [`#10`](https://github.com/ANCILAR/tokenSwap/pull/10) — feat(user-service): Add Postgres Schema and SQLx Migrations
-
-</details>
-
-<details>
 <summary><b>&nbsp;🛠️&nbsp; lightninglabs / lndinit</b> &nbsp;·&nbsp; cloud infra tooling for lnd provisioning/unlocking &nbsp;·&nbsp; <sub>3 PRs · 🟢 3 &middot; <a href="https://github.com/lightninglabs/lndinit/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -298,16 +285,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#86`](https://github.com/lightninglabs/lndinit/pull/86) — migrate-db: warn loudly before writing irreversible tombstones
 - 🟢 [`#85`](https://github.com/lightninglabs/lndinit/pull/85) — migrate-db: skip missing source DBs by default
 - 🟢 [`#84`](https://github.com/lightninglabs/lndinit/pull/84) — migration: default to sqlite and surface flag defaults in -h
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; ANCILAR / rheofi-protocol-documentation</b> &nbsp;·&nbsp; — &nbsp;·&nbsp; <sub>2 PRs · 🟣 2 &middot; <a href="https://github.com/ANCILAR/rheofi-protocol-documentation/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟣 [`#3`](https://github.com/ANCILAR/rheofi-protocol-documentation/pull/3) — Update Content in getting-started
-- 🟣 [`#2`](https://github.com/ANCILAR/rheofi-protocol-documentation/pull/2) — Update Addresses in deployed-contracts
 
 </details>
 

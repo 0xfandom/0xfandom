@@ -23,7 +23,10 @@ jobs:
 
       - name: Refresh dynamic sections
         env:
-          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          # Prefer a personal classic PAT (METRICS_TOKEN) for cross-org
+          # search coverage; fall back to the workflow's automatic token
+          # so the job still runs without any repo secrets configured.
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
         run: bash .github/scripts/update-readme.sh
 
       - name: Commit changes
