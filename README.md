@@ -325,10 +325,10 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 <!-- START:featured -->
 | Project | Stack | What it does |
 | :--- | :--- | :--- |
-| **[Block-Explorer-MCP](https://github.com/0xfandom/Block-Explorer-MCP)** | — | MCP server that gives AI assistants live access to on-chain data with different tools. |
+| **[Block-Explorer-MCP](https://github.com/0xfandom/Block-Explorer-MCP)** | `TypeScript` | MCP server that gives AI assistants live access to on-chain data with different tools. |
 | **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
-| **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | — | A Redis-like in-memory key-value store built from scratch in Rust |
+| **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | `Rust` | A Redis-like in-memory key-value store built from scratch in Rust |
 <!-- END:featured -->
 
 ---
