@@ -1,0 +1,28 @@
+## lychee config — link checker for README.md
+
+# Accept codes: 200/206 ok, 403/429/999 commonly returned by anti-bot
+# layers (Medium 403, LinkedIn 999, GitHub rate-limit 429) for which
+# the link is still valid for human visitors.
+accept = [200, 206, 403, 429, 999]
+
+# Exclude links lychee can't usefully check:
+#   - private GitHub repos lychee can't auth into (ANCILAR org)
+#   - LinkedIn / Medium / Twitter — anti-bot, never resolvable from CI
+#   - readme-typing-svg / komarev — generated badges, not navigable URLs
+#   - shields.io — badge images, not pages
+exclude = [
+  "github\\.com/ANCILAR/",
+  "linkedin\\.com",
+  "medium\\.com",
+  "twitter\\.com",
+  "readme-typing-svg",
+  "komarev\\.com",
+  "img\\.shields\\.io",
+  "skillicons\\.dev",
+  "github-readme-stats\\.vercel\\.app",
+  "mailto:",
+]
+
+max_redirects = 3
+no_progress = true
+verbose = "info"

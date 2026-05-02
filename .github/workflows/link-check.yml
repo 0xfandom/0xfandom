@@ -19,10 +19,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
-            --verbose
-            --no-progress
-            --max-redirects 3
-            --accept 200,206,429
+            --config .github/lychee.toml
             README.md
           fail: true
         env:
