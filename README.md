@@ -260,13 +260,14 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>10 PRs · 🟣 6 · 🟢 4 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>11 PRs · 🟣 7 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟣 [`#1006`](https://github.com/Gitlawb/openclaude/pull/1006) — fix(web-search): surface diagnostic when adapter returns 0 hits with no native fallback
 - 🟣 [`#959`](https://github.com/Gitlawb/openclaude/pull/959) — fix(openai-shim): strip `store` when baseUrl points at Gemini
 - 🟣 [`#954`](https://github.com/Gitlawb/openclaude/pull/954) — fix(worktree): surface git stderr in rev-parse failure message (#690)
-- 🟢 [`#953`](https://github.com/Gitlawb/openclaude/pull/953) — fix(model): cap deepseek-v4-pro:cloud / :flash output at 65536 (#917)
+- 🔴 [`#953`](https://github.com/Gitlawb/openclaude/pull/953) — fix(model): cap deepseek-v4-pro:cloud / :flash output at 65536 (#917)
 - 🟢 [`#952`](https://github.com/Gitlawb/openclaude/pull/952) — fix(provider): allow remote Ollama without OPENAI_API_KEY (#369)
 - 🟣 [`#864`](https://github.com/Gitlawb/openclaude/pull/864) — fix(startup): url authoritative over model name in banner provider detect
 - 🟢 [`#857`](https://github.com/Gitlawb/openclaude/pull/857) — fix(effort): persist xhigh and send reasoning_effort on chat_completions
@@ -289,10 +290,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
 - 🟢 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
 
 </details>
