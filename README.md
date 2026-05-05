@@ -221,16 +221,18 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>31 PRs · 🟣 23 · 🟢 7 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>33 PRs · 🟣 29 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟣 [`#122`](https://github.com/Pablosinyores/aether/pull/122) — feat(ledger): Go PgLedger pgxpool impl + executor wiring (PR-2 of #95)
+- 🟣 [`#119`](https://github.com/Pablosinyores/aether/pull/119) — feat(ledger): PgLedger sqlx impl + engine wiring + bounded writer (PR-1 of #95)
 - 🟢 [`#118`](https://github.com/Pablosinyores/aether/pull/118) — feat(mempool): live tracking — subscribe + decode + analytical V2 post-state sim
-- 🟢 [`#116`](https://github.com/Pablosinyores/aether/pull/116) — chore(observability): PR #83 follow-ups (webhook hygiene, alertmanager watchdog, cold-start gating + 6 nits)
-- 🟢 [`#115`](https://github.com/Pablosinyores/aether/pull/115) — feat(ledger): trade-ledger foundation — schema + no-op access layer
-- 🟢 [`#114`](https://github.com/Pablosinyores/aether/pull/114) — fix(provider): adaptive HTTP polling for local/Anvil endpoints
+- 🟣 [`#116`](https://github.com/Pablosinyores/aether/pull/116) — chore(observability): PR #83 follow-ups (webhook hygiene, alertmanager watchdog, cold-start gating + 6 nits)
+- 🟣 [`#115`](https://github.com/Pablosinyores/aether/pull/115) — feat(ledger): trade-ledger foundation — schema + no-op access layer
+- 🟣 [`#114`](https://github.com/Pablosinyores/aether/pull/114) — fix(provider): adaptive HTTP polling for local/Anvil endpoints
 - 🟣 [`#109`](https://github.com/Pablosinyores/aether/pull/109) — feat(metrics): split aether_decode_errors_total by reason
-- 🟢 [`#108`](https://github.com/Pablosinyores/aether/pull/108) — docs: add mermaid architecture diagrams
+- 🟣 [`#108`](https://github.com/Pablosinyores/aether/pull/108) — docs: add mermaid architecture diagrams
 - 🟣 [`#105`](https://github.com/Pablosinyores/aether/pull/105) — feat(replay): production-parity optimizer + tipBps in aether-replay
 - 🟣 [`#104`](https://github.com/Pablosinyores/aether/pull/104) — fix(replay): deploy AetherExecutor to Anvil fork in e2e script
 - 🟣 [`#103`](https://github.com/Pablosinyores/aether/pull/103) — chore(observability): land PR #84 content on main (cherry-pick recovery)
@@ -260,10 +262,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>11 PRs · 🟣 7 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>13 PRs · 🟣 9 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟣 [`#1019`](https://github.com/Gitlawb/openclaude/pull/1019) — fix(shims): strip x-anthropic-billing-header from system prompt forwarded to OpenAI/Codex (#607)
+- 🟣 [`#1018`](https://github.com/Gitlawb/openclaude/pull/1018) — chore(engines): require Node >=22 to match runtime deps (#1009)
 - 🟣 [`#1006`](https://github.com/Gitlawb/openclaude/pull/1006) — fix(web-search): surface diagnostic when adapter returns 0 hits with no native fallback
 - 🟣 [`#959`](https://github.com/Gitlawb/openclaude/pull/959) — fix(openai-shim): strip `store` when baseUrl points at Gemini
 - 🟣 [`#954`](https://github.com/Gitlawb/openclaude/pull/954) — fix(worktree): surface git stderr in rev-parse failure message (#690)
@@ -290,12 +294,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>2 PRs · 🟣 1 · 🟢 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟢 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
-- 🟢 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
+- 🟣 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
 
 </details>
 
