@@ -262,7 +262,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>14 PRs · 🟣 9 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>14 PRs · 🟣 10 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -275,7 +275,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🔴 [`#953`](https://github.com/Gitlawb/openclaude/pull/953) — fix(model): cap deepseek-v4-pro:cloud / :flash output at 65536 (#917)
 - 🟢 [`#952`](https://github.com/Gitlawb/openclaude/pull/952) — fix(provider): allow remote Ollama without OPENAI_API_KEY (#369)
 - 🟣 [`#864`](https://github.com/Gitlawb/openclaude/pull/864) — fix(startup): url authoritative over model name in banner provider detect
-- 🟢 [`#857`](https://github.com/Gitlawb/openclaude/pull/857) — fix(effort): persist xhigh and send reasoning_effort on chat_completions
+- 🟣 [`#857`](https://github.com/Gitlawb/openclaude/pull/857) — fix(effort): persist xhigh and send reasoning_effort on chat_completions
 - 🟢 [`#854`](https://github.com/Gitlawb/openclaude/pull/854) — feat(cli): honor --model alone without requiring --provider
 - 🟣 [`#840`](https://github.com/Gitlawb/openclaude/pull/840) — fix(test): add missing teammate exports to hookChains integration mock
 - 🟣 [`#837`](https://github.com/Gitlawb/openclaude/pull/837) — feat: add OPENCLAUDE_DISABLE_TOOL_REMINDERS env var to suppress hidden tool-output reminders
