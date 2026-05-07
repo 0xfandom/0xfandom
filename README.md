@@ -221,10 +221,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>33 PRs · 🟣 29 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>34 PRs · 🟣 29 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#127`](https://github.com/Pablosinyores/aether/pull/127) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
 - 🟣 [`#122`](https://github.com/Pablosinyores/aether/pull/122) — feat(ledger): Go PgLedger pgxpool impl + executor wiring (PR-2 of #95)
 - 🟣 [`#119`](https://github.com/Pablosinyores/aether/pull/119) — feat(ledger): PgLedger sqlx impl + engine wiring + bounded writer (PR-1 of #95)
 - 🟢 [`#118`](https://github.com/Pablosinyores/aether/pull/118) — feat(mempool): live tracking — subscribe + decode + analytical V2 post-state sim
@@ -262,10 +263,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>14 PRs · 🟣 11 · 🟢 2 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>16 PRs · 🟣 12 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1048`](https://github.com/Gitlawb/openclaude/pull/1048) — fix(openai-shim): strip `store` for local providers (vLLM, custom)
+- 🟢 [`#1047`](https://github.com/Gitlawb/openclaude/pull/1047) — fix(openai-shim): strip `store` when baseUrl points at Mistral
 - 🟣 [`#1040`](https://github.com/Gitlawb/openclaude/pull/1040) — fix(openai-shim): strip `store` when baseUrl points at Cerebras (#1023)
 - 🟣 [`#1019`](https://github.com/Gitlawb/openclaude/pull/1019) — fix(shims): strip x-anthropic-billing-header from system prompt forwarded to OpenAI/Codex (#607)
 - 🟣 [`#1018`](https://github.com/Gitlawb/openclaude/pull/1018) — chore(engines): require Node >=22 to match runtime deps (#1009)
@@ -276,7 +279,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#952`](https://github.com/Gitlawb/openclaude/pull/952) — fix(provider): allow remote Ollama without OPENAI_API_KEY (#369)
 - 🟣 [`#864`](https://github.com/Gitlawb/openclaude/pull/864) — fix(startup): url authoritative over model name in banner provider detect
 - 🟣 [`#857`](https://github.com/Gitlawb/openclaude/pull/857) — fix(effort): persist xhigh and send reasoning_effort on chat_completions
-- 🟢 [`#854`](https://github.com/Gitlawb/openclaude/pull/854) — feat(cli): honor --model alone without requiring --provider
+- 🟣 [`#854`](https://github.com/Gitlawb/openclaude/pull/854) — feat(cli): honor --model alone without requiring --provider
 - 🟣 [`#840`](https://github.com/Gitlawb/openclaude/pull/840) — fix(test): add missing teammate exports to hookChains integration mock
 - 🟣 [`#837`](https://github.com/Gitlawb/openclaude/pull/837) — feat: add OPENCLAUDE_DISABLE_TOOL_REMINDERS env var to suppress hidden tool-output reminders
 - 🟣 [`#826`](https://github.com/Gitlawb/openclaude/pull/826) — docs(env): document OPENCLAUDE_DISABLE_STRICT_TOOLS in .env.example
