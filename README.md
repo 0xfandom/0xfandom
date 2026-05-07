@@ -262,11 +262,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>14 PRs · 🟣 10 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>14 PRs · 🟣 11 · 🟢 2 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1040`](https://github.com/Gitlawb/openclaude/pull/1040) — fix(openai-shim): strip `store` when baseUrl points at Cerebras (#1023)
+- 🟣 [`#1040`](https://github.com/Gitlawb/openclaude/pull/1040) — fix(openai-shim): strip `store` when baseUrl points at Cerebras (#1023)
 - 🟣 [`#1019`](https://github.com/Gitlawb/openclaude/pull/1019) — fix(shims): strip x-anthropic-billing-header from system prompt forwarded to OpenAI/Codex (#607)
 - 🟣 [`#1018`](https://github.com/Gitlawb/openclaude/pull/1018) — chore(engines): require Node >=22 to match runtime deps (#1009)
 - 🟣 [`#1006`](https://github.com/Gitlawb/openclaude/pull/1006) — fix(web-search): surface diagnostic when adapter returns 0 hits with no native fallback
