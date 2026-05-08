@@ -263,11 +263,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>16 PRs · 🟣 12 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>16 PRs · 🟣 13 · 🟢 2 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1048`](https://github.com/Gitlawb/openclaude/pull/1048) — fix(openai-shim): strip `store` for local providers (vLLM, custom)
+- 🟣 [`#1048`](https://github.com/Gitlawb/openclaude/pull/1048) — fix(openai-shim): strip `store` for local providers (vLLM, custom)
 - 🟢 [`#1047`](https://github.com/Gitlawb/openclaude/pull/1047) — fix(openai-shim): strip `store` when baseUrl points at Mistral
 - 🟣 [`#1040`](https://github.com/Gitlawb/openclaude/pull/1040) — fix(openai-shim): strip `store` when baseUrl points at Cerebras (#1023)
 - 🟣 [`#1019`](https://github.com/Gitlawb/openclaude/pull/1019) — fix(shims): strip x-anthropic-billing-header from system prompt forwarded to OpenAI/Codex (#607)
