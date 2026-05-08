@@ -221,10 +221,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>34 PRs · 🟣 29 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>35 PRs · 🟣 30 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟣 [`#128`](https://github.com/Pablosinyores/aether/pull/128) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
 - 🟢 [`#127`](https://github.com/Pablosinyores/aether/pull/127) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
 - 🟣 [`#122`](https://github.com/Pablosinyores/aether/pull/122) — feat(ledger): Go PgLedger pgxpool impl + executor wiring (PR-2 of #95)
 - 🟣 [`#119`](https://github.com/Pablosinyores/aether/pull/119) — feat(ledger): PgLedger sqlx impl + engine wiring + bounded writer (PR-1 of #95)
@@ -263,10 +264,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>16 PRs · 🟣 13 · 🟢 2 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>18 PRs · 🟣 13 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1070`](https://github.com/Gitlawb/openclaude/pull/1070) — fix(openai-shim): redact ?auth=, ?passwd=, ?pwd= in diagnostic URLs
+- 🟢 [`#1068`](https://github.com/Gitlawb/openclaude/pull/1068) — perf(local): add OPENCLAUDE_LOCAL_FAST_PATH to skip cloud-only transforms
 - 🟣 [`#1048`](https://github.com/Gitlawb/openclaude/pull/1048) — fix(openai-shim): strip `store` for local providers (vLLM, custom)
 - 🟢 [`#1047`](https://github.com/Gitlawb/openclaude/pull/1047) — fix(openai-shim): strip `store` when baseUrl points at Mistral
 - 🟣 [`#1040`](https://github.com/Gitlawb/openclaude/pull/1040) — fix(openai-shim): strip `store` when baseUrl points at Cerebras (#1023)
@@ -305,6 +308,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#86`](https://github.com/lightninglabs/lndinit/pull/86) — migrate-db: warn loudly before writing irreversible tombstones
 - 🟢 [`#85`](https://github.com/lightninglabs/lndinit/pull/85) — migrate-db: skip missing source DBs by default
 - 🟢 [`#84`](https://github.com/lightninglabs/lndinit/pull/84) — migration: default to sqlite and surface flag defaults in -h
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; ag2ai / ag2</b> &nbsp;·&nbsp; AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/ag2ai/ag2/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#2789`](https://github.com/ag2ai/ag2/pull/2789) — Fix `LLMConfig` for 5 notebooks (7)
 
 </details>
 
