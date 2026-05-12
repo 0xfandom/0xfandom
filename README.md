@@ -221,6 +221,50 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>36 PRs · 🟣 31 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟣 [`#129`](https://github.com/Pablosinyores/aether/pull/129) — fix(simulator): rewrite wss/ws RPC URL to https/http for fork backend
+- 🟣 [`#128`](https://github.com/Pablosinyores/aether/pull/128) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
+- 🟢 [`#127`](https://github.com/Pablosinyores/aether/pull/127) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
+- 🟣 [`#122`](https://github.com/Pablosinyores/aether/pull/122) — feat(ledger): Go PgLedger pgxpool impl + executor wiring (PR-2 of #95)
+- 🟣 [`#119`](https://github.com/Pablosinyores/aether/pull/119) — feat(ledger): PgLedger sqlx impl + engine wiring + bounded writer (PR-1 of #95)
+- 🟢 [`#118`](https://github.com/Pablosinyores/aether/pull/118) — feat(mempool): live tracking — subscribe + decode + analytical V2 post-state sim
+- 🟣 [`#116`](https://github.com/Pablosinyores/aether/pull/116) — chore(observability): PR #83 follow-ups (webhook hygiene, alertmanager watchdog, cold-start gating + 6 nits)
+- 🟣 [`#115`](https://github.com/Pablosinyores/aether/pull/115) — feat(ledger): trade-ledger foundation — schema + no-op access layer
+- 🟣 [`#114`](https://github.com/Pablosinyores/aether/pull/114) — fix(provider): adaptive HTTP polling for local/Anvil endpoints
+- 🟣 [`#109`](https://github.com/Pablosinyores/aether/pull/109) — feat(metrics): split aether_decode_errors_total by reason
+- 🟣 [`#108`](https://github.com/Pablosinyores/aether/pull/108) — docs: add mermaid architecture diagrams
+- 🟣 [`#105`](https://github.com/Pablosinyores/aether/pull/105) — feat(replay): production-parity optimizer + tipBps in aether-replay
+- 🟣 [`#104`](https://github.com/Pablosinyores/aether/pull/104) — fix(replay): deploy AetherExecutor to Anvil fork in e2e script
+- 🟣 [`#103`](https://github.com/Pablosinyores/aether/pull/103) — chore(observability): land PR #84 content on main (cherry-pick recovery)
+- 🔴 [`#102`](https://github.com/Pablosinyores/aether/pull/102) — chore(observability): land PR #84 content on main (post-stack recovery)
+- 🟣 [`#94`](https://github.com/Pablosinyores/aether/pull/94) — fix(ingestion): decode Uniswap V2 / Sushi Swap events instead of dropping
+- 🟢 [`#93`](https://github.com/Pablosinyores/aether/pull/93) — feat(shadow): live mainnet shadow-mode runner + WS transport preference
+- 🟣 [`#88`](https://github.com/Pablosinyores/aether/pull/88) — feat(replay): aether-replay binary — historical block + intra-block MEV detection
+- 🟣 [`#87`](https://github.com/Pablosinyores/aether/pull/87) — chore(clippy): fix 12 workspace lint errors (#82)
+- 🟣 [`#85`](https://github.com/Pablosinyores/aether/pull/85) — feat(grpc-server): surface decoder drops via warn log + counter
+- 🟣 [`#81`](https://github.com/Pablosinyores/aether/pull/81) — fix(executor): replace production stubs with on-chain validation (#66)
+- 🟢 [`#79`](https://github.com/Pablosinyores/aether/pull/79) — perf(build): tune [profile.release] with fat LTO and single codegen unit
+- 🟣 [`#64`](https://github.com/Pablosinyores/aether/pull/64) — test(infra): end-to-end staging validation of full pipeline
+- 🟣 [`#62`](https://github.com/Pablosinyores/aether/pull/62) — perf(detector): parallel revm simulation with CacheDB pre-warming
+- 🟣 [`#61`](https://github.com/Pablosinyores/aether/pull/61) — perf(grpc): switch to UDS transport and reduce serialization overhead
+- 🟣 [`#60`](https://github.com/Pablosinyores/aether/pull/60) — feat(metrics): instrument remaining observability spec metrics
+- 🟣 [`#57`](https://github.com/Pablosinyores/aether/pull/57) — chore(infra): remove dead postgres/redis dependencies
+- 🟣 [`#56`](https://github.com/Pablosinyores/aether/pull/56) — feat(monitor): add Prometheus metrics to Rust engine and Go executor
+- 🟣 [`#52`](https://github.com/Pablosinyores/aether/pull/52) — fix(executor): wire gas oracle and nonce manager to real RPC
+- 🟣 [`#49`](https://github.com/Pablosinyores/aether/pull/49) — fix(docker): wire env, observability, and local node for Docker stack
+- 🟣 [`#46`](https://github.com/Pablosinyores/aether/pull/46) — fix(build): align Rust and Go versions across Docker, Ansible, docs, and gRPC config
+- 🟣 [`#43`](https://github.com/Pablosinyores/aether/pull/43) — feat(executor): dynamic tip share based on inclusion rate
+- 🟣 [`#42`](https://github.com/Pablosinyores/aether/pull/42) — fix(risk): tune revert circuit breaker for flash loan execution
+- 🟣 [`#41`](https://github.com/Pablosinyores/aether/pull/41) — fix(executor): implement transaction signing with go-ethereum
+- 🟣 [`#38`](https://github.com/Pablosinyores/aether/pull/38) — fix(engine): bootstrap pools from pools.toml at startup
+- 🟣 [`#15`](https://github.com/Pablosinyores/aether/pull/15) — chore: add dev setup files and env configuration
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>18 PRs · 🟣 15 · 🟢 2 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -305,12 +349,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 <!-- START:featured -->
 | Project | Stack | What it does |
 | :--- | :--- | :--- |
-| **[aether](https://github.com/Pablosinyores/aether)** | `Solidity` `Rust` | Low latency arbitrage flash loan mechanism |
 | **[chainpulse](https://github.com/0xfandom/chainpulse)** | `Go` `TypeScript` | Multi-chain blockchain event indexer with AI agent query layer (Go + Kafka + ClickHouse + MCP).  |
 | **[Block-Explorer-MCP](https://github.com/0xfandom/Block-Explorer-MCP)** | `TypeScript` | MCP server that gives AI assistants live access to on-chain data with different tools. |
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
 | **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | `Rust` | A Redis-like in-memory key-value store built from scratch in Rust |
 | **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
+| **[coin-index-mcp](https://github.com/0xfandom/coin-index-mcp)** | `TypeScript` | — |
 <!-- END:featured -->
 
 ---
