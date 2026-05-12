@@ -2,8 +2,8 @@
 # Refreshes auto-managed README sections from live GitHub data.
 #
 # Sections (driven by sentinel markers):
-#   <!-- START:featured -->        top 6 pinned public repos (GraphQL pinnedItems)
-#   <!-- START:contributions -->   all upstream public PRs by $USER, any state
+#   <!-- START:featured -->        collab repos first, then pinned, cap 6
+#   <!-- START:contributions -->   upstream public PRs by $USER (collab excluded)
 #
 # Both sections always overwrite — empty placeholders show if there's no data,
 # so the README stays in sync with reality.
@@ -71,7 +71,23 @@ resolve_stack() {
 }
 
 # ---------------------------------------------------------------------------
-# Featured: top 6 pinned public repos via GraphQL pinnedItems.
+# Featured: collab → pinned → recently-pushed own repos, capped at 6.
+#
+#   - Collab repos = public repos where $USER is a direct GitHub collaborator
+#     (NOT the owner). These surface first because external collaboration is
+#     the strongest signal of "featured" work.
+#   - Pinned = up to 6 from GraphQL pinnedItems on the user profile.
+#     User-curated, so kept ahead of generic recent activity.
+#   - Recent = $USER's own public non-fork non-archived repos ordered by
+#     PUSHED_AT DESC. Fills any remaining slots so the table never undersells
+#     active projects that simply weren't pinned.
+#   - Merge preserves order across the three sources, dedup by nameWithOwner,
+#     cap 6.
+#
+# Note: COLLABORATOR affiliation requires the token to have `repo` scope.
+# The workflow's default github.token cannot see this — set METRICS_TOKEN
+# (classic PAT, `repo` + `read:org`) for collab visibility. Pinned and
+# recent queries work with any token (public user lookup).
 # ---------------------------------------------------------------------------
 PINNED_QUERY=$(cat <<EOF
 {
@@ -96,16 +112,100 @@ PINNED_QUERY=$(cat <<EOF
 EOF
 )
 
+RECENT_QUERY=$(cat <<EOF
+{
+  user(login: "$USER") {
+    repositories(
+      privacy: PUBLIC
+      isFork: false
+      ownerAffiliations: [OWNER]
+      orderBy: {field: PUSHED_AT, direction: DESC}
+      first: 20
+    ) {
+      nodes {
+        name
+        nameWithOwner
+        url
+        description
+        isArchived
+        primaryLanguage { name }
+        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+          edges { size node { name } }
+        }
+      }
+    }
+  }
+}
+EOF
+)
+
+COLLAB_QUERY=$(cat <<'EOF'
+{
+  viewer {
+    repositories(
+      affiliations: [COLLABORATOR]
+      ownerAffiliations: [COLLABORATOR]
+      privacy: PUBLIC
+      isLocked: false
+      first: 50
+      orderBy: {field: PUSHED_AT, direction: DESC}
+    ) {
+      nodes {
+        name
+        nameWithOwner
+        url
+        description
+        isArchived
+        primaryLanguage { name }
+        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+          edges { size node { name } }
+        }
+      }
+    }
+  }
+}
+EOF
+)
+
 gh api graphql -f query="$PINNED_QUERY" \
   | jq '.data.user.pinnedItems.nodes // []' > "$TMPDIR/pinned.json"
 
-PINNED_COUNT=$(jq 'length' "$TMPDIR/pinned.json")
+gh api graphql -f query="$RECENT_QUERY" \
+  | jq --arg user "$USER" '
+      [(.data.user.repositories.nodes // [])[]
+       | select(.isArchived | not)
+       | select(.name != $user)]
+    ' > "$TMPDIR/recent.json"
+
+# Collab fetch is best-effort: with github.token the COLLABORATOR affiliation
+# returns nothing, so featured silently degrades to pinned + recent. No fatal.
+gh api graphql -f query="$COLLAB_QUERY" 2>/dev/null \
+  | jq --arg user "$USER" '
+      [(.data.viewer.repositories.nodes // [])[]
+       | select(.nameWithOwner | startswith($user + "/") | not)
+       | select(.isArchived | not)]
+    ' > "$TMPDIR/collab.json" || echo "[]" > "$TMPDIR/collab.json"
+
+# Merge collab + pinned + recent, dedup by nameWithOwner preserving order,
+# cap at 6. Pinned beats recent so user-curated picks aren't displaced by
+# a noisy push.
+jq -s --argjson cap 6 '
+  (.[0] + .[1] + .[2])
+  | reduce .[] as $r (
+      [];
+      if any(.[]; .nameWithOwner == $r.nameWithOwner) then . else . + [$r] end
+    )
+  | .[0:$cap]
+' "$TMPDIR/collab.json" "$TMPDIR/pinned.json" "$TMPDIR/recent.json" \
+  > "$TMPDIR/featured-nodes.json"
+
+FEATURED_COUNT=$(jq 'length' "$TMPDIR/featured-nodes.json")
 
 {
-  if [ "$PINNED_COUNT" -gt 0 ]; then
+  if [ "$FEATURED_COUNT" -gt 0 ]; then
     echo "| Project | Stack | What it does |"
     echo "| :--- | :--- | :--- |"
-    jq -c '.[]' "$TMPDIR/pinned.json" | while read -r node; do
+    jq -c '.[]' "$TMPDIR/featured-nodes.json" | while read -r node; do
       repo=$(echo "$node" | jq -r '.nameWithOwner')
       name=$(echo "$node" | jq -r '.name')
       url=$(echo "$node" | jq -r '.url')
@@ -114,7 +214,7 @@ PINNED_COUNT=$(jq 'length' "$TMPDIR/pinned.json")
       echo "| **[$name]($url)** | $stack | $desc |"
     done
   else
-    echo "_No pinned repos. Pin up to 6 on [your profile](https://github.com/$USER) to populate this section._"
+    echo "_No public repos found for [$USER](https://github.com/$USER)._"
   fi
 } > "$TMPDIR/featured.md"
 
@@ -122,10 +222,17 @@ PINNED_COUNT=$(jq 'length' "$TMPDIR/pinned.json")
 # Contributions: all upstream public PRs by $USER, any state, grouped by repo.
 # `is:public` excludes private repos at search time so the README only
 # advertises code reviewers can actually click through to.
+#
+# Collab repos surfaced in Featured are filtered out here — promoting them to
+# Featured means we don't also want a duplicated PR ledger below.
 # ---------------------------------------------------------------------------
+COLLAB_REPOS_JSON=$(jq -c '[.[].nameWithOwner]' "$TMPDIR/collab.json")
+
 gh search prs --author="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:public" \
-  | jq --arg user "$USER" '
-      [.[] | select(.repository.nameWithOwner | startswith($user + "/") | not)]
+  | jq --arg user "$USER" --argjson collab "$COLLAB_REPOS_JSON" '
+      [.[]
+       | select(.repository.nameWithOwner | startswith($user + "/") | not)
+       | select(.repository.nameWithOwner as $r | $collab | index($r) | not)]
       | group_by(.repository.nameWithOwner)
       | map({
           repo: .[0].repository.nameWithOwner,
