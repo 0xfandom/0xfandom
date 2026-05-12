@@ -221,10 +221,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>36 PRs · 🟣 31 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>37 PRs · 🟣 32 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟣 [`#130`](https://github.com/Pablosinyores/aether/pull/130) — feat(engine): multi-signal candidate gating for detected arb cycles
 - 🟣 [`#129`](https://github.com/Pablosinyores/aether/pull/129) — fix(simulator): rewrite wss/ws RPC URL to https/http for fork backend
 - 🟣 [`#128`](https://github.com/Pablosinyores/aether/pull/128) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
 - 🟢 [`#127`](https://github.com/Pablosinyores/aether/pull/127) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
