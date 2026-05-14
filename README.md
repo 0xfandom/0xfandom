@@ -221,14 +221,14 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>37 PRs · 🟣 32 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>37 PRs · 🟣 33 · 🟢 2 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟣 [`#130`](https://github.com/Pablosinyores/aether/pull/130) — feat(engine): multi-signal candidate gating for detected arb cycles
 - 🟣 [`#129`](https://github.com/Pablosinyores/aether/pull/129) — fix(simulator): rewrite wss/ws RPC URL to https/http for fork backend
 - 🟣 [`#128`](https://github.com/Pablosinyores/aether/pull/128) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
-- 🟢 [`#127`](https://github.com/Pablosinyores/aether/pull/127) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
+- 🔴 [`#127`](https://github.com/Pablosinyores/aether/pull/127) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
 - 🟣 [`#122`](https://github.com/Pablosinyores/aether/pull/122) — feat(ledger): Go PgLedger pgxpool impl + executor wiring (PR-2 of #95)
 - 🟣 [`#119`](https://github.com/Pablosinyores/aether/pull/119) — feat(ledger): PgLedger sqlx impl + engine wiring + bounded writer (PR-1 of #95)
 - 🟢 [`#118`](https://github.com/Pablosinyores/aether/pull/118) — feat(mempool): live tracking — subscribe + decode + analytical V2 post-state sim
@@ -247,7 +247,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#87`](https://github.com/Pablosinyores/aether/pull/87) — chore(clippy): fix 12 workspace lint errors (#82)
 - 🟣 [`#85`](https://github.com/Pablosinyores/aether/pull/85) — feat(grpc-server): surface decoder drops via warn log + counter
 - 🟣 [`#81`](https://github.com/Pablosinyores/aether/pull/81) — fix(executor): replace production stubs with on-chain validation (#66)
-- 🟢 [`#79`](https://github.com/Pablosinyores/aether/pull/79) — perf(build): tune [profile.release] with fat LTO and single codegen unit
+- 🟣 [`#79`](https://github.com/Pablosinyores/aether/pull/79) — perf(build): tune [profile.release] with fat LTO and single codegen unit
 - 🟣 [`#64`](https://github.com/Pablosinyores/aether/pull/64) — test(infra): end-to-end staging validation of full pipeline
 - 🟣 [`#62`](https://github.com/Pablosinyores/aether/pull/62) — perf(detector): parallel revm simulation with CacheDB pre-warming
 - 🟣 [`#61`](https://github.com/Pablosinyores/aether/pull/61) — perf(grpc): switch to UDS transport and reduce serialization overhead
@@ -266,11 +266,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>19 PRs · 🟣 15 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>21 PRs · 🟣 16 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1163`](https://github.com/Gitlawb/openclaude/pull/1163) — docs(ollama): drop `ollama launch openclaude` instructions (#1134)
+- 🟢 [`#1169`](https://github.com/Gitlawb/openclaude/pull/1169) — fix(query): auto-recover from context-overflow errors
+- 🟢 [`#1164`](https://github.com/Gitlawb/openclaude/pull/1164) — feat(model-picker): surface inactive provider profiles in /model (#1119 piece 2)
+- 🟣 [`#1163`](https://github.com/Gitlawb/openclaude/pull/1163) — docs(ollama): drop `ollama launch openclaude` instructions (#1134)
 - 🟣 [`#1070`](https://github.com/Gitlawb/openclaude/pull/1070) — fix(openai-shim): redact ?auth=, ?passwd=, ?pwd= in diagnostic URLs
 - 🟣 [`#1068`](https://github.com/Gitlawb/openclaude/pull/1068) — perf(local): add OPENCLAUDE_LOCAL_FAST_PATH to skip cloud-only transforms
 - 🟣 [`#1048`](https://github.com/Gitlawb/openclaude/pull/1048) — fix(openai-shim): strip `store` for local providers (vLLM, custom)
@@ -293,12 +295,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>3 PRs · 🟣 1 · 🟢 2 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>3 PRs · 🟣 1 · 🟢 1 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟢 [`#1299`](https://github.com/lightninglabs/lightning-terminal/pull/1299) — dev.Dockerfile: allow forcing faraday repo and version
-- 🟢 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
+- 🔴 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
 - 🟣 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
 
 </details>
