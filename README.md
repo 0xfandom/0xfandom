@@ -221,7 +221,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>37 PRs · 🟣 33 · 🟢 2 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>37 PRs · 🟣 35 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -231,7 +231,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🔴 [`#127`](https://github.com/Pablosinyores/aether/pull/127) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
 - 🟣 [`#122`](https://github.com/Pablosinyores/aether/pull/122) — feat(ledger): Go PgLedger pgxpool impl + executor wiring (PR-2 of #95)
 - 🟣 [`#119`](https://github.com/Pablosinyores/aether/pull/119) — feat(ledger): PgLedger sqlx impl + engine wiring + bounded writer (PR-1 of #95)
-- 🟢 [`#118`](https://github.com/Pablosinyores/aether/pull/118) — feat(mempool): live tracking — subscribe + decode + analytical V2 post-state sim
+- 🟣 [`#118`](https://github.com/Pablosinyores/aether/pull/118) — feat(mempool): live tracking — subscribe + decode + analytical V2 post-state sim
 - 🟣 [`#116`](https://github.com/Pablosinyores/aether/pull/116) — chore(observability): PR #83 follow-ups (webhook hygiene, alertmanager watchdog, cold-start gating + 6 nits)
 - 🟣 [`#115`](https://github.com/Pablosinyores/aether/pull/115) — feat(ledger): trade-ledger foundation — schema + no-op access layer
 - 🟣 [`#114`](https://github.com/Pablosinyores/aether/pull/114) — fix(provider): adaptive HTTP polling for local/Anvil endpoints
@@ -242,7 +242,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#103`](https://github.com/Pablosinyores/aether/pull/103) — chore(observability): land PR #84 content on main (cherry-pick recovery)
 - 🔴 [`#102`](https://github.com/Pablosinyores/aether/pull/102) — chore(observability): land PR #84 content on main (post-stack recovery)
 - 🟣 [`#94`](https://github.com/Pablosinyores/aether/pull/94) — fix(ingestion): decode Uniswap V2 / Sushi Swap events instead of dropping
-- 🟢 [`#93`](https://github.com/Pablosinyores/aether/pull/93) — feat(shadow): live mainnet shadow-mode runner + WS transport preference
+- 🟣 [`#93`](https://github.com/Pablosinyores/aether/pull/93) — feat(shadow): live mainnet shadow-mode runner + WS transport preference
 - 🟣 [`#88`](https://github.com/Pablosinyores/aether/pull/88) — feat(replay): aether-replay binary — historical block + intra-block MEV detection
 - 🟣 [`#87`](https://github.com/Pablosinyores/aether/pull/87) — chore(clippy): fix 12 workspace lint errors (#82)
 - 🟣 [`#85`](https://github.com/Pablosinyores/aether/pull/85) — feat(grpc-server): surface decoder drops via warn log + counter
@@ -266,10 +266,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>21 PRs · 🟣 16 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>23 PRs · 🟣 16 · 🟢 6 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1178`](https://github.com/Gitlawb/openclaude/pull/1178) — feat(provider): add Cloudflare Workers AI integration (#1100)
+- 🟢 [`#1176`](https://github.com/Gitlawb/openclaude/pull/1176) — feat(provider): auto-switch on rate limit via providerFallbackChain (#768)
 - 🟢 [`#1169`](https://github.com/Gitlawb/openclaude/pull/1169) — fix(query): auto-recover from context-overflow errors
 - 🟢 [`#1164`](https://github.com/Gitlawb/openclaude/pull/1164) — feat(model-picker): surface inactive provider profiles in /model (#1119 piece 2)
 - 🟣 [`#1163`](https://github.com/Gitlawb/openclaude/pull/1163) — docs(ollama): drop `ollama launch openclaude` instructions (#1134)
