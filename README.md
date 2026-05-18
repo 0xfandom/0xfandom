@@ -266,10 +266,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>23 PRs · 🟣 16 · 🟢 6 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>24 PRs · 🟣 16 · 🟢 7 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1234`](https://github.com/Gitlawb/openclaude/pull/1234) — feat(settings): per-model context_window and max_output_tokens overrides
 - 🟢 [`#1178`](https://github.com/Gitlawb/openclaude/pull/1178) — feat(provider): add Cloudflare Workers AI integration (#1100)
 - 🟢 [`#1176`](https://github.com/Gitlawb/openclaude/pull/1176) — feat(provider): auto-switch on rate limit via providerFallbackChain (#768)
 - 🟢 [`#1169`](https://github.com/Gitlawb/openclaude/pull/1169) — fix(query): auto-recover from context-overflow errors
