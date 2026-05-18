@@ -221,10 +221,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>37 PRs · 🟣 35 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>38 PRs · 🟣 35 · 🟢 1 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#141`](https://github.com/Pablosinyores/aether/pull/141) — docs(research): tx-ordering strategy + builder matrix + Phase 1 staged issue bodies
 - 🟣 [`#130`](https://github.com/Pablosinyores/aether/pull/130) — feat(engine): multi-signal candidate gating for detected arb cycles
 - 🟣 [`#129`](https://github.com/Pablosinyores/aether/pull/129) — fix(simulator): rewrite wss/ws RPC URL to https/http for fork backend
 - 🟣 [`#128`](https://github.com/Pablosinyores/aether/pull/128) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
@@ -266,10 +267,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>24 PRs · 🟣 16 · 🟢 7 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>26 PRs · 🟣 16 · 🟢 9 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1240`](https://github.com/Gitlawb/openclaude/pull/1240) — fix(loader): batch markdown reads + cap file size to unblock startup
+- 🟢 [`#1236`](https://github.com/Gitlawb/openclaude/pull/1236) — fix(bash): preserve captured stdout in error message on non-zero exit
 - 🟢 [`#1234`](https://github.com/Gitlawb/openclaude/pull/1234) — feat(settings): per-model context_window and max_output_tokens overrides
 - 🟢 [`#1178`](https://github.com/Gitlawb/openclaude/pull/1178) — feat(provider): add Cloudflare Workers AI integration (#1100)
 - 🟢 [`#1176`](https://github.com/Gitlawb/openclaude/pull/1176) — feat(provider): auto-switch on rate limit via providerFallbackChain (#768)
@@ -298,10 +301,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>3 PRs · 🟣 1 · 🟢 1 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>4 PRs · 🟣 1 · 🟢 2 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1311`](https://github.com/lightninglabs/lightning-terminal/pull/1311) — app: make build/.gitkeep postbuild step git-worktree friendly
 - 🟢 [`#1299`](https://github.com/lightninglabs/lightning-terminal/pull/1299) — dev.Dockerfile: allow forcing faraday repo and version
 - 🔴 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
 - 🟣 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
