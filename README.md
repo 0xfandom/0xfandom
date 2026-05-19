@@ -221,10 +221,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>38 PRs · 🟣 35 · 🟢 1 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>40 PRs · 🟣 35 · 🟢 3 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#143`](https://github.com/Pablosinyores/aether/pull/143) — feat(mempool-backrun): Phase 1 Part B — Go executor mempool bundle builder + fan-out
+- 🟢 [`#142`](https://github.com/Pablosinyores/aether/pull/142) — feat(mempool-backrun): Phase 1 Part A — Rust validate_backrun revm sim + gRPC publish
 - 🟢 [`#141`](https://github.com/Pablosinyores/aether/pull/141) — docs(research): tx-ordering strategy + builder matrix + Phase 1 staged issue bodies
 - 🟣 [`#130`](https://github.com/Pablosinyores/aether/pull/130) — feat(engine): multi-signal candidate gating for detected arb cycles
 - 🟣 [`#129`](https://github.com/Pablosinyores/aether/pull/129) — fix(simulator): rewrite wss/ws RPC URL to https/http for fork backend
