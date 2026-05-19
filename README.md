@@ -267,10 +267,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>26 PRs · 🟣 16 · 🟢 9 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>28 PRs · 🟣 16 · 🟢 11 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1250`](https://github.com/Gitlawb/openclaude/pull/1250) — fix(xml): guard escapeXml/escapeXmlAttr against null and undefined (#1247)
+- 🟢 [`#1248`](https://github.com/Gitlawb/openclaude/pull/1248) — fix(recovery): keep thinking blocks on resume for reasoning-echo providers (#957)
 - 🟢 [`#1240`](https://github.com/Gitlawb/openclaude/pull/1240) — fix(loader): batch markdown reads + cap file size to unblock startup
 - 🟢 [`#1236`](https://github.com/Gitlawb/openclaude/pull/1236) — fix(bash): preserve captured stdout in error message on non-zero exit
 - 🟢 [`#1234`](https://github.com/Gitlawb/openclaude/pull/1234) — feat(settings): per-model context_window and max_output_tokens overrides
