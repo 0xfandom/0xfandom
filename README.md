@@ -221,10 +221,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>40 PRs · 🟣 35 · 🟢 3 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>41 PRs · 🟣 35 · 🟢 4 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#147`](https://github.com/Pablosinyores/aether/pull/147) — feat(mempool-backrun): Phase 1 Part C — risk gates + shadow rollout + live validation
 - 🟢 [`#143`](https://github.com/Pablosinyores/aether/pull/143) — feat(mempool-backrun): Phase 1 Part B — Go executor mempool bundle builder + fan-out
 - 🟢 [`#142`](https://github.com/Pablosinyores/aether/pull/142) — feat(mempool-backrun): Phase 1 Part A — Rust validate_backrun revm sim + gRPC publish
 - 🟢 [`#141`](https://github.com/Pablosinyores/aether/pull/141) — docs(research): tx-ordering strategy + builder matrix + Phase 1 staged issue bodies
