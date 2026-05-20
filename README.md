@@ -269,11 +269,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>28 PRs · 🟣 16 · 🟢 11 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>33 PRs · 🟣 17 · 🟢 15 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1250`](https://github.com/Gitlawb/openclaude/pull/1250) — fix(xml): guard escapeXml/escapeXmlAttr against null and undefined (#1247)
+- 🟢 [`#1266`](https://github.com/Gitlawb/openclaude/pull/1266) — fix(codex-strict): widen optional fields to nullable + strip null from inputs
+- 🟢 [`#1263`](https://github.com/Gitlawb/openclaude/pull/1263) — fix(retry): adjust max_tokens on OpenRouter 402 credit shortfall
+- 🟢 [`#1262`](https://github.com/Gitlawb/openclaude/pull/1262) — fix(codex-stream): recover tool args delivered only via done events
+- 🟢 [`#1261`](https://github.com/Gitlawb/openclaude/pull/1261) — fix(json-schema): support top-level non-object roots via wrap/unwrap
+- 🟢 [`#1260`](https://github.com/Gitlawb/openclaude/pull/1260) — feat(safety): warn at startup when 3P provider + permissive mode skip the AI classifier
+- 🟣 [`#1250`](https://github.com/Gitlawb/openclaude/pull/1250) — fix(xml): guard escapeXml/escapeXmlAttr against null and undefined (#1247)
 - 🟢 [`#1248`](https://github.com/Gitlawb/openclaude/pull/1248) — fix(recovery): keep thinking blocks on resume for reasoning-echo providers (#957)
 - 🟢 [`#1240`](https://github.com/Gitlawb/openclaude/pull/1240) — fix(loader): batch markdown reads + cap file size to unblock startup
 - 🟢 [`#1236`](https://github.com/Gitlawb/openclaude/pull/1236) — fix(bash): preserve captured stdout in error message on non-zero exit
