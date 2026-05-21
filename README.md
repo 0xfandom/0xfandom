@@ -221,14 +221,14 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>41 PRs · 🟣 35 · 🟢 4 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>41 PRs · 🟣 39 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#147`](https://github.com/Pablosinyores/aether/pull/147) — feat(mempool-backrun): Phase 1 Part C — risk gates + shadow rollout + live validation
-- 🟢 [`#143`](https://github.com/Pablosinyores/aether/pull/143) — feat(mempool-backrun): Phase 1 Part B — Go executor mempool bundle builder + fan-out
-- 🟢 [`#142`](https://github.com/Pablosinyores/aether/pull/142) — feat(mempool-backrun): Phase 1 Part A — Rust validate_backrun revm sim + gRPC publish
-- 🟢 [`#141`](https://github.com/Pablosinyores/aether/pull/141) — docs(research): tx-ordering strategy + builder matrix + Phase 1 staged issue bodies
+- 🟣 [`#147`](https://github.com/Pablosinyores/aether/pull/147) — feat(mempool-backrun): Phase 1 Part C — risk gates + shadow rollout + live validation
+- 🟣 [`#143`](https://github.com/Pablosinyores/aether/pull/143) — feat(mempool-backrun): Phase 1 Part B — Go executor mempool bundle builder + fan-out
+- 🟣 [`#142`](https://github.com/Pablosinyores/aether/pull/142) — feat(mempool-backrun): Phase 1 Part A — Rust validate_backrun revm sim + gRPC publish
+- 🟣 [`#141`](https://github.com/Pablosinyores/aether/pull/141) — docs(research): tx-ordering strategy + builder matrix + Phase 1 staged issue bodies
 - 🟣 [`#130`](https://github.com/Pablosinyores/aether/pull/130) — feat(engine): multi-signal candidate gating for detected arb cycles
 - 🟣 [`#129`](https://github.com/Pablosinyores/aether/pull/129) — fix(simulator): rewrite wss/ws RPC URL to https/http for fork backend
 - 🟣 [`#128`](https://github.com/Pablosinyores/aether/pull/128) — feat(pools,engine): V3 / Curve / Balancer post-state predictors + state cache
@@ -343,11 +343,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; lightninglabs / loop</b> &nbsp;·&nbsp; Lightning Loop: A Non-Custodial Off/On Chain Bridge &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/lightninglabs/loop/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / loop</b> &nbsp;·&nbsp; Lightning Loop: A Non-Custodial Off/On Chain Bridge &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/lightninglabs/loop/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1133`](https://github.com/lightninglabs/loop/pull/1133) — staticaddr: move address.Parameters to script package
+- 🟣 [`#1133`](https://github.com/lightninglabs/loop/pull/1133) — staticaddr: move address.Parameters to script package
 
 </details>
 
