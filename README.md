@@ -221,10 +221,14 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>41 PRs · 🟣 39 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>45 PRs · 🟣 39 · 🟢 4 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#158`](https://github.com/Pablosinyores/aether/pull/158) — feat(mempool): revm post-state replay fallback for V3 tick-crossing swaps
+- 🟢 [`#157`](https://github.com/Pablosinyores/aether/pull/157) — feat(decoder): Bancor V3 BancorNetwork trade() decoder + protocol tagging
+- 🟢 [`#156`](https://github.com/Pablosinyores/aether/pull/156) — feat(decoder): Curve pool-direct exchange() decoder + protocol tagging
+- 🟢 [`#154`](https://github.com/Pablosinyores/aether/pull/154) — feat(metrics): mempool first-seen → inclusion latency histogram
 - 🟣 [`#147`](https://github.com/Pablosinyores/aether/pull/147) — feat(mempool-backrun): Phase 1 Part C — risk gates + shadow rollout + live validation
 - 🟣 [`#143`](https://github.com/Pablosinyores/aether/pull/143) — feat(mempool-backrun): Phase 1 Part B — Go executor mempool bundle builder + fan-out
 - 🟣 [`#142`](https://github.com/Pablosinyores/aether/pull/142) — feat(mempool-backrun): Phase 1 Part A — Rust validate_backrun revm sim + gRPC publish
@@ -270,14 +274,14 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>34 PRs · 🟣 22 · 🟢 11 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>34 PRs · 🟣 23 · 🟢 10 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟢 [`#1352`](https://github.com/Gitlawb/openclaude/pull/1352) — feat(fallback-model): honor --fallback-model in interactive REPL
 - 🟢 [`#1266`](https://github.com/Gitlawb/openclaude/pull/1266) — fix(codex-strict): widen optional fields to nullable + strip null from inputs
 - 🟣 [`#1263`](https://github.com/Gitlawb/openclaude/pull/1263) — fix(retry): adjust max_tokens on OpenRouter 402 credit shortfall
-- 🟢 [`#1262`](https://github.com/Gitlawb/openclaude/pull/1262) — fix(codex-stream): recover tool args delivered only via done events
+- 🟣 [`#1262`](https://github.com/Gitlawb/openclaude/pull/1262) — fix(codex-stream): recover tool args delivered only via done events
 - 🟣 [`#1261`](https://github.com/Gitlawb/openclaude/pull/1261) — fix(json-schema): support top-level non-object roots via wrap/unwrap
 - 🟣 [`#1260`](https://github.com/Gitlawb/openclaude/pull/1260) — feat(safety): warn at startup when 3P provider + permissive mode skip the AI classifier
 - 🟣 [`#1250`](https://github.com/Gitlawb/openclaude/pull/1250) — fix(xml): guard escapeXml/escapeXmlAttr against null and undefined (#1247)
