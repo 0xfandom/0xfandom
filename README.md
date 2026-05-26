@@ -221,13 +221,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>45 PRs · 🟣 39 · 🟢 4 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>45 PRs · 🟣 41 · 🟢 2 · 🔴 2 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟢 [`#158`](https://github.com/Pablosinyores/aether/pull/158) — feat(mempool): revm post-state replay fallback for V3 tick-crossing swaps
-- 🟢 [`#157`](https://github.com/Pablosinyores/aether/pull/157) — feat(decoder): Bancor V3 BancorNetwork trade() decoder + protocol tagging
-- 🟢 [`#156`](https://github.com/Pablosinyores/aether/pull/156) — feat(decoder): Curve pool-direct exchange() decoder + protocol tagging
+- 🟣 [`#157`](https://github.com/Pablosinyores/aether/pull/157) — feat(decoder): Bancor V3 BancorNetwork trade() decoder + protocol tagging
+- 🟣 [`#156`](https://github.com/Pablosinyores/aether/pull/156) — feat(decoder): Curve pool-direct exchange() decoder + protocol tagging
 - 🟢 [`#154`](https://github.com/Pablosinyores/aether/pull/154) — feat(metrics): mempool first-seen → inclusion latency histogram
 - 🟣 [`#147`](https://github.com/Pablosinyores/aether/pull/147) — feat(mempool-backrun): Phase 1 Part C — risk gates + shadow rollout + live validation
 - 🟣 [`#143`](https://github.com/Pablosinyores/aether/pull/143) — feat(mempool-backrun): Phase 1 Part B — Go executor mempool bundle builder + fan-out
