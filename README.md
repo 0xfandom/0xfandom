@@ -221,11 +221,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>51 PRs · 🟣 47 · 🟢 1 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>53 PRs · 🟣 50 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#164`](https://github.com/Pablosinyores/aether/pull/164) — feat(mempool): decode 1inch v6 AggregationRouter swaps
+- 🟣 [`#166`](https://github.com/Pablosinyores/aether/pull/166) — feat(demo): 1-day shadow-mode end-to-end demo script
+- 🟣 [`#165`](https://github.com/Pablosinyores/aether/pull/165) — feat(simulator): inject AetherExecutor bytecode into revm CacheDB for shadow runs
+- 🟣 [`#164`](https://github.com/Pablosinyores/aether/pull/164) — feat(mempool): decode 1inch v6 AggregationRouter swaps
 - 🟣 [`#163`](https://github.com/Pablosinyores/aether/pull/163) — feat(mempool): decode UniV3 multicall(bytes[]) for nested swaps
 - 🟣 [`#162`](https://github.com/Pablosinyores/aether/pull/162) — feat(mempool): Bancor V3 multi-hop post-state prediction (two-pool path)
 - 🟣 [`#161`](https://github.com/Pablosinyores/aether/pull/161) — feat(simulator): revm reader for Curve + Balancer post-state replay
@@ -280,10 +282,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>34 PRs · 🟣 23 · 🟢 10 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>36 PRs · 🟣 24 · 🟢 11 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1392`](https://github.com/Gitlawb/openclaude/pull/1392) — fix(bash): surface rolled-output file path on non-zero exit (#1359)
+- 🟢 [`#1391`](https://github.com/Gitlawb/openclaude/pull/1391) — fix(openai-shim): strip image_url blocks on text-only providers (DeepSeek) (#1382)
 - 🟢 [`#1352`](https://github.com/Gitlawb/openclaude/pull/1352) — feat(fallback-model): honor --fallback-model in interactive REPL
 - 🟢 [`#1266`](https://github.com/Gitlawb/openclaude/pull/1266) — fix(codex-strict): widen optional fields to nullable + strip null from inputs
 - 🟣 [`#1263`](https://github.com/Gitlawb/openclaude/pull/1263) — fix(retry): adjust max_tokens on OpenRouter 402 credit shortfall
@@ -311,7 +315,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#959`](https://github.com/Gitlawb/openclaude/pull/959) — fix(openai-shim): strip `store` when baseUrl points at Gemini
 - 🟣 [`#954`](https://github.com/Gitlawb/openclaude/pull/954) — fix(worktree): surface git stderr in rev-parse failure message (#690)
 - 🔴 [`#953`](https://github.com/Gitlawb/openclaude/pull/953) — fix(model): cap deepseek-v4-pro:cloud / :flash output at 65536 (#917)
-- 🟢 [`#952`](https://github.com/Gitlawb/openclaude/pull/952) — fix(provider): allow remote Ollama without OPENAI_API_KEY (#369)
+- 🟣 [`#952`](https://github.com/Gitlawb/openclaude/pull/952) — fix(provider): allow remote Ollama without OPENAI_API_KEY (#369)
 - 🟣 [`#864`](https://github.com/Gitlawb/openclaude/pull/864) — fix(startup): url authoritative over model name in banner provider detect
 - 🟣 [`#857`](https://github.com/Gitlawb/openclaude/pull/857) — fix(effort): persist xhigh and send reasoning_effort on chat_completions
 - 🟣 [`#854`](https://github.com/Gitlawb/openclaude/pull/854) — feat(cli): honor --model alone without requiring --provider
