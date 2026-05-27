@@ -221,10 +221,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>53 PRs · 🟣 50 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>58 PRs · 🟣 55 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟣 [`#171`](https://github.com/Pablosinyores/aether/pull/171) — feat(decoder): Universal Router execute() + V3/V2 opcodes + V4_SWAP named-skip + real-mainnet fixtures
+- 🟣 [`#170`](https://github.com/Pablosinyores/aether/pull/170) — feat(decoder): silent-skip 1inch v6 limit-order admin selectors
+- 🟣 [`#169`](https://github.com/Pablosinyores/aether/pull/169) — fix(decoder): use real Solidity names for UniV3 SwapRouter02 overloads
+- 🟣 [`#168`](https://github.com/Pablosinyores/aether/pull/168) — feat(decoder): silent-skip UniV2 liquidity-management selectors
+- 🟣 [`#167`](https://github.com/Pablosinyores/aether/pull/167) — fix(demo): align shutdown SQL columns with current schema
 - 🟣 [`#166`](https://github.com/Pablosinyores/aether/pull/166) — feat(demo): 1-day shadow-mode end-to-end demo script
 - 🟣 [`#165`](https://github.com/Pablosinyores/aether/pull/165) — feat(simulator): inject AetherExecutor bytecode into revm CacheDB for shadow runs
 - 🟣 [`#164`](https://github.com/Pablosinyores/aether/pull/164) — feat(mempool): decode 1inch v6 AggregationRouter swaps
