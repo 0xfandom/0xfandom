@@ -221,16 +221,22 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>64 PRs · 🟣 55 · 🟢 6 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>70 PRs · 🟣 67 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#177`](https://github.com/Pablosinyores/aether/pull/177) — docs(readme): refresh for mempool backrun, decoder coverage, cache tier
-- 🟢 [`#176`](https://github.com/Pablosinyores/aether/pull/176) — perf(sim): WS-fed V2 reserves cache, skip getStorageAt for warm pools
-- 🟢 [`#175`](https://github.com/Pablosinyores/aether/pull/175) — perf(sim): wire bytecode cache into prewarm + engine + mempool pipeline
-- 🟢 [`#174`](https://github.com/Pablosinyores/aether/pull/174) — perf(sim): persistent on-disk bytecode cache (redb)
-- 🟢 [`#173`](https://github.com/Pablosinyores/aether/pull/173) — perf(sim): cap pre-warm RPC concurrency at 8 in-flight
-- 🟢 [`#172`](https://github.com/Pablosinyores/aether/pull/172) — fix(decoder): u64 overflow in bancor test minReturnAmount
+- 🟣 [`#183`](https://github.com/Pablosinyores/aether/pull/183) — perf(sim): batch V2 reserves prewarm via Multicall3 (~95% CU saving on storage path)
+- 🟣 [`#182`](https://github.com/Pablosinyores/aether/pull/182) — debug(sim): surface victim + arb revert reasons instead of dropping output
+- 🟣 [`#181`](https://github.com/Pablosinyores/aether/pull/181) — obs(grafana): cache + RPC-reduction dashboard
+- 🟣 [`#180`](https://github.com/Pablosinyores/aether/pull/180) — perf(sim): write fresh V2 reserves back into cache after RPC fetch
+- 🟣 [`#179`](https://github.com/Pablosinyores/aether/pull/179) — perf(metrics): expose pre-warm cache hit / RPC-fetch counters
+- 🟣 [`#178`](https://github.com/Pablosinyores/aether/pull/178) — perf(sim): recover bytecode cache + V2 reserves cache wiring
+- 🟣 [`#177`](https://github.com/Pablosinyores/aether/pull/177) — docs(readme): refresh for mempool backrun, decoder coverage, cache tier
+- 🟣 [`#176`](https://github.com/Pablosinyores/aether/pull/176) — perf(sim): WS-fed V2 reserves cache, skip getStorageAt for warm pools
+- 🟣 [`#175`](https://github.com/Pablosinyores/aether/pull/175) — perf(sim): wire bytecode cache into prewarm + engine + mempool pipeline
+- 🟣 [`#174`](https://github.com/Pablosinyores/aether/pull/174) — perf(sim): persistent on-disk bytecode cache (redb)
+- 🟣 [`#173`](https://github.com/Pablosinyores/aether/pull/173) — perf(sim): cap pre-warm RPC concurrency at 8 in-flight
+- 🟣 [`#172`](https://github.com/Pablosinyores/aether/pull/172) — fix(decoder): u64 overflow in bancor test minReturnAmount
 - 🟣 [`#171`](https://github.com/Pablosinyores/aether/pull/171) — feat(decoder): Universal Router execute() + V3/V2 opcodes + V4_SWAP named-skip + real-mainnet fixtures
 - 🟣 [`#170`](https://github.com/Pablosinyores/aether/pull/170) — feat(decoder): silent-skip 1inch v6 limit-order admin selectors
 - 🟣 [`#169`](https://github.com/Pablosinyores/aether/pull/169) — fix(decoder): use real Solidity names for UniV3 SwapRouter02 overloads
