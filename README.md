@@ -221,10 +221,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>58 PRs · 🟣 55 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>64 PRs · 🟣 55 · 🟢 6 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#177`](https://github.com/Pablosinyores/aether/pull/177) — docs(readme): refresh for mempool backrun, decoder coverage, cache tier
+- 🟢 [`#176`](https://github.com/Pablosinyores/aether/pull/176) — perf(sim): WS-fed V2 reserves cache, skip getStorageAt for warm pools
+- 🟢 [`#175`](https://github.com/Pablosinyores/aether/pull/175) — perf(sim): wire bytecode cache into prewarm + engine + mempool pipeline
+- 🟢 [`#174`](https://github.com/Pablosinyores/aether/pull/174) — perf(sim): persistent on-disk bytecode cache (redb)
+- 🟢 [`#173`](https://github.com/Pablosinyores/aether/pull/173) — perf(sim): cap pre-warm RPC concurrency at 8 in-flight
+- 🟢 [`#172`](https://github.com/Pablosinyores/aether/pull/172) — fix(decoder): u64 overflow in bancor test minReturnAmount
 - 🟣 [`#171`](https://github.com/Pablosinyores/aether/pull/171) — feat(decoder): Universal Router execute() + V3/V2 opcodes + V4_SWAP named-skip + real-mainnet fixtures
 - 🟣 [`#170`](https://github.com/Pablosinyores/aether/pull/170) — feat(decoder): silent-skip 1inch v6 limit-order admin selectors
 - 🟣 [`#169`](https://github.com/Pablosinyores/aether/pull/169) — fix(decoder): use real Solidity names for UniV3 SwapRouter02 overloads
@@ -287,10 +293,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>36 PRs · 🟣 24 · 🟢 11 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>37 PRs · 🟣 24 · 🟢 12 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1414`](https://github.com/Gitlawb/openclaude/pull/1414) — feat(codex-oauth): manual callback URL paste for SSH / remote sessions (#1288)
 - 🟢 [`#1392`](https://github.com/Gitlawb/openclaude/pull/1392) — fix(bash): surface rolled-output file path on non-zero exit (#1359)
 - 🟢 [`#1391`](https://github.com/Gitlawb/openclaude/pull/1391) — fix(openai-shim): strip image_url blocks on text-only providers (DeepSeek) (#1382)
 - 🟢 [`#1352`](https://github.com/Gitlawb/openclaude/pull/1352) — feat(fallback-model): honor --fallback-model in interactive REPL
@@ -354,11 +361,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; ag2ai / ag2</b> &nbsp;·&nbsp; AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/ag2ai/ag2/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; ag2ai / ag2</b> &nbsp;·&nbsp; AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/ag2ai/ag2/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#2789`](https://github.com/ag2ai/ag2/pull/2789) — Fix `LLMConfig` for 5 notebooks (7)
+- 🟣 [`#2789`](https://github.com/ag2ai/ag2/pull/2789) — Fix `LLMConfig` for 5 notebooks (7)
 
 </details>
 
