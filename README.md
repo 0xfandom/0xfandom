@@ -299,10 +299,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>39 PRs · 🟣 24 · 🟢 14 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>40 PRs · 🟣 24 · 🟢 15 · 🔴 1 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1435`](https://github.com/Gitlawb/openclaude/pull/1435) — test(attribution): fix order-dependent CI flake in getAttributionTexts
 - 🟢 [`#1434`](https://github.com/Gitlawb/openclaude/pull/1434) — fix(update): allow auto-update for OpenClaude builds on third-party providers
 - 🟢 [`#1433`](https://github.com/Gitlawb/openclaude/pull/1433) — fix(diff): guard diff language detection against prototype-chain filenames
 - 🟢 [`#1414`](https://github.com/Gitlawb/openclaude/pull/1414) — feat(codex-oauth): manual callback URL paste for SSH / remote sessions (#1288)
