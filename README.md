@@ -299,7 +299,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>40 PRs · 🟣 26 · 🟢 12 · 🔴 2 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>40 PRs · 🟣 26 · 🟢 11 · 🔴 3 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -308,7 +308,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#1433`](https://github.com/Gitlawb/openclaude/pull/1433) — fix(diff): guard diff language detection against prototype-chain filenames
 - 🟢 [`#1414`](https://github.com/Gitlawb/openclaude/pull/1414) — feat(codex-oauth): manual callback URL paste for SSH / remote sessions (#1288)
 - 🟢 [`#1392`](https://github.com/Gitlawb/openclaude/pull/1392) — fix(bash): surface rolled-output file path on non-zero exit (#1359)
-- 🟢 [`#1391`](https://github.com/Gitlawb/openclaude/pull/1391) — fix(openai-shim): strip image_url blocks on text-only providers (DeepSeek) (#1382)
+- 🔴 [`#1391`](https://github.com/Gitlawb/openclaude/pull/1391) — fix(openai-shim): strip image_url blocks on text-only providers (DeepSeek) (#1382)
 - 🟢 [`#1352`](https://github.com/Gitlawb/openclaude/pull/1352) — feat(fallback-model): honor --fallback-model in interactive REPL
 - 🟢 [`#1266`](https://github.com/Gitlawb/openclaude/pull/1266) — fix(codex-strict): widen optional fields to nullable + strip null from inputs
 - 🟣 [`#1263`](https://github.com/Gitlawb/openclaude/pull/1263) — fix(retry): adjust max_tokens on OpenRouter 402 credit shortfall
