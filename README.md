@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/0xfandom">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Shivank+%C2%B7+Senior+Blockchain+Engineer;DeFi+%C2%B7+Cross-Chain+%C2%B7+Liquidations+%C2%B7+Indexers;Solidity+%C2%B7+Move+%C2%B7+Rust+%C2%B7+Go+%C2%B7+TypeScript;5%2B+years+shipping+protocols+to+mainnet.&font=Fira+Code&center=true&width=600&height=45&color=6366f1&vCenter=true&size=18&pause=1200" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Shivank+%C2%B7+Senior+Software+Engineer;DeFi+%C2%B7+Cross-Chain+%C2%B7+Liquidations+%C2%B7+Indexers;Solidity+%C2%B7+Move+%C2%B7+Rust+%C2%B7+Go+%C2%B7+TypeScript;5%2B+years+shipping+protocols+to+mainnet.&font=Fira+Code&center=true&width=600&height=45&color=6366f1&vCenter=true&size=18&pause=1200" alt="typing" />
 </a>
 
 <p>
@@ -19,7 +19,7 @@
 
 ### About
 
-Senior Blockchain Engineer with **5+ years** across the full stack of decentralized systems — from writing and auditing smart contracts to building the off-chain infrastructure that keeps protocols alive in production. Shipped code across DeFi lending markets, AMMs, CDP stablecoins, cross-chain bridges, and NFT ecosystems on both **EVM and non-EVM** chains.
+Senior Software Engineer with **5+ years** across the full stack of decentralized systems — from writing and auditing smart contracts to building the off-chain infrastructure that keeps protocols alive in production. Shipped code across DeFi lending markets, AMMs, CDP stablecoins, cross-chain bridges, and NFT ecosystems on both **EVM and non-EVM** chains.
 
 Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **Go** — liquidation bots, relayers, keepers, and indexers that handle everything the EVM can't. Lately a lot of that work is **agentic**: Claude-powered audit pipelines, MCP-driven tool chains, and an automated cross-chain liquidation engine that triggers the moment health factors break.
 
