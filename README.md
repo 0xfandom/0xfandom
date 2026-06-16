@@ -299,10 +299,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>42 PRs · 🟣 26 · 🟢 10 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>45 PRs · 🟣 26 · 🟢 13 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1671`](https://github.com/Gitlawb/openclaude/pull/1671) — fix(model): preserve [1m] tag for the 'best' alias
+- 🟢 [`#1669`](https://github.com/Gitlawb/openclaude/pull/1669) — fix(provider): match xAI base URL by hostname, not 'x.ai' substring
+- 🟢 [`#1667`](https://github.com/Gitlawb/openclaude/pull/1667) — test(file-suggestions): stop cross-spawn mock leaking into later suites
 - 🟢 [`#1652`](https://github.com/Gitlawb/openclaude/pull/1652) — fix(worktree): base agent isolation worktree on parent HEAD, not origin/main
 - 🔴 [`#1650`](https://github.com/Gitlawb/openclaude/pull/1650) — fix(diff): stop dropping in-hunk lines starting with -- or ++
 - 🔴 [`#1435`](https://github.com/Gitlawb/openclaude/pull/1435) — test(attribution): fix order-dependent CI flake in getAttributionTexts
@@ -432,7 +435,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
 | **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | `Rust` | A Redis-like in-memory key-value store built from scratch in Rust |
 | **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
-| **[coin-index-mcp](https://github.com/0xfandom/coin-index-mcp)** | `TypeScript` | — |
+| **[Meridian](https://github.com/0xfandom/Meridian)** | — | — |
 <!-- END:featured -->
 
 ---
