@@ -299,13 +299,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>45 PRs · 🟣 26 · 🟢 13 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>45 PRs · 🟣 29 · 🟢 10 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1671`](https://github.com/Gitlawb/openclaude/pull/1671) — fix(model): preserve [1m] tag for the 'best' alias
-- 🟢 [`#1669`](https://github.com/Gitlawb/openclaude/pull/1669) — fix(provider): match xAI base URL by hostname, not 'x.ai' substring
-- 🟢 [`#1667`](https://github.com/Gitlawb/openclaude/pull/1667) — test(file-suggestions): stop cross-spawn mock leaking into later suites
+- 🟣 [`#1671`](https://github.com/Gitlawb/openclaude/pull/1671) — fix(model): preserve [1m] tag for the 'best' alias
+- 🟣 [`#1669`](https://github.com/Gitlawb/openclaude/pull/1669) — fix(provider): match xAI base URL by hostname, not 'x.ai' substring
+- 🟣 [`#1667`](https://github.com/Gitlawb/openclaude/pull/1667) — test(file-suggestions): stop cross-spawn mock leaking into later suites
 - 🟢 [`#1652`](https://github.com/Gitlawb/openclaude/pull/1652) — fix(worktree): base agent isolation worktree on parent HEAD, not origin/main
 - 🔴 [`#1650`](https://github.com/Gitlawb/openclaude/pull/1650) — fix(diff): stop dropping in-hunk lines starting with -- or ++
 - 🔴 [`#1435`](https://github.com/Gitlawb/openclaude/pull/1435) — test(attribution): fix order-dependent CI flake in getAttributionTexts
@@ -364,6 +364,29 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#6461`](https://github.com/meilisearch/meilisearch/pull/6461) — Split matches unit tests into a separate file
+- 🟢 [`#6460`](https://github.com/meilisearch/meilisearch/pull/6460) — Split permissive-json-pointer unit tests into a separate file
+- 🟢 [`#6453`](https://github.com/meilisearch/meilisearch/pull/6453) — Split index_documents unit tests into a separate file
+- 🟢 [`#6452`](https://github.com/meilisearch/meilisearch/pull/6452) — Report word count while building the words FST
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for secrets, certificates, and privileged access management. &nbsp;·&nbsp; <sub>3 PRs · 🟢 3 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#6902`](https://github.com/Infisical/infisical/pull/6902) — fix(project): allow spaces in All Projects search query
+- 🟢 [`#6901`](https://github.com/Infisical/infisical/pull/6901) — fix(membership): correct inflated total count in user and identity list queries
+- 🟢 [`#6884`](https://github.com/Infisical/infisical/pull/6884) — fix(secrets): remove personal overrides when moving secrets
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; lightninglabs / lndinit</b> &nbsp;·&nbsp; cloud infra tooling for lnd provisioning/unlocking &nbsp;·&nbsp; <sub>3 PRs · 🟢 3 &middot; <a href="https://github.com/lightninglabs/lndinit/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -371,25 +394,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#86`](https://github.com/lightninglabs/lndinit/pull/86) — migrate-db: warn loudly before writing irreversible tombstones
 - 🟢 [`#85`](https://github.com/lightninglabs/lndinit/pull/85) — migrate-db: skip missing source DBs by default
 - 🟢 [`#84`](https://github.com/lightninglabs/lndinit/pull/84) — migration: default to sqlite and surface flag defaults in -h
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#6453`](https://github.com/meilisearch/meilisearch/pull/6453) — Split index_documents unit tests into a separate file
-- 🟢 [`#6452`](https://github.com/meilisearch/meilisearch/pull/6452) — Report word count while building the words FST
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for secrets, certificates, and privileged access management. &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#6884`](https://github.com/Infisical/infisical/pull/6884) — fix(secrets): remove personal overrides when moving secrets
 
 </details>
 
