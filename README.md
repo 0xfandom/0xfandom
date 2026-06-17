@@ -221,10 +221,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>70 PRs · 🟣 67 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>73 PRs · 🟣 70 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟣 [`#189`](https://github.com/Pablosinyores/aether/pull/189) — release: backrun reject observability — info logs + deficit histograms
+- 🟣 [`#188`](https://github.com/Pablosinyores/aether/pull/188) — obs(metrics): histograms for backrun gross / gas / deficit per reason
+- 🟣 [`#187`](https://github.com/Pablosinyores/aether/pull/187) — obs(sim): surface backrun reject reasons in stdout by default
 - 🟣 [`#183`](https://github.com/Pablosinyores/aether/pull/183) — perf(sim): batch V2 reserves prewarm via Multicall3 (~95% CU saving on storage path)
 - 🟣 [`#182`](https://github.com/Pablosinyores/aether/pull/182) — debug(sim): surface victim + arb revert reasons instead of dropping output
 - 🟣 [`#181`](https://github.com/Pablosinyores/aether/pull/181) — obs(grafana): cache + RPC-reduction dashboard
@@ -398,6 +401,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; oven-sh / bun</b> &nbsp;·&nbsp; Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/oven-sh/bun/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#32460`](https://github.com/oven-sh/bun/pull/32460) — fix(node:util): correct numericSeparator for negative fractional numbers
+- 🟢 [`#32459`](https://github.com/oven-sh/bun/pull/32459) — feat(node:buffer): implement transcode()
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; ag2ai / ag2</b> &nbsp;·&nbsp; AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/ag2ai/ag2/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -439,7 +452,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
 | **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | `Rust` | A Redis-like in-memory key-value store built from scratch in Rust |
 | **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
-| **[Meridian](https://github.com/0xfandom/Meridian)** | — | — |
+| **[Meridian](https://github.com/0xfandom/Meridian)** | `Solidity` | — |
 <!-- END:featured -->
 
 ---
