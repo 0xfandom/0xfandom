@@ -358,6 +358,32 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>6 PRs · 🔴 6 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🔴 [`#6465`](https://github.com/meilisearch/meilisearch/pull/6465) — Split facet range search unit tests into a separate file
+- 🔴 [`#6464`](https://github.com/meilisearch/meilisearch/pull/6464) — Split facet incremental unit tests into a separate file
+- 🔴 [`#6461`](https://github.com/meilisearch/meilisearch/pull/6461) — Split matches unit tests into a separate file
+- 🔴 [`#6460`](https://github.com/meilisearch/meilisearch/pull/6460) — Split permissive-json-pointer unit tests into a separate file
+- 🔴 [`#6453`](https://github.com/meilisearch/meilisearch/pull/6453) — Split index_documents unit tests into a separate file
+- 🔴 [`#6452`](https://github.com/meilisearch/meilisearch/pull/6452) — Report word count while building the words FST
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for secrets, certificates, and privileged access management. &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#6927`](https://github.com/Infisical/infisical/pull/6927) — fix(keystore): use strconv instead of rune conversion in memory IncrementBy
+- 🟢 [`#6902`](https://github.com/Infisical/infisical/pull/6902) — fix(project): allow spaces in All Projects search query
+- 🟢 [`#6901`](https://github.com/Infisical/infisical/pull/6901) — fix(membership): correct inflated total count in user and identity list queries
+- 🟢 [`#6884`](https://github.com/Infisical/infisical/pull/6884) — fix(secrets): remove personal overrides when moving secrets
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>4 PRs · 🟣 2 · 🟢 1 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -370,18 +396,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#6461`](https://github.com/meilisearch/meilisearch/pull/6461) — Split matches unit tests into a separate file
-- 🟢 [`#6460`](https://github.com/meilisearch/meilisearch/pull/6460) — Split permissive-json-pointer unit tests into a separate file
-- 🟢 [`#6453`](https://github.com/meilisearch/meilisearch/pull/6453) — Split index_documents unit tests into a separate file
-- 🟢 [`#6452`](https://github.com/meilisearch/meilisearch/pull/6452) — Report word count while building the words FST
-
-</details>
-
-<details>
 <summary><b>&nbsp;🛠️&nbsp; oven-sh / bun</b> &nbsp;·&nbsp; Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/oven-sh/bun/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -390,17 +404,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#32481`](https://github.com/oven-sh/bun/pull/32481) — fix(node:perf_hooks): make PerformanceNodeTiming startTime/duration work
 - 🟢 [`#32460`](https://github.com/oven-sh/bun/pull/32460) — fix(node:util): correct numericSeparator for negative fractional numbers
 - 🟢 [`#32459`](https://github.com/oven-sh/bun/pull/32459) — feat(node:buffer): implement transcode()
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for secrets, certificates, and privileged access management. &nbsp;·&nbsp; <sub>3 PRs · 🟢 3 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#6902`](https://github.com/Infisical/infisical/pull/6902) — fix(project): allow spaces in All Projects search query
-- 🟢 [`#6901`](https://github.com/Infisical/infisical/pull/6901) — fix(membership): correct inflated total count in user and identity list queries
-- 🟢 [`#6884`](https://github.com/Infisical/infisical/pull/6884) — fix(secrets): remove personal overrides when moving secrets
 
 </details>
 
@@ -457,7 +460,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
 | **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | `Rust` | A Redis-like in-memory key-value store built from scratch in Rust |
 | **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
-| **[Meridian](https://github.com/0xfandom/Meridian)** | `Solidity` | — |
+| **[Meridian](https://github.com/0xfandom/Meridian)** | `Solidity` `Go` | — |
 <!-- END:featured -->
 
 ---
