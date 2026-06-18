@@ -302,10 +302,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>45 PRs · 🟣 29 · 🟢 10 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>48 PRs · 🟣 29 · 🟢 13 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1710`](https://github.com/Gitlawb/openclaude/pull/1710) — fix(code-indexing): guard command detection against prototype-chain names
+- 🟢 [`#1709`](https://github.com/Gitlawb/openclaude/pull/1709) — fix(model): preserve [1m] tag for the codex aliases
+- 🟢 [`#1708`](https://github.com/Gitlawb/openclaude/pull/1708) — test(install-surfaces): stop execFileNoThrow mock leaking into later suites
 - 🟣 [`#1671`](https://github.com/Gitlawb/openclaude/pull/1671) — fix(model): preserve [1m] tag for the 'best' alias
 - 🟣 [`#1669`](https://github.com/Gitlawb/openclaude/pull/1669) — fix(provider): match xAI base URL by hostname, not 'x.ai' substring
 - 🟣 [`#1667`](https://github.com/Gitlawb/openclaude/pull/1667) — test(file-suggestions): stop cross-spawn mock leaking into later suites
@@ -379,6 +382,18 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; oven-sh / bun</b> &nbsp;·&nbsp; Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/oven-sh/bun/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#32482`](https://github.com/oven-sh/bun/pull/32482) — fix(worker): don't keep the main thread alive for a global message listener
+- 🟢 [`#32481`](https://github.com/oven-sh/bun/pull/32481) — fix(node:perf_hooks): make PerformanceNodeTiming startTime/duration work
+- 🟢 [`#32460`](https://github.com/oven-sh/bun/pull/32460) — fix(node:util): correct numericSeparator for negative fractional numbers
+- 🟢 [`#32459`](https://github.com/oven-sh/bun/pull/32459) — feat(node:buffer): implement transcode()
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for secrets, certificates, and privileged access management. &nbsp;·&nbsp; <sub>3 PRs · 🟢 3 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -397,16 +412,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#86`](https://github.com/lightninglabs/lndinit/pull/86) — migrate-db: warn loudly before writing irreversible tombstones
 - 🟢 [`#85`](https://github.com/lightninglabs/lndinit/pull/85) — migrate-db: skip missing source DBs by default
 - 🟢 [`#84`](https://github.com/lightninglabs/lndinit/pull/84) — migration: default to sqlite and surface flag defaults in -h
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; oven-sh / bun</b> &nbsp;·&nbsp; Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/oven-sh/bun/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#32460`](https://github.com/oven-sh/bun/pull/32460) — fix(node:util): correct numericSeparator for negative fractional numbers
-- 🟢 [`#32459`](https://github.com/oven-sh/bun/pull/32459) — feat(node:buffer): implement transcode()
 
 </details>
 
