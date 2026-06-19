@@ -460,7 +460,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
 | **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | `Rust` | A Redis-like in-memory key-value store built from scratch in Rust |
 | **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
-| **[Meridian](https://github.com/0xfandom/Meridian)** | `Solidity` `Go` | — |
+| **[Meridian](https://github.com/0xfandom/Meridian)** | `Solidity` `Go` | Non-custodial digital-asset prime brokerage: ERC-4626 lending pools, constrained on-chain margin accounts with up to ~5x leverage through whitelisted adapters, an off-chain portfolio margin engine, and liquidation keepers. |
 <!-- END:featured -->
 
 ---
