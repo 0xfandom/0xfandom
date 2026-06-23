@@ -302,10 +302,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>48 PRs · 🟣 32 · 🟢 10 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>49 PRs · 🟣 32 · 🟢 11 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1760`](https://github.com/Gitlawb/openclaude/pull/1760) — fix(bridge): match loopback hostname exactly in HTTPS credential guard
 - 🟣 [`#1710`](https://github.com/Gitlawb/openclaude/pull/1710) — fix(code-indexing): guard command detection against prototype-chain names
 - 🟣 [`#1709`](https://github.com/Gitlawb/openclaude/pull/1709) — fix(model): preserve [1m] tag for the codex aliases
 - 🟣 [`#1708`](https://github.com/Gitlawb/openclaude/pull/1708) — test(install-surfaces): stop execFileNoThrow mock leaking into later suites
@@ -373,22 +374,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for secrets, certificates, and privileged access management. &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>5 PRs · 🟣 2 · 🟢 2 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#6927`](https://github.com/Infisical/infisical/pull/6927) — fix(keystore): use strconv instead of rune conversion in memory IncrementBy
-- 🟢 [`#6902`](https://github.com/Infisical/infisical/pull/6902) — fix(project): allow spaces in All Projects search query
-- 🟢 [`#6901`](https://github.com/Infisical/infisical/pull/6901) — fix(membership): correct inflated total count in user and identity list queries
-- 🟢 [`#6884`](https://github.com/Infisical/infisical/pull/6884) — fix(secrets): remove personal overrides when moving secrets
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>4 PRs · 🟣 2 · 🟢 1 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
+- 🟢 [`#1334`](https://github.com/lightninglabs/lightning-terminal/pull/1334) — accounts: add test coverage for checkLabel
 - 🟣 [`#1311`](https://github.com/lightninglabs/lightning-terminal/pull/1311) — app: make build/.gitkeep postbuild step git-worktree friendly
 - 🟢 [`#1299`](https://github.com/lightninglabs/lightning-terminal/pull/1299) — dev.Dockerfile: allow forcing faraday repo and version
 - 🔴 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
@@ -397,14 +387,27 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; oven-sh / bun</b> &nbsp;·&nbsp; Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/oven-sh/bun/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; oven-sh / bun</b> &nbsp;·&nbsp; Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one &nbsp;·&nbsp; <sub>5 PRs · 🟢 5 &middot; <a href="https://github.com/oven-sh/bun/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#32638`](https://github.com/oven-sh/bun/pull/32638) — fix(console): send console.trace to stderr with a "Trace:" prefix
 - 🟢 [`#32482`](https://github.com/oven-sh/bun/pull/32482) — fix(worker): don't keep the main thread alive for a global message listener
 - 🟢 [`#32481`](https://github.com/oven-sh/bun/pull/32481) — fix(node:perf_hooks): make PerformanceNodeTiming startTime/duration work
 - 🟢 [`#32460`](https://github.com/oven-sh/bun/pull/32460) — fix(node:util): correct numericSeparator for negative fractional numbers
 - 🟢 [`#32459`](https://github.com/oven-sh/bun/pull/32459) — feat(node:buffer): implement transcode()
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for secrets, certificates, and privileged access management. &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#6927`](https://github.com/Infisical/infisical/pull/6927) — fix(keystore): use strconv instead of rune conversion in memory IncrementBy
+- 🟢 [`#6902`](https://github.com/Infisical/infisical/pull/6902) — fix(project): allow spaces in All Projects search query
+- 🟢 [`#6901`](https://github.com/Infisical/infisical/pull/6901) — fix(membership): correct inflated total count in user and identity list queries
+- 🟢 [`#6884`](https://github.com/Infisical/infisical/pull/6884) — fix(secrets): remove personal overrides when moving secrets
 
 </details>
 
