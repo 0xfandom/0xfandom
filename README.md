@@ -302,13 +302,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>48 PRs · 🟣 31 · 🟢 11 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>48 PRs · 🟣 32 · 🟢 10 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟣 [`#1710`](https://github.com/Gitlawb/openclaude/pull/1710) — fix(code-indexing): guard command detection against prototype-chain names
 - 🟣 [`#1709`](https://github.com/Gitlawb/openclaude/pull/1709) — fix(model): preserve [1m] tag for the codex aliases
-- 🟢 [`#1708`](https://github.com/Gitlawb/openclaude/pull/1708) — test(install-surfaces): stop execFileNoThrow mock leaking into later suites
+- 🟣 [`#1708`](https://github.com/Gitlawb/openclaude/pull/1708) — test(install-surfaces): stop execFileNoThrow mock leaking into later suites
 - 🟣 [`#1671`](https://github.com/Gitlawb/openclaude/pull/1671) — fix(model): preserve [1m] tag for the 'best' alias
 - 🟣 [`#1669`](https://github.com/Gitlawb/openclaude/pull/1669) — fix(provider): match xAI base URL by hostname, not 'x.ai' substring
 - 🟣 [`#1667`](https://github.com/Gitlawb/openclaude/pull/1667) — test(file-suggestions): stop cross-spawn mock leaking into later suites
