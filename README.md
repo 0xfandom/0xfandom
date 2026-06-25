@@ -302,10 +302,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>50 PRs · 🟣 33 · 🟢 11 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>51 PRs · 🟣 34 · 🟢 11 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1787`](https://github.com/Gitlawb/openclaude/pull/1787) — fix(plugins): treat prototype-shadowing marketplace names as not found
 - 🟢 [`#1773`](https://github.com/Gitlawb/openclaude/pull/1773) — fix(env-file): collapse escaped backslashes in quoted values
 - 🟣 [`#1760`](https://github.com/Gitlawb/openclaude/pull/1760) — fix(bridge): match loopback hostname exactly in HTTPS credential guard
 - 🟣 [`#1710`](https://github.com/Gitlawb/openclaude/pull/1710) — fix(code-indexing): guard command detection against prototype-chain names
@@ -314,7 +315,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#1671`](https://github.com/Gitlawb/openclaude/pull/1671) — fix(model): preserve [1m] tag for the 'best' alias
 - 🟣 [`#1669`](https://github.com/Gitlawb/openclaude/pull/1669) — fix(provider): match xAI base URL by hostname, not 'x.ai' substring
 - 🟣 [`#1667`](https://github.com/Gitlawb/openclaude/pull/1667) — test(file-suggestions): stop cross-spawn mock leaking into later suites
-- 🟢 [`#1652`](https://github.com/Gitlawb/openclaude/pull/1652) — fix(worktree): base agent isolation worktree on parent HEAD, not origin/main
+- 🟣 [`#1652`](https://github.com/Gitlawb/openclaude/pull/1652) — fix(worktree): base agent isolation worktree on parent HEAD, not origin/main
 - 🔴 [`#1650`](https://github.com/Gitlawb/openclaude/pull/1650) — fix(diff): stop dropping in-hunk lines starting with -- or ++
 - 🔴 [`#1435`](https://github.com/Gitlawb/openclaude/pull/1435) — test(attribution): fix order-dependent CI flake in getAttributionTexts
 - 🔴 [`#1434`](https://github.com/Gitlawb/openclaude/pull/1434) — fix(update): allow auto-update for OpenClaude builds on third-party providers
@@ -360,6 +361,21 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>7 PRs · 🟣 3 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#1337`](https://github.com/lightninglabs/lightning-terminal/pull/1337) — config: make litd -V report litd version
+- 🟢 [`#1335`](https://github.com/lightninglabs/lightning-terminal/pull/1335) — litcli: drop unused flags from addinvoice command
+- 🟣 [`#1334`](https://github.com/lightninglabs/lightning-terminal/pull/1334) — accounts: add test coverage for checkLabel
+- 🟣 [`#1311`](https://github.com/lightninglabs/lightning-terminal/pull/1311) — app: make build/.gitkeep postbuild step git-worktree friendly
+- 🟢 [`#1299`](https://github.com/lightninglabs/lightning-terminal/pull/1299) — dev.Dockerfile: allow forcing faraday repo and version
+- 🔴 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
+- 🟣 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>7 PRs · 🟢 1 · 🔴 6 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -371,20 +387,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🔴 [`#6460`](https://github.com/meilisearch/meilisearch/pull/6460) — Split permissive-json-pointer unit tests into a separate file
 - 🔴 [`#6453`](https://github.com/meilisearch/meilisearch/pull/6453) — Split index_documents unit tests into a separate file
 - 🔴 [`#6452`](https://github.com/meilisearch/meilisearch/pull/6452) — Report word count while building the words FST
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>6 PRs · 🟣 3 · 🟢 2 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#1335`](https://github.com/lightninglabs/lightning-terminal/pull/1335) — litcli: drop unused flags from addinvoice command
-- 🟣 [`#1334`](https://github.com/lightninglabs/lightning-terminal/pull/1334) — accounts: add test coverage for checkLabel
-- 🟣 [`#1311`](https://github.com/lightninglabs/lightning-terminal/pull/1311) — app: make build/.gitkeep postbuild step git-worktree friendly
-- 🟢 [`#1299`](https://github.com/lightninglabs/lightning-terminal/pull/1299) — dev.Dockerfile: allow forcing faraday repo and version
-- 🔴 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
-- 🟣 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
 
 </details>
 
