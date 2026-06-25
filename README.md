@@ -302,12 +302,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>51 PRs · 🟣 34 · 🟢 11 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>51 PRs · 🟣 35 · 🟢 10 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟢 [`#1787`](https://github.com/Gitlawb/openclaude/pull/1787) — fix(plugins): treat prototype-shadowing marketplace names as not found
-- 🟢 [`#1773`](https://github.com/Gitlawb/openclaude/pull/1773) — fix(env-file): collapse escaped backslashes in quoted values
+- 🟣 [`#1773`](https://github.com/Gitlawb/openclaude/pull/1773) — fix(env-file): collapse escaped backslashes in quoted values
 - 🟣 [`#1760`](https://github.com/Gitlawb/openclaude/pull/1760) — fix(bridge): match loopback hostname exactly in HTTPS credential guard
 - 🟣 [`#1710`](https://github.com/Gitlawb/openclaude/pull/1710) — fix(code-indexing): guard command detection against prototype-chain names
 - 🟣 [`#1709`](https://github.com/Gitlawb/openclaude/pull/1709) — fix(model): preserve [1m] tag for the codex aliases
@@ -376,11 +376,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>7 PRs · 🟢 1 · 🔴 6 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>7 PRs · 🟣 1 · 🔴 6 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#6468`](https://github.com/meilisearch/meilisearch/pull/6468) — Split unit tests into separate files (one commit per file)
+- 🟣 [`#6468`](https://github.com/meilisearch/meilisearch/pull/6468) — Split unit tests into separate files (one commit per file)
 - 🔴 [`#6465`](https://github.com/meilisearch/meilisearch/pull/6465) — Split facet range search unit tests into a separate file
 - 🔴 [`#6464`](https://github.com/meilisearch/meilisearch/pull/6464) — Split facet incremental unit tests into a separate file
 - 🔴 [`#6461`](https://github.com/meilisearch/meilisearch/pull/6461) — Split matches unit tests into a separate file
