@@ -302,10 +302,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>51 PRs · 🟣 35 · 🟢 10 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>52 PRs · 🟣 35 · 🟢 11 · 🔴 6 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1792`](https://github.com/Gitlawb/openclaude/pull/1792) — fix(remote-session): match ingress host by hostname, not raw substring
 - 🟢 [`#1787`](https://github.com/Gitlawb/openclaude/pull/1787) — fix(plugins): treat prototype-shadowing marketplace names as not found
 - 🟣 [`#1773`](https://github.com/Gitlawb/openclaude/pull/1773) — fix(env-file): collapse escaped backslashes in quoted values
 - 🟣 [`#1760`](https://github.com/Gitlawb/openclaude/pull/1760) — fix(bridge): match loopback hostname exactly in HTTPS credential guard
