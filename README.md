@@ -302,13 +302,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>53 PRs · 🟣 35 · 🟢 11 · 🔴 7 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>53 PRs · 🟣 38 · 🟢 8 · 🔴 7 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1814`](https://github.com/Gitlawb/openclaude/pull/1814) — fix(ollama): cap qwen3-coder-next:cloud output at 32768
-- 🟢 [`#1792`](https://github.com/Gitlawb/openclaude/pull/1792) — fix(remote-session): match ingress host by hostname, not raw substring
-- 🟢 [`#1787`](https://github.com/Gitlawb/openclaude/pull/1787) — fix(plugins): treat prototype-shadowing marketplace names as not found
+- 🟣 [`#1814`](https://github.com/Gitlawb/openclaude/pull/1814) — fix(ollama): cap qwen3-coder-next:cloud output at 32768
+- 🟣 [`#1792`](https://github.com/Gitlawb/openclaude/pull/1792) — fix(remote-session): match ingress host by hostname, not raw substring
+- 🟣 [`#1787`](https://github.com/Gitlawb/openclaude/pull/1787) — fix(plugins): treat prototype-shadowing marketplace names as not found
 - 🟣 [`#1773`](https://github.com/Gitlawb/openclaude/pull/1773) — fix(env-file): collapse escaped backslashes in quoted values
 - 🟣 [`#1760`](https://github.com/Gitlawb/openclaude/pull/1760) — fix(bridge): match loopback hostname exactly in HTTPS credential guard
 - 🟣 [`#1710`](https://github.com/Gitlawb/openclaude/pull/1710) — fix(code-indexing): guard command detection against prototype-chain names
@@ -363,6 +363,22 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>8 PRs · 🟣 1 · 🟢 1 · 🔴 6 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#6483`](https://github.com/meilisearch/meilisearch/pull/6483) — Support target index names in the export route
+- 🟣 [`#6468`](https://github.com/meilisearch/meilisearch/pull/6468) — Split unit tests into separate files (one commit per file)
+- 🔴 [`#6465`](https://github.com/meilisearch/meilisearch/pull/6465) — Split facet range search unit tests into a separate file
+- 🔴 [`#6464`](https://github.com/meilisearch/meilisearch/pull/6464) — Split facet incremental unit tests into a separate file
+- 🔴 [`#6461`](https://github.com/meilisearch/meilisearch/pull/6461) — Split matches unit tests into a separate file
+- 🔴 [`#6460`](https://github.com/meilisearch/meilisearch/pull/6460) — Split permissive-json-pointer unit tests into a separate file
+- 🔴 [`#6453`](https://github.com/meilisearch/meilisearch/pull/6453) — Split index_documents unit tests into a separate file
+- 🔴 [`#6452`](https://github.com/meilisearch/meilisearch/pull/6452) — Report word count while building the words FST
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>7 PRs · 🟣 3 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -374,21 +390,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#1299`](https://github.com/lightninglabs/lightning-terminal/pull/1299) — dev.Dockerfile: allow forcing faraday repo and version
 - 🔴 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
 - 🟣 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>7 PRs · 🟣 1 · 🔴 6 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟣 [`#6468`](https://github.com/meilisearch/meilisearch/pull/6468) — Split unit tests into separate files (one commit per file)
-- 🔴 [`#6465`](https://github.com/meilisearch/meilisearch/pull/6465) — Split facet range search unit tests into a separate file
-- 🔴 [`#6464`](https://github.com/meilisearch/meilisearch/pull/6464) — Split facet incremental unit tests into a separate file
-- 🔴 [`#6461`](https://github.com/meilisearch/meilisearch/pull/6461) — Split matches unit tests into a separate file
-- 🔴 [`#6460`](https://github.com/meilisearch/meilisearch/pull/6460) — Split permissive-json-pointer unit tests into a separate file
-- 🔴 [`#6453`](https://github.com/meilisearch/meilisearch/pull/6453) — Split index_documents unit tests into a separate file
-- 🔴 [`#6452`](https://github.com/meilisearch/meilisearch/pull/6452) — Report word count while building the words FST
 
 </details>
 
