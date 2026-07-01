@@ -302,10 +302,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>55 PRs · 🟣 39 · 🟢 8 · 🔴 8 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>57 PRs · 🟣 39 · 🟢 10 · 🔴 8 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1835`](https://github.com/Gitlawb/openclaude/pull/1835) — fix(format): show sub-second durations with a decimal instead of "0s"
+- 🟢 [`#1833`](https://github.com/Gitlawb/openclaude/pull/1833) — fix(codex): make Codex alias lookup prototype-safe
 - 🟢 [`#1822`](https://github.com/Gitlawb/openclaude/pull/1822) — fix(model): resolve [1m]-tagged aliases when 1M context is disabled
 - 🟣 [`#1821`](https://github.com/Gitlawb/openclaude/pull/1821) — fix(plugins): keep marketplace reconciliation prototype-safe
 - 🟣 [`#1814`](https://github.com/Gitlawb/openclaude/pull/1814) — fix(ollama): cap qwen3-coder-next:cloud output at 32768
@@ -365,6 +367,22 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>8 PRs · 🟣 3 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#1341`](https://github.com/lightninglabs/lightning-terminal/pull/1341) — test: add coverage for normalizeVerString
+- 🟢 [`#1337`](https://github.com/lightninglabs/lightning-terminal/pull/1337) — config: make litd -V report litd version
+- 🟢 [`#1335`](https://github.com/lightninglabs/lightning-terminal/pull/1335) — litcli: drop unused flags from addinvoice command
+- 🟣 [`#1334`](https://github.com/lightninglabs/lightning-terminal/pull/1334) — accounts: add test coverage for checkLabel
+- 🟣 [`#1311`](https://github.com/lightninglabs/lightning-terminal/pull/1311) — app: make build/.gitkeep postbuild step git-worktree friendly
+- 🟢 [`#1299`](https://github.com/lightninglabs/lightning-terminal/pull/1299) — dev.Dockerfile: allow forcing faraday repo and version
+- 🔴 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
+- 🟣 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>8 PRs · 🟣 1 · 🟢 1 · 🔴 6 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -377,21 +395,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🔴 [`#6460`](https://github.com/meilisearch/meilisearch/pull/6460) — Split permissive-json-pointer unit tests into a separate file
 - 🔴 [`#6453`](https://github.com/meilisearch/meilisearch/pull/6453) — Split index_documents unit tests into a separate file
 - 🔴 [`#6452`](https://github.com/meilisearch/meilisearch/pull/6452) — Report word count while building the words FST
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>7 PRs · 🟣 3 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#1337`](https://github.com/lightninglabs/lightning-terminal/pull/1337) — config: make litd -V report litd version
-- 🟢 [`#1335`](https://github.com/lightninglabs/lightning-terminal/pull/1335) — litcli: drop unused flags from addinvoice command
-- 🟣 [`#1334`](https://github.com/lightninglabs/lightning-terminal/pull/1334) — accounts: add test coverage for checkLabel
-- 🟣 [`#1311`](https://github.com/lightninglabs/lightning-terminal/pull/1311) — app: make build/.gitkeep postbuild step git-worktree friendly
-- 🟢 [`#1299`](https://github.com/lightninglabs/lightning-terminal/pull/1299) — dev.Dockerfile: allow forcing faraday repo and version
-- 🔴 [`#1296`](https://github.com/lightninglabs/lightning-terminal/pull/1296) — litcli: align help text style for top-level commands
-- 🟣 [`#1295`](https://github.com/lightninglabs/lightning-terminal/pull/1295) — docs: note that FreeBSD users need gmake to build
 
 </details>
 
