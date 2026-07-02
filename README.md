@@ -302,11 +302,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>57 PRs · 🟣 39 · 🟢 10 · 🔴 8 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>58 PRs · 🟣 41 · 🟢 8 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1835`](https://github.com/Gitlawb/openclaude/pull/1835) — fix(format): show sub-second durations with a decimal instead of "0s"
+- 🟢 [`#1840`](https://github.com/Gitlawb/openclaude/pull/1840) — fix(plugins): match reserved-marketplace git URL owner by host, not substring
+- 🔴 [`#1835`](https://github.com/Gitlawb/openclaude/pull/1835) — fix(format): show sub-second durations with a decimal instead of "0s"
 - 🟢 [`#1833`](https://github.com/Gitlawb/openclaude/pull/1833) — fix(codex): make Codex alias lookup prototype-safe
 - 🟢 [`#1822`](https://github.com/Gitlawb/openclaude/pull/1822) — fix(model): resolve [1m]-tagged aliases when 1M context is disabled
 - 🟣 [`#1821`](https://github.com/Gitlawb/openclaude/pull/1821) — fix(plugins): keep marketplace reconciliation prototype-safe
@@ -327,7 +328,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🔴 [`#1434`](https://github.com/Gitlawb/openclaude/pull/1434) — fix(update): allow auto-update for OpenClaude builds on third-party providers
 - 🟢 [`#1433`](https://github.com/Gitlawb/openclaude/pull/1433) — fix(diff): guard diff language detection against prototype-chain filenames
 - 🟢 [`#1414`](https://github.com/Gitlawb/openclaude/pull/1414) — feat(codex-oauth): manual callback URL paste for SSH / remote sessions (#1288)
-- 🟢 [`#1392`](https://github.com/Gitlawb/openclaude/pull/1392) — fix(bash): surface rolled-output file path on non-zero exit (#1359)
+- 🟣 [`#1392`](https://github.com/Gitlawb/openclaude/pull/1392) — fix(bash): surface rolled-output file path on non-zero exit (#1359)
 - 🔴 [`#1391`](https://github.com/Gitlawb/openclaude/pull/1391) — fix(openai-shim): strip image_url blocks on text-only providers (DeepSeek) (#1382)
 - 🔴 [`#1352`](https://github.com/Gitlawb/openclaude/pull/1352) — feat(fallback-model): honor --fallback-model in interactive REPL
 - 🔴 [`#1266`](https://github.com/Gitlawb/openclaude/pull/1266) — fix(codex-strict): widen optional fields to nullable + strip null from inputs
@@ -348,7 +349,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#1070`](https://github.com/Gitlawb/openclaude/pull/1070) — fix(openai-shim): redact ?auth=, ?passwd=, ?pwd= in diagnostic URLs
 - 🟣 [`#1068`](https://github.com/Gitlawb/openclaude/pull/1068) — perf(local): add OPENCLAUDE_LOCAL_FAST_PATH to skip cloud-only transforms
 - 🟣 [`#1048`](https://github.com/Gitlawb/openclaude/pull/1048) — fix(openai-shim): strip `store` for local providers (vLLM, custom)
-- 🟢 [`#1047`](https://github.com/Gitlawb/openclaude/pull/1047) — fix(openai-shim): strip `store` when baseUrl points at Mistral
+- 🟣 [`#1047`](https://github.com/Gitlawb/openclaude/pull/1047) — fix(openai-shim): strip `store` when baseUrl points at Mistral
 - 🟣 [`#1040`](https://github.com/Gitlawb/openclaude/pull/1040) — fix(openai-shim): strip `store` when baseUrl points at Cerebras (#1023)
 - 🟣 [`#1019`](https://github.com/Gitlawb/openclaude/pull/1019) — fix(shims): strip x-anthropic-billing-header from system prompt forwarded to OpenAI/Codex (#607)
 - 🟣 [`#1018`](https://github.com/Gitlawb/openclaude/pull/1018) — chore(engines): require Node >=22 to match runtime deps (#1009)
