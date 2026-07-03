@@ -302,15 +302,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>59 PRs · 🟣 41 · 🟢 9 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>59 PRs · 🟣 43 · 🟢 7 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟢 [`#1843`](https://github.com/Gitlawb/openclaude/pull/1843) — fix(gitdiff): count in-hunk lines starting with ++/-- in raw diff stats
-- 🟢 [`#1840`](https://github.com/Gitlawb/openclaude/pull/1840) — fix(plugins): match reserved-marketplace git URL owner by host, not substring
+- 🟣 [`#1840`](https://github.com/Gitlawb/openclaude/pull/1840) — fix(plugins): match reserved-marketplace git URL owner by host, not substring
 - 🔴 [`#1835`](https://github.com/Gitlawb/openclaude/pull/1835) — fix(format): show sub-second durations with a decimal instead of "0s"
 - 🟢 [`#1833`](https://github.com/Gitlawb/openclaude/pull/1833) — fix(codex): make Codex alias lookup prototype-safe
-- 🟢 [`#1822`](https://github.com/Gitlawb/openclaude/pull/1822) — fix(model): resolve [1m]-tagged aliases when 1M context is disabled
+- 🟣 [`#1822`](https://github.com/Gitlawb/openclaude/pull/1822) — fix(model): resolve [1m]-tagged aliases when 1M context is disabled
 - 🟣 [`#1821`](https://github.com/Gitlawb/openclaude/pull/1821) — fix(plugins): keep marketplace reconciliation prototype-safe
 - 🟣 [`#1814`](https://github.com/Gitlawb/openclaude/pull/1814) — fix(ollama): cap qwen3-coder-next:cloud output at 32768
 - 🟣 [`#1792`](https://github.com/Gitlawb/openclaude/pull/1792) — fix(remote-session): match ingress host by hostname, not raw substring
