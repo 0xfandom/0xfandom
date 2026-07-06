@@ -302,10 +302,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>61 PRs · 🟣 46 · 🟢 6 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>63 PRs · 🟣 46 · 🟢 8 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1873`](https://github.com/Gitlawb/openclaude/pull/1873) — fix(diff): don't overcount new-file additions by the trailing newline
+- 🟢 [`#1872`](https://github.com/Gitlawb/openclaude/pull/1872) — fix(websearch): match allowed/blocked domains case-insensitively
 - 🟢 [`#1848`](https://github.com/Gitlawb/openclaude/pull/1848) — fix(proxy): bypass subdomains for a bare NO_PROXY domain entry
 - 🟣 [`#1847`](https://github.com/Gitlawb/openclaude/pull/1847) — fix(permissions): make legacy tool-name alias lookup prototype-safe
 - 🟣 [`#1843`](https://github.com/Gitlawb/openclaude/pull/1843) — fix(gitdiff): count in-hunk lines starting with ++/-- in raw diff stats
