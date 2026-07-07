@@ -302,13 +302,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>63 PRs · 🟣 47 · 🟢 7 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>65 PRs · 🟣 53 · 🟢 3 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1873`](https://github.com/Gitlawb/openclaude/pull/1873) — fix(diff): don't overcount new-file additions by the trailing newline
-- 🟢 [`#1872`](https://github.com/Gitlawb/openclaude/pull/1872) — fix(websearch): match allowed/blocked domains case-insensitively
-- 🟢 [`#1848`](https://github.com/Gitlawb/openclaude/pull/1848) — fix(proxy): bypass subdomains for a bare NO_PROXY domain entry
+- 🟢 [`#1881`](https://github.com/Gitlawb/openclaude/pull/1881) — fix(read): report zero lines for an empty file
+- 🟣 [`#1880`](https://github.com/Gitlawb/openclaude/pull/1880) — fix(openai-shim): guard tool-arg field lookup against prototype keys
+- 🟣 [`#1873`](https://github.com/Gitlawb/openclaude/pull/1873) — fix(diff): don't overcount new-file additions by the trailing newline
+- 🟣 [`#1872`](https://github.com/Gitlawb/openclaude/pull/1872) — fix(websearch): match allowed/blocked domains case-insensitively
+- 🟣 [`#1848`](https://github.com/Gitlawb/openclaude/pull/1848) — fix(proxy): bypass subdomains for a bare NO_PROXY domain entry
 - 🟣 [`#1847`](https://github.com/Gitlawb/openclaude/pull/1847) — fix(permissions): make legacy tool-name alias lookup prototype-safe
 - 🟣 [`#1843`](https://github.com/Gitlawb/openclaude/pull/1843) — fix(gitdiff): count in-hunk lines starting with ++/-- in raw diff stats
 - 🟣 [`#1840`](https://github.com/Gitlawb/openclaude/pull/1840) — fix(plugins): match reserved-marketplace git URL owner by host, not substring
@@ -332,7 +334,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🔴 [`#1435`](https://github.com/Gitlawb/openclaude/pull/1435) — test(attribution): fix order-dependent CI flake in getAttributionTexts
 - 🔴 [`#1434`](https://github.com/Gitlawb/openclaude/pull/1434) — fix(update): allow auto-update for OpenClaude builds on third-party providers
 - 🟣 [`#1433`](https://github.com/Gitlawb/openclaude/pull/1433) — fix(diff): guard diff language detection against prototype-chain filenames
-- 🟢 [`#1414`](https://github.com/Gitlawb/openclaude/pull/1414) — feat(codex-oauth): manual callback URL paste for SSH / remote sessions (#1288)
+- 🟣 [`#1414`](https://github.com/Gitlawb/openclaude/pull/1414) — feat(codex-oauth): manual callback URL paste for SSH / remote sessions (#1288)
 - 🟣 [`#1392`](https://github.com/Gitlawb/openclaude/pull/1392) — fix(bash): surface rolled-output file path on non-zero exit (#1359)
 - 🔴 [`#1391`](https://github.com/Gitlawb/openclaude/pull/1391) — fix(openai-shim): strip image_url blocks on text-only providers (DeepSeek) (#1382)
 - 🔴 [`#1352`](https://github.com/Gitlawb/openclaude/pull/1352) — feat(fallback-model): honor --fallback-model in interactive REPL
@@ -349,7 +351,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#1178`](https://github.com/Gitlawb/openclaude/pull/1178) — feat(provider): add Cloudflare Workers AI integration (#1100)
 - 🟣 [`#1176`](https://github.com/Gitlawb/openclaude/pull/1176) — feat(provider): auto-switch on rate limit via providerFallbackChain (#768)
 - 🔴 [`#1169`](https://github.com/Gitlawb/openclaude/pull/1169) — fix(query): auto-recover from context-overflow errors
-- 🟢 [`#1164`](https://github.com/Gitlawb/openclaude/pull/1164) — feat(model-picker): surface inactive provider profiles in /model (#1119 piece 2)
+- 🟣 [`#1164`](https://github.com/Gitlawb/openclaude/pull/1164) — feat(model-picker): surface inactive provider profiles in /model (#1119 piece 2)
 - 🟣 [`#1163`](https://github.com/Gitlawb/openclaude/pull/1163) — docs(ollama): drop `ollama launch openclaude` instructions (#1134)
 - 🟣 [`#1070`](https://github.com/Gitlawb/openclaude/pull/1070) — fix(openai-shim): redact ?auth=, ?passwd=, ?pwd= in diagnostic URLs
 - 🟣 [`#1068`](https://github.com/Gitlawb/openclaude/pull/1068) — perf(local): add OPENCLAUDE_LOCAL_FAST_PATH to skip cloud-only transforms
