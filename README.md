@@ -302,7 +302,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>63 PRs · 🟣 46 · 🟢 8 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>63 PRs · 🟣 47 · 🟢 7 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -331,7 +331,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🔴 [`#1650`](https://github.com/Gitlawb/openclaude/pull/1650) — fix(diff): stop dropping in-hunk lines starting with -- or ++
 - 🔴 [`#1435`](https://github.com/Gitlawb/openclaude/pull/1435) — test(attribution): fix order-dependent CI flake in getAttributionTexts
 - 🔴 [`#1434`](https://github.com/Gitlawb/openclaude/pull/1434) — fix(update): allow auto-update for OpenClaude builds on third-party providers
-- 🟢 [`#1433`](https://github.com/Gitlawb/openclaude/pull/1433) — fix(diff): guard diff language detection against prototype-chain filenames
+- 🟣 [`#1433`](https://github.com/Gitlawb/openclaude/pull/1433) — fix(diff): guard diff language detection against prototype-chain filenames
 - 🟢 [`#1414`](https://github.com/Gitlawb/openclaude/pull/1414) — feat(codex-oauth): manual callback URL paste for SSH / remote sessions (#1288)
 - 🟣 [`#1392`](https://github.com/Gitlawb/openclaude/pull/1392) — fix(bash): surface rolled-output file path on non-zero exit (#1359)
 - 🔴 [`#1391`](https://github.com/Gitlawb/openclaude/pull/1391) — fix(openai-shim): strip image_url blocks on text-only providers (DeepSeek) (#1382)
