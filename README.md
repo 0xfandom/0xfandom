@@ -302,10 +302,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>65 PRs · 🟣 53 · 🟢 3 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>68 PRs · 🟣 54 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟣 [`#1915`](https://github.com/Gitlawb/openclaude/pull/1915) — fix(editor): guard editor-override lookup against prototype keys
+- 🟢 [`#1914`](https://github.com/Gitlawb/openclaude/pull/1914) — fix(commands): escape named-argument names before building the regex
+- 🟢 [`#1913`](https://github.com/Gitlawb/openclaude/pull/1913) — fix(powershell): make CMDLET_PATH_CONFIG prototype-safe
 - 🟢 [`#1881`](https://github.com/Gitlawb/openclaude/pull/1881) — fix(read): report zero lines for an empty file
 - 🟣 [`#1880`](https://github.com/Gitlawb/openclaude/pull/1880) — fix(openai-shim): guard tool-arg field lookup against prototype keys
 - 🟣 [`#1873`](https://github.com/Gitlawb/openclaude/pull/1873) — fix(diff): don't overcount new-file additions by the trailing newline
@@ -392,12 +395,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>8 PRs · 🟣 3 · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; lightninglabs / lightning-terminal</b> &nbsp;·&nbsp; Lightning Terminal: Your Home for Lightning Liquidity &nbsp;·&nbsp; <sub>8 PRs · 🟣 4 · 🟢 3 · 🔴 1 &middot; <a href="https://github.com/lightninglabs/lightning-terminal/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟢 [`#1341`](https://github.com/lightninglabs/lightning-terminal/pull/1341) — test: add coverage for normalizeVerString
-- 🟢 [`#1337`](https://github.com/lightninglabs/lightning-terminal/pull/1337) — config: make litd -V report litd version
+- 🟣 [`#1337`](https://github.com/lightninglabs/lightning-terminal/pull/1337) — config: make litd -V report litd version
 - 🟢 [`#1335`](https://github.com/lightninglabs/lightning-terminal/pull/1335) — litcli: drop unused flags from addinvoice command
 - 🟣 [`#1334`](https://github.com/lightninglabs/lightning-terminal/pull/1334) — accounts: add test coverage for checkLabel
 - 🟣 [`#1311`](https://github.com/lightninglabs/lightning-terminal/pull/1311) — app: make build/.gitkeep postbuild step git-worktree friendly
