@@ -302,14 +302,17 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>68 PRs · 🟣 54 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>71 PRs · 🟣 59 · 🟢 3 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1918`](https://github.com/Gitlawb/openclaude/pull/1918) — fix(memdir): enforce entrypoint cap in bytes, not UTF-16 char length
+- 🟢 [`#1917`](https://github.com/Gitlawb/openclaude/pull/1917) — fix(diff): number diff-snippet hunks by their new-file position
+- 🟣 [`#1916`](https://github.com/Gitlawb/openclaude/pull/1916) — fix(diff): count dropped lines correctly in truncated diff snippet
 - 🟣 [`#1915`](https://github.com/Gitlawb/openclaude/pull/1915) — fix(editor): guard editor-override lookup against prototype keys
-- 🟢 [`#1914`](https://github.com/Gitlawb/openclaude/pull/1914) — fix(commands): escape named-argument names before building the regex
+- 🟣 [`#1914`](https://github.com/Gitlawb/openclaude/pull/1914) — fix(commands): escape named-argument names before building the regex
 - 🟢 [`#1913`](https://github.com/Gitlawb/openclaude/pull/1913) — fix(powershell): make CMDLET_PATH_CONFIG prototype-safe
-- 🟢 [`#1881`](https://github.com/Gitlawb/openclaude/pull/1881) — fix(read): report zero lines for an empty file
+- 🟣 [`#1881`](https://github.com/Gitlawb/openclaude/pull/1881) — fix(read): report zero lines for an empty file
 - 🟣 [`#1880`](https://github.com/Gitlawb/openclaude/pull/1880) — fix(openai-shim): guard tool-arg field lookup against prototype keys
 - 🟣 [`#1873`](https://github.com/Gitlawb/openclaude/pull/1873) — fix(diff): don't overcount new-file additions by the trailing newline
 - 🟣 [`#1872`](https://github.com/Gitlawb/openclaude/pull/1872) — fix(websearch): match allowed/blocked domains case-insensitively
@@ -350,8 +353,8 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#1248`](https://github.com/Gitlawb/openclaude/pull/1248) — fix(recovery): keep thinking blocks on resume for reasoning-echo providers (#957)
 - 🟣 [`#1240`](https://github.com/Gitlawb/openclaude/pull/1240) — fix(loader): batch markdown reads + cap file size to unblock startup
 - 🟣 [`#1236`](https://github.com/Gitlawb/openclaude/pull/1236) — fix(bash): preserve captured stdout in error message on non-zero exit
-- 🟢 [`#1234`](https://github.com/Gitlawb/openclaude/pull/1234) — feat(settings): per-model context_window and max_output_tokens overrides
-- 🟢 [`#1178`](https://github.com/Gitlawb/openclaude/pull/1178) — feat(provider): add Cloudflare Workers AI integration (#1100)
+- 🟣 [`#1234`](https://github.com/Gitlawb/openclaude/pull/1234) — feat(settings): per-model context_window and max_output_tokens overrides
+- 🟣 [`#1178`](https://github.com/Gitlawb/openclaude/pull/1178) — feat(provider): add Cloudflare Workers AI integration (#1100)
 - 🟣 [`#1176`](https://github.com/Gitlawb/openclaude/pull/1176) — feat(provider): auto-switch on rate limit via providerFallbackChain (#768)
 - 🔴 [`#1169`](https://github.com/Gitlawb/openclaude/pull/1169) — fix(query): auto-recover from context-overflow errors
 - 🟣 [`#1164`](https://github.com/Gitlawb/openclaude/pull/1164) — feat(model-picker): surface inactive provider profiles in /model (#1119 piece 2)
