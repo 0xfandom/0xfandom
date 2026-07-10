@@ -221,6 +221,88 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>74 PRs · 🟣 60 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#1934`](https://github.com/Gitlawb/openclaude/pull/1934) — fix(context): order pruned messages by envelope timestamp, not phantom field
+- 🟢 [`#1933`](https://github.com/Gitlawb/openclaude/pull/1933) — fix(mcp): preserve ':-' inside ${VAR:-default} default values
+- 🟢 [`#1932`](https://github.com/Gitlawb/openclaude/pull/1932) — fix(gitdiff): apply the 1MB diff cap in bytes, not UTF-16 char length
+- 🟢 [`#1918`](https://github.com/Gitlawb/openclaude/pull/1918) — fix(memdir): enforce entrypoint cap in bytes, not UTF-16 char length
+- 🟢 [`#1917`](https://github.com/Gitlawb/openclaude/pull/1917) — fix(diff): number diff-snippet hunks by their new-file position
+- 🟣 [`#1916`](https://github.com/Gitlawb/openclaude/pull/1916) — fix(diff): count dropped lines correctly in truncated diff snippet
+- 🟣 [`#1915`](https://github.com/Gitlawb/openclaude/pull/1915) — fix(editor): guard editor-override lookup against prototype keys
+- 🟣 [`#1914`](https://github.com/Gitlawb/openclaude/pull/1914) — fix(commands): escape named-argument names before building the regex
+- 🟣 [`#1913`](https://github.com/Gitlawb/openclaude/pull/1913) — fix(powershell): make CMDLET_PATH_CONFIG prototype-safe
+- 🟣 [`#1881`](https://github.com/Gitlawb/openclaude/pull/1881) — fix(read): report zero lines for an empty file
+- 🟣 [`#1880`](https://github.com/Gitlawb/openclaude/pull/1880) — fix(openai-shim): guard tool-arg field lookup against prototype keys
+- 🟣 [`#1873`](https://github.com/Gitlawb/openclaude/pull/1873) — fix(diff): don't overcount new-file additions by the trailing newline
+- 🟣 [`#1872`](https://github.com/Gitlawb/openclaude/pull/1872) — fix(websearch): match allowed/blocked domains case-insensitively
+- 🟣 [`#1848`](https://github.com/Gitlawb/openclaude/pull/1848) — fix(proxy): bypass subdomains for a bare NO_PROXY domain entry
+- 🟣 [`#1847`](https://github.com/Gitlawb/openclaude/pull/1847) — fix(permissions): make legacy tool-name alias lookup prototype-safe
+- 🟣 [`#1843`](https://github.com/Gitlawb/openclaude/pull/1843) — fix(gitdiff): count in-hunk lines starting with ++/-- in raw diff stats
+- 🟣 [`#1840`](https://github.com/Gitlawb/openclaude/pull/1840) — fix(plugins): match reserved-marketplace git URL owner by host, not substring
+- 🔴 [`#1835`](https://github.com/Gitlawb/openclaude/pull/1835) — fix(format): show sub-second durations with a decimal instead of "0s"
+- 🟣 [`#1833`](https://github.com/Gitlawb/openclaude/pull/1833) — fix(codex): make Codex alias lookup prototype-safe
+- 🟣 [`#1822`](https://github.com/Gitlawb/openclaude/pull/1822) — fix(model): resolve [1m]-tagged aliases when 1M context is disabled
+- 🟣 [`#1821`](https://github.com/Gitlawb/openclaude/pull/1821) — fix(plugins): keep marketplace reconciliation prototype-safe
+- 🟣 [`#1814`](https://github.com/Gitlawb/openclaude/pull/1814) — fix(ollama): cap qwen3-coder-next:cloud output at 32768
+- 🟣 [`#1792`](https://github.com/Gitlawb/openclaude/pull/1792) — fix(remote-session): match ingress host by hostname, not raw substring
+- 🟣 [`#1787`](https://github.com/Gitlawb/openclaude/pull/1787) — fix(plugins): treat prototype-shadowing marketplace names as not found
+- 🟣 [`#1773`](https://github.com/Gitlawb/openclaude/pull/1773) — fix(env-file): collapse escaped backslashes in quoted values
+- 🟣 [`#1760`](https://github.com/Gitlawb/openclaude/pull/1760) — fix(bridge): match loopback hostname exactly in HTTPS credential guard
+- 🟣 [`#1710`](https://github.com/Gitlawb/openclaude/pull/1710) — fix(code-indexing): guard command detection against prototype-chain names
+- 🟣 [`#1709`](https://github.com/Gitlawb/openclaude/pull/1709) — fix(model): preserve [1m] tag for the codex aliases
+- 🟣 [`#1708`](https://github.com/Gitlawb/openclaude/pull/1708) — test(install-surfaces): stop execFileNoThrow mock leaking into later suites
+- 🟣 [`#1671`](https://github.com/Gitlawb/openclaude/pull/1671) — fix(model): preserve [1m] tag for the 'best' alias
+- 🟣 [`#1669`](https://github.com/Gitlawb/openclaude/pull/1669) — fix(provider): match xAI base URL by hostname, not 'x.ai' substring
+- 🟣 [`#1667`](https://github.com/Gitlawb/openclaude/pull/1667) — test(file-suggestions): stop cross-spawn mock leaking into later suites
+- 🟣 [`#1652`](https://github.com/Gitlawb/openclaude/pull/1652) — fix(worktree): base agent isolation worktree on parent HEAD, not origin/main
+- 🔴 [`#1650`](https://github.com/Gitlawb/openclaude/pull/1650) — fix(diff): stop dropping in-hunk lines starting with -- or ++
+- 🔴 [`#1435`](https://github.com/Gitlawb/openclaude/pull/1435) — test(attribution): fix order-dependent CI flake in getAttributionTexts
+- 🔴 [`#1434`](https://github.com/Gitlawb/openclaude/pull/1434) — fix(update): allow auto-update for OpenClaude builds on third-party providers
+- 🟣 [`#1433`](https://github.com/Gitlawb/openclaude/pull/1433) — fix(diff): guard diff language detection against prototype-chain filenames
+- 🟣 [`#1414`](https://github.com/Gitlawb/openclaude/pull/1414) — feat(codex-oauth): manual callback URL paste for SSH / remote sessions (#1288)
+- 🟣 [`#1392`](https://github.com/Gitlawb/openclaude/pull/1392) — fix(bash): surface rolled-output file path on non-zero exit (#1359)
+- 🔴 [`#1391`](https://github.com/Gitlawb/openclaude/pull/1391) — fix(openai-shim): strip image_url blocks on text-only providers (DeepSeek) (#1382)
+- 🔴 [`#1352`](https://github.com/Gitlawb/openclaude/pull/1352) — feat(fallback-model): honor --fallback-model in interactive REPL
+- 🔴 [`#1266`](https://github.com/Gitlawb/openclaude/pull/1266) — fix(codex-strict): widen optional fields to nullable + strip null from inputs
+- 🟣 [`#1263`](https://github.com/Gitlawb/openclaude/pull/1263) — fix(retry): adjust max_tokens on OpenRouter 402 credit shortfall
+- 🟣 [`#1262`](https://github.com/Gitlawb/openclaude/pull/1262) — fix(codex-stream): recover tool args delivered only via done events
+- 🟣 [`#1261`](https://github.com/Gitlawb/openclaude/pull/1261) — fix(json-schema): support top-level non-object roots via wrap/unwrap
+- 🟣 [`#1260`](https://github.com/Gitlawb/openclaude/pull/1260) — feat(safety): warn at startup when 3P provider + permissive mode skip the AI classifier
+- 🟣 [`#1250`](https://github.com/Gitlawb/openclaude/pull/1250) — fix(xml): guard escapeXml/escapeXmlAttr against null and undefined (#1247)
+- 🟣 [`#1248`](https://github.com/Gitlawb/openclaude/pull/1248) — fix(recovery): keep thinking blocks on resume for reasoning-echo providers (#957)
+- 🟣 [`#1240`](https://github.com/Gitlawb/openclaude/pull/1240) — fix(loader): batch markdown reads + cap file size to unblock startup
+- 🟣 [`#1236`](https://github.com/Gitlawb/openclaude/pull/1236) — fix(bash): preserve captured stdout in error message on non-zero exit
+- 🟣 [`#1234`](https://github.com/Gitlawb/openclaude/pull/1234) — feat(settings): per-model context_window and max_output_tokens overrides
+- 🟣 [`#1178`](https://github.com/Gitlawb/openclaude/pull/1178) — feat(provider): add Cloudflare Workers AI integration (#1100)
+- 🟣 [`#1176`](https://github.com/Gitlawb/openclaude/pull/1176) — feat(provider): auto-switch on rate limit via providerFallbackChain (#768)
+- 🔴 [`#1169`](https://github.com/Gitlawb/openclaude/pull/1169) — fix(query): auto-recover from context-overflow errors
+- 🟣 [`#1164`](https://github.com/Gitlawb/openclaude/pull/1164) — feat(model-picker): surface inactive provider profiles in /model (#1119 piece 2)
+- 🟣 [`#1163`](https://github.com/Gitlawb/openclaude/pull/1163) — docs(ollama): drop `ollama launch openclaude` instructions (#1134)
+- 🟣 [`#1070`](https://github.com/Gitlawb/openclaude/pull/1070) — fix(openai-shim): redact ?auth=, ?passwd=, ?pwd= in diagnostic URLs
+- 🟣 [`#1068`](https://github.com/Gitlawb/openclaude/pull/1068) — perf(local): add OPENCLAUDE_LOCAL_FAST_PATH to skip cloud-only transforms
+- 🟣 [`#1048`](https://github.com/Gitlawb/openclaude/pull/1048) — fix(openai-shim): strip `store` for local providers (vLLM, custom)
+- 🟣 [`#1047`](https://github.com/Gitlawb/openclaude/pull/1047) — fix(openai-shim): strip `store` when baseUrl points at Mistral
+- 🟣 [`#1040`](https://github.com/Gitlawb/openclaude/pull/1040) — fix(openai-shim): strip `store` when baseUrl points at Cerebras (#1023)
+- 🟣 [`#1019`](https://github.com/Gitlawb/openclaude/pull/1019) — fix(shims): strip x-anthropic-billing-header from system prompt forwarded to OpenAI/Codex (#607)
+- 🟣 [`#1018`](https://github.com/Gitlawb/openclaude/pull/1018) — chore(engines): require Node >=22 to match runtime deps (#1009)
+- 🟣 [`#1006`](https://github.com/Gitlawb/openclaude/pull/1006) — fix(web-search): surface diagnostic when adapter returns 0 hits with no native fallback
+- 🟣 [`#959`](https://github.com/Gitlawb/openclaude/pull/959) — fix(openai-shim): strip `store` when baseUrl points at Gemini
+- 🟣 [`#954`](https://github.com/Gitlawb/openclaude/pull/954) — fix(worktree): surface git stderr in rev-parse failure message (#690)
+- 🔴 [`#953`](https://github.com/Gitlawb/openclaude/pull/953) — fix(model): cap deepseek-v4-pro:cloud / :flash output at 65536 (#917)
+- 🟣 [`#952`](https://github.com/Gitlawb/openclaude/pull/952) — fix(provider): allow remote Ollama without OPENAI_API_KEY (#369)
+- 🟣 [`#864`](https://github.com/Gitlawb/openclaude/pull/864) — fix(startup): url authoritative over model name in banner provider detect
+- 🟣 [`#857`](https://github.com/Gitlawb/openclaude/pull/857) — fix(effort): persist xhigh and send reasoning_effort on chat_completions
+- 🟣 [`#854`](https://github.com/Gitlawb/openclaude/pull/854) — feat(cli): honor --model alone without requiring --provider
+- 🟣 [`#840`](https://github.com/Gitlawb/openclaude/pull/840) — fix(test): add missing teammate exports to hookChains integration mock
+- 🟣 [`#837`](https://github.com/Gitlawb/openclaude/pull/837) — feat: add OPENCLAUDE_DISABLE_TOOL_REMINDERS env var to suppress hidden tool-output reminders
+- 🟣 [`#826`](https://github.com/Gitlawb/openclaude/pull/826) — docs(env): document OPENCLAUDE_DISABLE_STRICT_TOOLS in .env.example
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; Pablosinyores / aether</b> &nbsp;·&nbsp; Low latency arbitrage flash loan mechanism &nbsp;·&nbsp; <sub>73 PRs · 🟣 70 · 🔴 3 &middot; <a href="https://github.com/Pablosinyores/aether/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -298,85 +380,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#41`](https://github.com/Pablosinyores/aether/pull/41) — fix(executor): implement transaction signing with go-ethereum
 - 🟣 [`#38`](https://github.com/Pablosinyores/aether/pull/38) — fix(engine): bootstrap pools from pools.toml at startup
 - 🟣 [`#15`](https://github.com/Pablosinyores/aether/pull/15) — chore: add dev setup files and env configuration
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>71 PRs · 🟣 60 · 🟢 2 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#1918`](https://github.com/Gitlawb/openclaude/pull/1918) — fix(memdir): enforce entrypoint cap in bytes, not UTF-16 char length
-- 🟢 [`#1917`](https://github.com/Gitlawb/openclaude/pull/1917) — fix(diff): number diff-snippet hunks by their new-file position
-- 🟣 [`#1916`](https://github.com/Gitlawb/openclaude/pull/1916) — fix(diff): count dropped lines correctly in truncated diff snippet
-- 🟣 [`#1915`](https://github.com/Gitlawb/openclaude/pull/1915) — fix(editor): guard editor-override lookup against prototype keys
-- 🟣 [`#1914`](https://github.com/Gitlawb/openclaude/pull/1914) — fix(commands): escape named-argument names before building the regex
-- 🟣 [`#1913`](https://github.com/Gitlawb/openclaude/pull/1913) — fix(powershell): make CMDLET_PATH_CONFIG prototype-safe
-- 🟣 [`#1881`](https://github.com/Gitlawb/openclaude/pull/1881) — fix(read): report zero lines for an empty file
-- 🟣 [`#1880`](https://github.com/Gitlawb/openclaude/pull/1880) — fix(openai-shim): guard tool-arg field lookup against prototype keys
-- 🟣 [`#1873`](https://github.com/Gitlawb/openclaude/pull/1873) — fix(diff): don't overcount new-file additions by the trailing newline
-- 🟣 [`#1872`](https://github.com/Gitlawb/openclaude/pull/1872) — fix(websearch): match allowed/blocked domains case-insensitively
-- 🟣 [`#1848`](https://github.com/Gitlawb/openclaude/pull/1848) — fix(proxy): bypass subdomains for a bare NO_PROXY domain entry
-- 🟣 [`#1847`](https://github.com/Gitlawb/openclaude/pull/1847) — fix(permissions): make legacy tool-name alias lookup prototype-safe
-- 🟣 [`#1843`](https://github.com/Gitlawb/openclaude/pull/1843) — fix(gitdiff): count in-hunk lines starting with ++/-- in raw diff stats
-- 🟣 [`#1840`](https://github.com/Gitlawb/openclaude/pull/1840) — fix(plugins): match reserved-marketplace git URL owner by host, not substring
-- 🔴 [`#1835`](https://github.com/Gitlawb/openclaude/pull/1835) — fix(format): show sub-second durations with a decimal instead of "0s"
-- 🟣 [`#1833`](https://github.com/Gitlawb/openclaude/pull/1833) — fix(codex): make Codex alias lookup prototype-safe
-- 🟣 [`#1822`](https://github.com/Gitlawb/openclaude/pull/1822) — fix(model): resolve [1m]-tagged aliases when 1M context is disabled
-- 🟣 [`#1821`](https://github.com/Gitlawb/openclaude/pull/1821) — fix(plugins): keep marketplace reconciliation prototype-safe
-- 🟣 [`#1814`](https://github.com/Gitlawb/openclaude/pull/1814) — fix(ollama): cap qwen3-coder-next:cloud output at 32768
-- 🟣 [`#1792`](https://github.com/Gitlawb/openclaude/pull/1792) — fix(remote-session): match ingress host by hostname, not raw substring
-- 🟣 [`#1787`](https://github.com/Gitlawb/openclaude/pull/1787) — fix(plugins): treat prototype-shadowing marketplace names as not found
-- 🟣 [`#1773`](https://github.com/Gitlawb/openclaude/pull/1773) — fix(env-file): collapse escaped backslashes in quoted values
-- 🟣 [`#1760`](https://github.com/Gitlawb/openclaude/pull/1760) — fix(bridge): match loopback hostname exactly in HTTPS credential guard
-- 🟣 [`#1710`](https://github.com/Gitlawb/openclaude/pull/1710) — fix(code-indexing): guard command detection against prototype-chain names
-- 🟣 [`#1709`](https://github.com/Gitlawb/openclaude/pull/1709) — fix(model): preserve [1m] tag for the codex aliases
-- 🟣 [`#1708`](https://github.com/Gitlawb/openclaude/pull/1708) — test(install-surfaces): stop execFileNoThrow mock leaking into later suites
-- 🟣 [`#1671`](https://github.com/Gitlawb/openclaude/pull/1671) — fix(model): preserve [1m] tag for the 'best' alias
-- 🟣 [`#1669`](https://github.com/Gitlawb/openclaude/pull/1669) — fix(provider): match xAI base URL by hostname, not 'x.ai' substring
-- 🟣 [`#1667`](https://github.com/Gitlawb/openclaude/pull/1667) — test(file-suggestions): stop cross-spawn mock leaking into later suites
-- 🟣 [`#1652`](https://github.com/Gitlawb/openclaude/pull/1652) — fix(worktree): base agent isolation worktree on parent HEAD, not origin/main
-- 🔴 [`#1650`](https://github.com/Gitlawb/openclaude/pull/1650) — fix(diff): stop dropping in-hunk lines starting with -- or ++
-- 🔴 [`#1435`](https://github.com/Gitlawb/openclaude/pull/1435) — test(attribution): fix order-dependent CI flake in getAttributionTexts
-- 🔴 [`#1434`](https://github.com/Gitlawb/openclaude/pull/1434) — fix(update): allow auto-update for OpenClaude builds on third-party providers
-- 🟣 [`#1433`](https://github.com/Gitlawb/openclaude/pull/1433) — fix(diff): guard diff language detection against prototype-chain filenames
-- 🟣 [`#1414`](https://github.com/Gitlawb/openclaude/pull/1414) — feat(codex-oauth): manual callback URL paste for SSH / remote sessions (#1288)
-- 🟣 [`#1392`](https://github.com/Gitlawb/openclaude/pull/1392) — fix(bash): surface rolled-output file path on non-zero exit (#1359)
-- 🔴 [`#1391`](https://github.com/Gitlawb/openclaude/pull/1391) — fix(openai-shim): strip image_url blocks on text-only providers (DeepSeek) (#1382)
-- 🔴 [`#1352`](https://github.com/Gitlawb/openclaude/pull/1352) — feat(fallback-model): honor --fallback-model in interactive REPL
-- 🔴 [`#1266`](https://github.com/Gitlawb/openclaude/pull/1266) — fix(codex-strict): widen optional fields to nullable + strip null from inputs
-- 🟣 [`#1263`](https://github.com/Gitlawb/openclaude/pull/1263) — fix(retry): adjust max_tokens on OpenRouter 402 credit shortfall
-- 🟣 [`#1262`](https://github.com/Gitlawb/openclaude/pull/1262) — fix(codex-stream): recover tool args delivered only via done events
-- 🟣 [`#1261`](https://github.com/Gitlawb/openclaude/pull/1261) — fix(json-schema): support top-level non-object roots via wrap/unwrap
-- 🟣 [`#1260`](https://github.com/Gitlawb/openclaude/pull/1260) — feat(safety): warn at startup when 3P provider + permissive mode skip the AI classifier
-- 🟣 [`#1250`](https://github.com/Gitlawb/openclaude/pull/1250) — fix(xml): guard escapeXml/escapeXmlAttr against null and undefined (#1247)
-- 🟣 [`#1248`](https://github.com/Gitlawb/openclaude/pull/1248) — fix(recovery): keep thinking blocks on resume for reasoning-echo providers (#957)
-- 🟣 [`#1240`](https://github.com/Gitlawb/openclaude/pull/1240) — fix(loader): batch markdown reads + cap file size to unblock startup
-- 🟣 [`#1236`](https://github.com/Gitlawb/openclaude/pull/1236) — fix(bash): preserve captured stdout in error message on non-zero exit
-- 🟣 [`#1234`](https://github.com/Gitlawb/openclaude/pull/1234) — feat(settings): per-model context_window and max_output_tokens overrides
-- 🟣 [`#1178`](https://github.com/Gitlawb/openclaude/pull/1178) — feat(provider): add Cloudflare Workers AI integration (#1100)
-- 🟣 [`#1176`](https://github.com/Gitlawb/openclaude/pull/1176) — feat(provider): auto-switch on rate limit via providerFallbackChain (#768)
-- 🔴 [`#1169`](https://github.com/Gitlawb/openclaude/pull/1169) — fix(query): auto-recover from context-overflow errors
-- 🟣 [`#1164`](https://github.com/Gitlawb/openclaude/pull/1164) — feat(model-picker): surface inactive provider profiles in /model (#1119 piece 2)
-- 🟣 [`#1163`](https://github.com/Gitlawb/openclaude/pull/1163) — docs(ollama): drop `ollama launch openclaude` instructions (#1134)
-- 🟣 [`#1070`](https://github.com/Gitlawb/openclaude/pull/1070) — fix(openai-shim): redact ?auth=, ?passwd=, ?pwd= in diagnostic URLs
-- 🟣 [`#1068`](https://github.com/Gitlawb/openclaude/pull/1068) — perf(local): add OPENCLAUDE_LOCAL_FAST_PATH to skip cloud-only transforms
-- 🟣 [`#1048`](https://github.com/Gitlawb/openclaude/pull/1048) — fix(openai-shim): strip `store` for local providers (vLLM, custom)
-- 🟣 [`#1047`](https://github.com/Gitlawb/openclaude/pull/1047) — fix(openai-shim): strip `store` when baseUrl points at Mistral
-- 🟣 [`#1040`](https://github.com/Gitlawb/openclaude/pull/1040) — fix(openai-shim): strip `store` when baseUrl points at Cerebras (#1023)
-- 🟣 [`#1019`](https://github.com/Gitlawb/openclaude/pull/1019) — fix(shims): strip x-anthropic-billing-header from system prompt forwarded to OpenAI/Codex (#607)
-- 🟣 [`#1018`](https://github.com/Gitlawb/openclaude/pull/1018) — chore(engines): require Node >=22 to match runtime deps (#1009)
-- 🟣 [`#1006`](https://github.com/Gitlawb/openclaude/pull/1006) — fix(web-search): surface diagnostic when adapter returns 0 hits with no native fallback
-- 🟣 [`#959`](https://github.com/Gitlawb/openclaude/pull/959) — fix(openai-shim): strip `store` when baseUrl points at Gemini
-- 🟣 [`#954`](https://github.com/Gitlawb/openclaude/pull/954) — fix(worktree): surface git stderr in rev-parse failure message (#690)
-- 🔴 [`#953`](https://github.com/Gitlawb/openclaude/pull/953) — fix(model): cap deepseek-v4-pro:cloud / :flash output at 65536 (#917)
-- 🟣 [`#952`](https://github.com/Gitlawb/openclaude/pull/952) — fix(provider): allow remote Ollama without OPENAI_API_KEY (#369)
-- 🟣 [`#864`](https://github.com/Gitlawb/openclaude/pull/864) — fix(startup): url authoritative over model name in banner provider detect
-- 🟣 [`#857`](https://github.com/Gitlawb/openclaude/pull/857) — fix(effort): persist xhigh and send reasoning_effort on chat_completions
-- 🟣 [`#854`](https://github.com/Gitlawb/openclaude/pull/854) — feat(cli): honor --model alone without requiring --provider
-- 🟣 [`#840`](https://github.com/Gitlawb/openclaude/pull/840) — fix(test): add missing teammate exports to hookChains integration mock
-- 🟣 [`#837`](https://github.com/Gitlawb/openclaude/pull/837) — feat: add OPENCLAUDE_DISABLE_TOOL_REMINDERS env var to suppress hidden tool-output reminders
-- 🟣 [`#826`](https://github.com/Gitlawb/openclaude/pull/826) — docs(env): document OPENCLAUDE_DISABLE_STRICT_TOOLS in .env.example
 
 </details>
 
