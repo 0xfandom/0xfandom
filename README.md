@@ -221,15 +221,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>74 PRs · 🟣 60 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>74 PRs · 🟣 62 · 🟢 3 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟢 [`#1934`](https://github.com/Gitlawb/openclaude/pull/1934) — fix(context): order pruned messages by envelope timestamp, not phantom field
 - 🟢 [`#1933`](https://github.com/Gitlawb/openclaude/pull/1933) — fix(mcp): preserve ':-' inside ${VAR:-default} default values
-- 🟢 [`#1932`](https://github.com/Gitlawb/openclaude/pull/1932) — fix(gitdiff): apply the 1MB diff cap in bytes, not UTF-16 char length
+- 🟣 [`#1932`](https://github.com/Gitlawb/openclaude/pull/1932) — fix(gitdiff): apply the 1MB diff cap in bytes, not UTF-16 char length
 - 🟢 [`#1918`](https://github.com/Gitlawb/openclaude/pull/1918) — fix(memdir): enforce entrypoint cap in bytes, not UTF-16 char length
-- 🟢 [`#1917`](https://github.com/Gitlawb/openclaude/pull/1917) — fix(diff): number diff-snippet hunks by their new-file position
+- 🟣 [`#1917`](https://github.com/Gitlawb/openclaude/pull/1917) — fix(diff): number diff-snippet hunks by their new-file position
 - 🟣 [`#1916`](https://github.com/Gitlawb/openclaude/pull/1916) — fix(diff): count dropped lines correctly in truncated diff snippet
 - 🟣 [`#1915`](https://github.com/Gitlawb/openclaude/pull/1915) — fix(editor): guard editor-override lookup against prototype keys
 - 🟣 [`#1914`](https://github.com/Gitlawb/openclaude/pull/1914) — fix(commands): escape named-argument names before building the regex
