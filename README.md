@@ -221,12 +221,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>74 PRs · 🟣 62 · 🟢 3 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>77 PRs · 🟣 64 · 🟢 4 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#1934`](https://github.com/Gitlawb/openclaude/pull/1934) — fix(context): order pruned messages by envelope timestamp, not phantom field
-- 🟢 [`#1933`](https://github.com/Gitlawb/openclaude/pull/1933) — fix(mcp): preserve ':-' inside ${VAR:-default} default values
+- 🟢 [`#1955`](https://github.com/Gitlawb/openclaude/pull/1955) — fix(bash): convert BRE interval braces when previewing sed edits
+- 🟢 [`#1954`](https://github.com/Gitlawb/openclaude/pull/1954) — fix(editor): account for NFC boundary composition in insert offset
+- 🟢 [`#1953`](https://github.com/Gitlawb/openclaude/pull/1953) — fix(stats): stop over-counting totalDays by one
+- 🟣 [`#1934`](https://github.com/Gitlawb/openclaude/pull/1934) — fix(context): order pruned messages by envelope timestamp, not phantom field
+- 🟣 [`#1933`](https://github.com/Gitlawb/openclaude/pull/1933) — fix(mcp): preserve ':-' inside ${VAR:-default} default values
 - 🟣 [`#1932`](https://github.com/Gitlawb/openclaude/pull/1932) — fix(gitdiff): apply the 1MB diff cap in bytes, not UTF-16 char length
 - 🟢 [`#1918`](https://github.com/Gitlawb/openclaude/pull/1918) — fix(memdir): enforce entrypoint cap in bytes, not UTF-16 char length
 - 🟣 [`#1917`](https://github.com/Gitlawb/openclaude/pull/1917) — fix(diff): number diff-snippet hunks by their new-file position
