@@ -221,10 +221,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>81 PRs · 🟣 68 · 🟢 4 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>83 PRs · 🟣 68 · 🟢 6 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#1983`](https://github.com/Gitlawb/openclaude/pull/1983) — fix(mcp): resolve server names by own-property, not the prototype chain
+- 🟢 [`#1982`](https://github.com/Gitlawb/openclaude/pull/1982) — fix(bridge): truncate derived session titles on grapheme boundaries
 - 🟣 [`#1975`](https://github.com/Gitlawb/openclaude/pull/1975) — fix(resume): read the session tag from its own entry, not a tool's tag input
 - 🟢 [`#1974`](https://github.com/Gitlawb/openclaude/pull/1974) — fix(memory): match nested directories on path boundaries, not name prefixes
 - 🟢 [`#1966`](https://github.com/Gitlawb/openclaude/pull/1966) — fix(commands): insert slash-command argument text literally, not as regex refs
@@ -449,6 +451,17 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; estuary / flow</b> &nbsp;·&nbsp; 🌊 Continuously synchronize the systems where your data lives, to the systems where you _want_ it to live, by managing your data flows with Estuary. 🌊  &nbsp;·&nbsp; <sub>3 PRs · 🟢 2 · 🔴 1 &middot; <a href="https://github.com/estuary/flow/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#3184`](https://github.com/estuary/flow/pull/3184) — docs: per-command Docker requirements for flowctl (#2968)
+- 🔴 [`#3173`](https://github.com/estuary/flow/pull/3173) — notifications: use "Estuary" in alert email subjects (#3000)
+- 🟢 [`#3172`](https://github.com/estuary/flow/pull/3172) — fix(flowctl): honor -q short flag on raw get (#3084)
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; lightninglabs / lndinit</b> &nbsp;·&nbsp; cloud infra tooling for lnd provisioning/unlocking &nbsp;·&nbsp; <sub>3 PRs · 🟢 3 &middot; <a href="https://github.com/lightninglabs/lndinit/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -456,16 +469,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#86`](https://github.com/lightninglabs/lndinit/pull/86) — migrate-db: warn loudly before writing irreversible tombstones
 - 🟢 [`#85`](https://github.com/lightninglabs/lndinit/pull/85) — migrate-db: skip missing source DBs by default
 - 🟢 [`#84`](https://github.com/lightninglabs/lndinit/pull/84) — migration: default to sqlite and surface flag defaults in -h
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; estuary / flow</b> &nbsp;·&nbsp; 🌊 Continuously synchronize the systems where your data lives, to the systems where you _want_ it to live, by managing your data flows with Estuary. 🌊  &nbsp;·&nbsp; <sub>2 PRs · 🟢 1 · 🔴 1 &middot; <a href="https://github.com/estuary/flow/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🔴 [`#3173`](https://github.com/estuary/flow/pull/3173) — notifications: use "Estuary" in alert email subjects (#3000)
-- 🟢 [`#3172`](https://github.com/estuary/flow/pull/3172) — fix(flowctl): honor -q short flag on raw get (#3084)
 
 </details>
 
