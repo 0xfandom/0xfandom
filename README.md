@@ -460,11 +460,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; estuary / flow</b> &nbsp;·&nbsp; 🌊 Continuously synchronize the systems where your data lives, to the systems where you _want_ it to live, by managing your data flows with Estuary. 🌊  &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/estuary/flow/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; estuary / flow</b> &nbsp;·&nbsp; 🌊 Continuously synchronize the systems where your data lives, to the systems where you _want_ it to live, by managing your data flows with Estuary. 🌊  &nbsp;·&nbsp; <sub>2 PRs · 🟢 1 · 🔴 1 &middot; <a href="https://github.com/estuary/flow/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#3173`](https://github.com/estuary/flow/pull/3173) — notifications: use "Estuary" in alert email subjects (#3000)
+- 🔴 [`#3173`](https://github.com/estuary/flow/pull/3173) — notifications: use "Estuary" in alert email subjects (#3000)
 - 🟢 [`#3172`](https://github.com/estuary/flow/pull/3172) — fix(flowctl): honor -q short flag on raw get (#3084)
 
 </details>
