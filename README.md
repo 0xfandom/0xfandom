@@ -221,10 +221,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>85 PRs · 🟣 68 · 🟢 8 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>86 PRs · 🟣 68 · 🟢 9 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#2023`](https://github.com/Gitlawb/openclaude/pull/2023) — fix(output-style): resolve style names by own-property
 - 🟢 [`#1994`](https://github.com/Gitlawb/openclaude/pull/1994) — fix(permissions): anchor the session plan-file match on its exact shape
 - 🟢 [`#1993`](https://github.com/Gitlawb/openclaude/pull/1993) — fix(cli): validate --max-turns as a positive integer
 - 🟢 [`#1983`](https://github.com/Gitlawb/openclaude/pull/1983) — fix(mcp): resolve server names by own-property, not the prototype chain
