@@ -221,7 +221,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>87 PRs · 🟣 69 · 🟢 9 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>87 PRs · 🟣 70 · 🟢 8 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -230,7 +230,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#1994`](https://github.com/Gitlawb/openclaude/pull/1994) — fix(permissions): anchor the session plan-file match on its exact shape
 - 🟢 [`#1993`](https://github.com/Gitlawb/openclaude/pull/1993) — fix(cli): validate --max-turns as a positive integer
 - 🟢 [`#1983`](https://github.com/Gitlawb/openclaude/pull/1983) — fix(mcp): resolve server names by own-property, not the prototype chain
-- 🟢 [`#1982`](https://github.com/Gitlawb/openclaude/pull/1982) — fix(bridge): truncate derived session titles on grapheme boundaries
+- 🟣 [`#1982`](https://github.com/Gitlawb/openclaude/pull/1982) — fix(bridge): truncate derived session titles on grapheme boundaries
 - 🟣 [`#1975`](https://github.com/Gitlawb/openclaude/pull/1975) — fix(resume): read the session tag from its own entry, not a tool's tag input
 - 🟢 [`#1974`](https://github.com/Gitlawb/openclaude/pull/1974) — fix(memory): match nested directories on path boundaries, not name prefixes
 - 🟢 [`#1966`](https://github.com/Gitlawb/openclaude/pull/1966) — fix(commands): insert slash-command argument text literally, not as regex refs
