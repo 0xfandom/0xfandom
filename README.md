@@ -221,10 +221,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>87 PRs · 🟣 70 · 🟢 8 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>89 PRs · 🟣 70 · 🟢 10 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#2028`](https://github.com/Gitlawb/openclaude/pull/2028) — fix(sdk): report a permission timeout as a timeout
+- 🟢 [`#2027`](https://github.com/Gitlawb/openclaude/pull/2027) — fix(frontmatter): anchor the closing --- to the start of a line
 - 🟢 [`#2024`](https://github.com/Gitlawb/openclaude/pull/2024) — fix(api): validate API_TIMEOUT_MS instead of raw parseInt
 - 🟣 [`#2023`](https://github.com/Gitlawb/openclaude/pull/2023) — fix(output-style): resolve style names by own-property
 - 🟢 [`#1994`](https://github.com/Gitlawb/openclaude/pull/1994) — fix(permissions): anchor the session plan-file match on its exact shape
