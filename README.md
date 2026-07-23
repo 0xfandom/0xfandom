@@ -221,10 +221,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>89 PRs · 🟣 71 · 🟢 9 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>90 PRs · 🟣 71 · 🟢 10 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#2031`](https://github.com/Gitlawb/openclaude/pull/2031) — test(user): restore real modules from a pre-mock snapshot
 - 🟢 [`#2028`](https://github.com/Gitlawb/openclaude/pull/2028) — fix(sdk): report a permission timeout as a timeout
 - 🟢 [`#2027`](https://github.com/Gitlawb/openclaude/pull/2027) — fix(frontmatter): anchor the closing --- to the start of a line
 - 🟢 [`#2024`](https://github.com/Gitlawb/openclaude/pull/2024) — fix(api): validate API_TIMEOUT_MS instead of raw parseInt
@@ -438,7 +439,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 - 🟢 [`#32638`](https://github.com/oven-sh/bun/pull/32638) — fix(console): send console.trace to stderr with a "Trace:" prefix
 - 🟢 [`#32482`](https://github.com/oven-sh/bun/pull/32482) — fix(worker): don't keep the main thread alive for a global message listener
-- 🟢 [`#32481`](https://github.com/oven-sh/bun/pull/32481) — fix(node:perf_hooks): make PerformanceNodeTiming startTime/duration work
+- 🟢 [`#32481`](https://github.com/oven-sh/bun/pull/32481) — fix(node:perf_hooks): report nodeTiming milestones as offsets from timeOrigin
 - 🟢 [`#32460`](https://github.com/oven-sh/bun/pull/32460) — fix(node:util): correct numericSeparator for negative fractional numbers
 - 🟢 [`#32459`](https://github.com/oven-sh/bun/pull/32459) — feat(node:buffer): implement transcode()
 
@@ -479,6 +480,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; lightningnetwork / lnd</b> &nbsp;·&nbsp; Lightning Network Daemon ⚡️ &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/lightningnetwork/lnd/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#10989`](https://github.com/lightningnetwork/lnd/pull/10989) — lnrpc+rpcserver: include short channel id in pending close channels
+- 🟢 [`#10784`](https://github.com/lightningnetwork/lnd/pull/10784) — cmd/commands: read full stdin for lncli unlock --stdin
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; ag2ai / ag2</b> &nbsp;·&nbsp; AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/ag2ai/ag2/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -493,15 +504,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 <br>
 
 - 🟣 [`#1133`](https://github.com/lightninglabs/loop/pull/1133) — staticaddr: move address.Parameters to script package
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; lightningnetwork / lnd</b> &nbsp;·&nbsp; Lightning Network Daemon ⚡️ &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/lightningnetwork/lnd/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#10784`](https://github.com/lightningnetwork/lnd/pull/10784) — cmd/commands: read full stdin for lncli unlock --stdin
 
 </details>
 <!-- END:contributions -->
@@ -520,7 +522,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
 | **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | `Rust` | A Redis-like in-memory key-value store built from scratch in Rust |
 | **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
-| **[Meridian](https://github.com/0xfandom/Meridian)** | `Solidity` `Go` | Non-custodial digital-asset prime brokerage: ERC-4626 lending pools, constrained on-chain margin accounts with up to ~5x leverage through whitelisted adapters, an off-chain portfolio margin engine, and liquidation keepers. |
+| **[chainscope](https://github.com/0xfandom/chainscope)** | `Rust` `PLpgSQL` | A Uniswap V3 indexer on Ethereum mainnet, written in Rust. Exactly-once writes, reorg-safe, resumable. |
 <!-- END:featured -->
 
 ---
