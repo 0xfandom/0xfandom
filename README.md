@@ -490,6 +490,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL for custom program ids
+- 🟢 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; ag2ai / ag2</b> &nbsp;·&nbsp; AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/ag2ai/ag2/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
