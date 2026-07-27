@@ -221,10 +221,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>90 PRs · 🟣 73 · 🟢 8 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>91 PRs · 🟣 73 · 🟢 9 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#2050`](https://github.com/Gitlawb/openclaude/pull/2050) — feat(auth): opt-in loopback proxy hosts that keep subscription (OAuth) auth
 - 🟣 [`#2031`](https://github.com/Gitlawb/openclaude/pull/2031) — test(user): restore real modules from a pre-mock snapshot
 - 🟢 [`#2028`](https://github.com/Gitlawb/openclaude/pull/2028) — fix(sdk): report a permission timeout as a timeout
 - 🟢 [`#2027`](https://github.com/Gitlawb/openclaude/pull/2027) — fix(frontmatter): anchor the closing --- to the start of a line
