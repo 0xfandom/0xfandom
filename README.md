@@ -501,6 +501,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#2294`](https://github.com/PlakarKorp/plakar/pull/2294) — mount: set a valid modification time on the root directory
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; ag2ai / ag2</b> &nbsp;·&nbsp; AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/ag2ai/ag2/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
