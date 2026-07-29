@@ -221,10 +221,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>91 PRs · 🟣 76 · 🟢 6 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>92 PRs · 🟣 76 · 🟢 7 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#2064`](https://github.com/Gitlawb/openclaude/pull/2064) — fix(cost): guard model-cost lookup against prototype-member model ids
 - 🟣 [`#2050`](https://github.com/Gitlawb/openclaude/pull/2050) — feat(auth): opt-in loopback proxy hosts that keep subscription (OAuth) auth
 - 🟣 [`#2031`](https://github.com/Gitlawb/openclaude/pull/2031) — test(user): restore real modules from a pre-mock snapshot
 - 🟣 [`#2028`](https://github.com/Gitlawb/openclaude/pull/2028) — fix(sdk): report a permission timeout as a timeout
@@ -481,6 +482,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; juspay / hyperswitch</b> &nbsp;·&nbsp; Open source, composable payments platform \| PCI compliant \| SaaS and Self-host options \| Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers \| Uplifts authorization with intelligent routing and revenue recovery \| Reduce payment processing costs with cost observability \| Reduces payment ops with reconciliation &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/juspay/hyperswitch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#13495`](https://github.com/juspay/hyperswitch/pull/13495) — test(currency_conversion): assert conversion results and fix swapped rate fixtures
+- 🟢 [`#13494`](https://github.com/juspay/hyperswitch/pull/13494) — fix(events): map PaymentPartiallyAuthorized to the payments event class
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; lightningnetwork / lnd</b> &nbsp;·&nbsp; Lightning Network Daemon ⚡️ &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/lightningnetwork/lnd/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -495,17 +506,27 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <br>
 
-- 🟢 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL for custom program ids
+- 🟢 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL when a program is deployed
 - 🟢 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
 
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; uutils / coreutils</b> &nbsp;·&nbsp; Cross-platform Rust rewrite of the GNU coreutils &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/uutils/coreutils/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#2294`](https://github.com/PlakarKorp/plakar/pull/2294) — mount: set a valid modification time on the root directory
+- 🟢 [`#13640`](https://github.com/uutils/coreutils/pull/13640) — shred: report the real error for an inaccessible file
+- 🟢 [`#13637`](https://github.com/uutils/coreutils/pull/13637) — chmod: report the real error when a target's metadata is inaccessible
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟣 [`#2294`](https://github.com/PlakarKorp/plakar/pull/2294) — mount: set a valid modification time on the root directory
 
 </details>
 
@@ -515,6 +536,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 <br>
 
 - 🟣 [`#2789`](https://github.com/ag2ai/ag2/pull/2789) — Fix `LLMConfig` for 5 notebooks (7)
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; anza-xyz / agave</b> &nbsp;·&nbsp; Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces. &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/anza-xyz/agave/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#14185`](https://github.com/anza-xyz/agave/pull/14185) — cli-config: don't panic computing websocket url for port 65535
 
 </details>
 
