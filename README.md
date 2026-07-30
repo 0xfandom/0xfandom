@@ -502,12 +502,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>2 PRs · 🟣 1 · 🟢 1 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟢 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL when a program is deployed
-- 🟢 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
+- 🟣 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
 
 </details>
 
