@@ -482,6 +482,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>2 PRs · 🟣 1 · 🟢 1 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#2295`](https://github.com/PlakarKorp/plakar/pull/2295) — ls: report the errors recorded in a snapshot
+- 🟣 [`#2294`](https://github.com/PlakarKorp/plakar/pull/2294) — mount: set a valid modification time on the root directory
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; juspay / hyperswitch</b> &nbsp;·&nbsp; Open source, composable payments platform \| PCI compliant \| SaaS and Self-host options \| Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers \| Uplifts authorization with intelligent routing and revenue recovery \| Reduce payment processing costs with cost observability \| Reduces payment ops with reconciliation &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/juspay/hyperswitch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -518,15 +528,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 - 🟣 [`#13640`](https://github.com/uutils/coreutils/pull/13640) — shred: report the real error for an inaccessible file
 - 🟢 [`#13637`](https://github.com/uutils/coreutils/pull/13637) — chmod: report the real error when a target's metadata is inaccessible
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟣 [`#2294`](https://github.com/PlakarKorp/plakar/pull/2294) — mount: set a valid modification time on the root directory
 
 </details>
 
