@@ -493,6 +493,17 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>3 PRs · 🟣 2 · 🟢 1 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#470`](https://github.com/solana-playground/solana-playground/pull/470) — Display Rust Analyzer status in the bottom bar
+- 🟣 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL when a program is deployed
+- 🟣 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; juspay / hyperswitch</b> &nbsp;·&nbsp; Open source, composable payments platform \| PCI compliant \| SaaS and Self-host options \| Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers \| Uplifts authorization with intelligent routing and revenue recovery \| Reduce payment processing costs with cost observability \| Reduces payment ops with reconciliation &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/juspay/hyperswitch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -509,16 +520,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 - 🟢 [`#10989`](https://github.com/lightningnetwork/lnd/pull/10989) — lnrpc+rpcserver: include short channel id in pending close channels
 - 🟢 [`#10784`](https://github.com/lightningnetwork/lnd/pull/10784) — cmd/commands: read full stdin for lncli unlock --stdin
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>2 PRs · 🟣 2 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟣 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL when a program is deployed
-- 🟣 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
 
 </details>
 
