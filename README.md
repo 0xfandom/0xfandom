@@ -524,12 +524,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; uutils / coreutils</b> &nbsp;·&nbsp; Cross-platform Rust rewrite of the GNU coreutils &nbsp;·&nbsp; <sub>2 PRs · 🟣 1 · 🟢 1 &middot; <a href="https://github.com/uutils/coreutils/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; uutils / coreutils</b> &nbsp;·&nbsp; Cross-platform Rust rewrite of the GNU coreutils &nbsp;·&nbsp; <sub>2 PRs · 🟣 2 &middot; <a href="https://github.com/uutils/coreutils/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟣 [`#13640`](https://github.com/uutils/coreutils/pull/13640) — shred: report the real error for an inaccessible file
-- 🟢 [`#13637`](https://github.com/uutils/coreutils/pull/13637) — chmod: report the real error when a target's metadata is inaccessible
+- 🟣 [`#13637`](https://github.com/uutils/coreutils/pull/13637) — chmod: report the real error when a target's metadata is inaccessible
 
 </details>
 
