@@ -460,6 +460,18 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>4 PRs · 🟣 2 · 🟢 2 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#471`](https://github.com/solana-playground/solana-playground/pull/471) — Fix enum variant case conversion not matching Anchor
+- 🟢 [`#470`](https://github.com/solana-playground/solana-playground/pull/470) — Display Rust Analyzer status in the bottom bar
+- 🟣 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL when a program is deployed
+- 🟣 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>3 PRs · 🟣 1 · 🟢 2 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -489,17 +501,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#86`](https://github.com/lightninglabs/lndinit/pull/86) — migrate-db: warn loudly before writing irreversible tombstones
 - 🟢 [`#85`](https://github.com/lightninglabs/lndinit/pull/85) — migrate-db: skip missing source DBs by default
 - 🟢 [`#84`](https://github.com/lightninglabs/lndinit/pull/84) — migration: default to sqlite and surface flag defaults in -h
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>3 PRs · 🟣 2 · 🟢 1 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#470`](https://github.com/solana-playground/solana-playground/pull/470) — Display Rust Analyzer status in the bottom bar
-- 🟣 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL when a program is deployed
-- 🟣 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
 
 </details>
 
