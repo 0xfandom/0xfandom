@@ -165,56 +165,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 ---
 
-### Experience
-
-<details>
-<summary><b>&nbsp;🏢&nbsp; Zerolend</b> &nbsp;·&nbsp; Senior Blockchain Engineer &nbsp;·&nbsp; <sub>Feb 2024 — present</sub></summary>
-
-<br>
-
-- Architected and shipped a **cross-chain bridge** on top of **Axelar + LayerZero** — contract layer through to the off-chain relayer keeping messages flowing reliably across chains.
-- Wrote the relayer service in **Rust** — message signing, nonce management, retry with backoff, and the operational details that matter when a bridge is under load.
-- Authored **150+ smart contracts** in **Solidity and Move (SUI)** — LendingPool core, variable/stable rate models, health-factor liquidation, oracle integration, flash loans, aToken/debtToken accounting, and cross-chain bridges. Gas-optimized through storage layout restructuring, calldata efficiency patterns, and redundant state-read elimination.
-- Built an **agentic Claude-powered audit pipeline** with structured prompt chains, MCP server integrations, and automated checklists for reentrancy, access-control, oracle manipulation, arithmetic edges, and DeFi-specific attack vectors — replacing manual review cycles with repeatable workflows.
-- Integrated multiple decentralized oracle networks for on-chain price feeds; built the **off-chain Rust aggregation layer** that validates incoming data, catches outliers, and falls back gracefully when a source goes stale.
-- Designed and deployed real-time **on-chain event indexers in Go** — millions of daily TXs ingested via RPC / WebSocket streams, persisted to structured stores, served at sub-second query latency for trading dashboards and protocol monitoring.
-- Architected **CI/CD pipelines** in TypeScript + Go enforcing mainnet-fork testing, integration suites, and end-to-end coverage on every release.
-- Integrated **Hexagate** (Python) and **Tenderly** (TypeScript) actions to automate protocol security — instant pauses and parameter adjustments on detected on-chain anomalies or exploits.
-- Built a **Claude-powered automated liquidation engine** monitoring collateral health across deployed EVM chains and triggering cross-chain liquidations the moment thresholds are breached.
-
-</details>
-
-<details>
-<summary><b>&nbsp;🏢&nbsp; Khalani Labs (Nervos)</b> &nbsp;·&nbsp; Blockchain Engineer &nbsp;·&nbsp; <sub>Feb 2022 — Dec 2023</sub></summary>
-
-<br>
-
-- Developed **order-matching and RFQ engines** with in-memory position management — sub-millisecond trade flow processing (order-book state, open positions, settlement reconciliation) backed by persistent storage for crash recovery and auditability.
-- Built a **Rust liquidation bot** for an Aave V2 fork — health-factor monitoring across all positions, threshold-triggered liquidations, dynamic gas pricing for profitability.
-- Instrumented production infra with **Prometheus, Grafana, and structured logging** — real-time alerting on liquidation-bot health, indexer lag, relayer throughput under mainnet load.
-- Integrated **PancakeSwap** contracts directly into the protocol for collateral and loan-token swaps in borrow / repayment flows — fewer transactions, less UX friction.
-- Built **treasury and risk-fund contracts** with automated reserve logic, fee routing, and risk buffers for sustainable protocol economics.
-- Set up **multisig DAO governance** using Safe Wallets for all admin and protocol-critical operations.
-- Researched and benchmarked **dAMM, SLAMM, VAMM, and the Delta Algorithm** — findings shaped the architecture of Khalani's **Interchain Liquidity Hub** and a **CDP-based omnichain stablecoin**.
-- Conducted rigorous code reviews and **mainnet-fork tests on Foundry + Hardhat** to surface edge cases pre-deployment.
-
-</details>
-
-<details>
-<summary><b>&nbsp;🏢&nbsp; MindPath</b> &nbsp;·&nbsp; Blockchain Engineer &nbsp;·&nbsp; <sub>Dec 2020 — Feb 2022</sub></summary>
-
-<br>
-
-- Built **AMM contracts from scratch** — pool logic, swap routing, fee distribution — and integrated **Chainlink** oracles alongside a **Go price-validation service** that cross-checks on-chain feeds against pool state and flags discrepancies before they affect collateral.
-- Wrote and audited **ERC-20, ERC-721, ERC-1155** tokens; built **staking contracts** with time-locked rewards, slashing conditions, and dynamic APY — all behind **Transparent and UUPS proxies** for zero-downtime upgrades.
-- Built a **Go backend** for staking position tracking and reward distribution; integrated custom on/off-chain oracle pipelines for pricing and risk metrics that standard Chainlink feeds didn't cover.
-- Contributed to **React / Redux** dashboards with **Web3.js / Ethers.js** integrations for real-time contract data.
-- Wrote comprehensive unit and integration suites across all contracts using **Hardhat, Foundry, and Chai** — normal flows, edge cases, regression scenarios.
-
-</details>
-
----
-
 ### Open-source contributions
 
 <sub><i>🟢 open &middot; 🟣 merged &middot; 🔴 closed &nbsp;·&nbsp; auto-refreshed twice daily.</i></sub>
