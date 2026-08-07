@@ -221,18 +221,18 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>92 PRs · 🟣 76 · 🟢 7 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>92 PRs · 🟣 78 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#2064`](https://github.com/Gitlawb/openclaude/pull/2064) — fix(cost): guard model-cost lookup against prototype-member model ids
+- 🟣 [`#2064`](https://github.com/Gitlawb/openclaude/pull/2064) — fix(cost): guard model-cost lookup against prototype-member model ids
 - 🟣 [`#2050`](https://github.com/Gitlawb/openclaude/pull/2050) — feat(auth): opt-in loopback proxy hosts that keep subscription (OAuth) auth
 - 🟣 [`#2031`](https://github.com/Gitlawb/openclaude/pull/2031) — test(user): restore real modules from a pre-mock snapshot
 - 🟣 [`#2028`](https://github.com/Gitlawb/openclaude/pull/2028) — fix(sdk): report a permission timeout as a timeout
 - 🟢 [`#2027`](https://github.com/Gitlawb/openclaude/pull/2027) — fix(frontmatter): anchor the closing --- to the start of a line
 - 🟢 [`#2024`](https://github.com/Gitlawb/openclaude/pull/2024) — fix(api): validate API_TIMEOUT_MS instead of raw parseInt
 - 🟣 [`#2023`](https://github.com/Gitlawb/openclaude/pull/2023) — fix(output-style): resolve style names by own-property
-- 🟢 [`#1994`](https://github.com/Gitlawb/openclaude/pull/1994) — fix(permissions): anchor the session plan-file match on its exact shape
+- 🟣 [`#1994`](https://github.com/Gitlawb/openclaude/pull/1994) — fix(permissions): anchor the session plan-file match on its exact shape
 - 🟢 [`#1993`](https://github.com/Gitlawb/openclaude/pull/1993) — fix(cli): validate --max-turns as a positive integer
 - 🟢 [`#1983`](https://github.com/Gitlawb/openclaude/pull/1983) — fix(mcp): resolve server names by own-property, not the prototype chain
 - 🟣 [`#1982`](https://github.com/Gitlawb/openclaude/pull/1982) — fix(bridge): truncate derived session titles on grapheme boundaries
@@ -576,7 +576,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
 | **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | `Rust` | A Redis-like in-memory key-value store built from scratch in Rust |
 | **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
-| **[chainscope](https://github.com/0xfandom/chainscope)** | `Rust` `PLpgSQL` | A Uniswap V3 indexer on Ethereum mainnet, written in Rust. Exactly-once writes, reorg-safe, resumable. |
+| **[relay](https://github.com/0xfandom/relay)** | `Rust` | Outbound webhook delivery service in Rust — signed, queued, retried, with circuit breaking and per-endpoint rate limiting. |
 <!-- END:featured -->
 
 ---
