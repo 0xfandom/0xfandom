@@ -171,10 +171,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>92 PRs · 🟣 78 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>94 PRs · 🟣 79 · 🟢 6 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟣 [`#2100`](https://github.com/Gitlawb/openclaude/pull/2100) — fix(repomap): resolve file language by real extension, own-property only
+- 🟢 [`#2099`](https://github.com/Gitlawb/openclaude/pull/2099) — fix(provider): match MiniMax and Venice base URLs by hostname, not substring
 - 🟣 [`#2064`](https://github.com/Gitlawb/openclaude/pull/2064) — fix(cost): guard model-cost lookup against prototype-member model ids
 - 🟣 [`#2050`](https://github.com/Gitlawb/openclaude/pull/2050) — feat(auth): opt-in loopback proxy hosts that keep subscription (OAuth) auth
 - 🟣 [`#2031`](https://github.com/Gitlawb/openclaude/pull/2031) — test(user): restore real modules from a pre-mock snapshot
@@ -398,6 +400,19 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>5 PRs · 🟣 2 · 🟢 3 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#472`](https://github.com/solana-playground/solana-playground/pull/472) — Suggest solutions for common build errors
+- 🟢 [`#471`](https://github.com/solana-playground/solana-playground/pull/471) — Fix enum variant case conversion not matching Anchor
+- 🟢 [`#470`](https://github.com/solana-playground/solana-playground/pull/470) — Display Rust Analyzer status in the bottom bar
+- 🟣 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL when a program is deployed
+- 🟣 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for secrets, certificates, and privileged access management. &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -406,18 +421,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#6902`](https://github.com/Infisical/infisical/pull/6902) — fix(project): allow spaces in All Projects search query
 - 🟢 [`#6901`](https://github.com/Infisical/infisical/pull/6901) — fix(membership): correct inflated total count in user and identity list queries
 - 🟢 [`#6884`](https://github.com/Infisical/infisical/pull/6884) — fix(secrets): remove personal overrides when moving secrets
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>4 PRs · 🟣 2 · 🟢 2 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#471`](https://github.com/solana-playground/solana-playground/pull/471) — Fix enum variant case conversion not matching Anchor
-- 🟢 [`#470`](https://github.com/solana-playground/solana-playground/pull/470) — Display Rust Analyzer status in the bottom bar
-- 🟣 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL when a program is deployed
-- 🟣 [`#465`](https://github.com/solana-playground/solana-playground/pull/465) — Add ability to scroll past end in test UI
 
 </details>
 
@@ -521,12 +524,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 <!-- START:featured -->
 | Project | Stack | What it does |
 | :--- | :--- | :--- |
-| **[chainpulse](https://github.com/0xfandom/chainpulse)** | `Go` `TypeScript` | Multi-chain blockchain event indexer with AI agent query layer (Go + Kafka + ClickHouse + MCP).  |
-| **[Block-Explorer-MCP](https://github.com/0xfandom/Block-Explorer-MCP)** | `TypeScript` | MCP server that gives AI assistants live access to on-chain data with different tools. |
+| **[chainscope](https://github.com/0xfandom/chainscope)** | `Rust` `PLpgSQL` | A Uniswap V3 indexer on Ethereum mainnet, written in Rust. Exactly-once writes, reorg-safe, resumable. |
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
-| **[Mini-Redis-rs](https://github.com/0xfandom/Mini-Redis-rs)** | `Rust` | A Redis-like in-memory key-value store built from scratch in Rust |
-| **[cyfrin-defi-exercises](https://github.com/0xfandom/cyfrin-defi-exercises)** | `Solidity` `TypeScript` | — |
+| **[Meridian](https://github.com/0xfandom/Meridian)** | `Solidity` `Go` | Non-custodial digital-asset prime brokerage: ERC-4626 lending pools, constrained on-chain margin accounts with up to ~5x leverage through whitelisted adapters, an off-chain portfolio margin engine, and liquidation keepers. |
+| **[chainpulse](https://github.com/0xfandom/chainpulse)** | `Go` `TypeScript` | Multi-chain blockchain event indexer with AI agent query layer (Go + Kafka + ClickHouse + MCP).  |
 | **[relay](https://github.com/0xfandom/relay)** | `Rust` | Outbound webhook delivery service in Rust — signed, queued, retried, with circuit breaking and per-endpoint rate limiting. |
+| **[coin-index-mcp](https://github.com/0xfandom/coin-index-mcp)** | `TypeScript` | — |
 <!-- END:featured -->
 
 ---
