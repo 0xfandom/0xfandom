@@ -425,11 +425,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>3 PRs · 🟣 1 · 🟢 2 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>3 PRs · 🟣 2 · 🟢 1 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#2301`](https://github.com/PlakarKorp/plakar/pull/2301) — ptar: allow filtering the snapshots pulled from a kloset
+- 🟣 [`#2301`](https://github.com/PlakarKorp/plakar/pull/2301) — ptar: allow filtering the snapshots pulled from a kloset
 - 🟢 [`#2295`](https://github.com/PlakarKorp/plakar/pull/2295) — ls: report the errors recorded in a snapshot
 - 🟣 [`#2294`](https://github.com/PlakarKorp/plakar/pull/2294) — mount: set a valid modification time on the root directory
 
@@ -454,6 +454,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#86`](https://github.com/lightninglabs/lndinit/pull/86) — migrate-db: warn loudly before writing irreversible tombstones
 - 🟢 [`#85`](https://github.com/lightninglabs/lndinit/pull/85) — migrate-db: skip missing source DBs by default
 - 🟢 [`#84`](https://github.com/lightninglabs/lndinit/pull/84) — migration: default to sqlite and surface flag defaults in -h
+
+</details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; Syndica / sig</b> &nbsp;·&nbsp; a Solana validator client implementation written in Zig &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/Syndica/sig/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#1786`](https://github.com/Syndica/sig/pull/1786) — feat(init): back large shared memory regions with huge pages
+- 🟢 [`#1785`](https://github.com/Syndica/sig/pull/1785) — feat(shred-receiver): add prometheus metrics and grafana dashboard
 
 </details>
 
