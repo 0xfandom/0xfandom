@@ -171,7 +171,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>94 PRs · 🟣 79 · 🟢 6 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>94 PRs · 🟣 80 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -192,7 +192,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#1974`](https://github.com/Gitlawb/openclaude/pull/1974) — fix(memory): match nested directories on path boundaries, not name prefixes
 - 🟣 [`#1966`](https://github.com/Gitlawb/openclaude/pull/1966) — fix(commands): insert slash-command argument text literally, not as regex refs
 - 🟣 [`#1965`](https://github.com/Gitlawb/openclaude/pull/1965) — fix(cache): use a monotonic clock for conversation-cache LRU recency
-- 🟢 [`#1955`](https://github.com/Gitlawb/openclaude/pull/1955) — fix(bash): convert BRE interval braces when previewing sed edits
+- 🟣 [`#1955`](https://github.com/Gitlawb/openclaude/pull/1955) — fix(bash): convert BRE interval braces when previewing sed edits
 - 🟣 [`#1954`](https://github.com/Gitlawb/openclaude/pull/1954) — fix(editor): account for NFC boundary composition in insert offset
 - 🟣 [`#1953`](https://github.com/Gitlawb/openclaude/pull/1953) — fix(stats): stop over-counting totalDays by one
 - 🟣 [`#1934`](https://github.com/Gitlawb/openclaude/pull/1934) — fix(context): order pruned messages by envelope timestamp, not phantom field
