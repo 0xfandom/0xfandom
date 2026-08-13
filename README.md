@@ -171,10 +171,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>94 PRs · 🟣 80 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>96 PRs · 🟣 80 · 🟢 7 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#2124`](https://github.com/Gitlawb/openclaude/pull/2124) — fix(websearch): reject non-positive WEB_CUSTOM env overrides
+- 🟢 [`#2123`](https://github.com/Gitlawb/openclaude/pull/2123) — fix(api): resolve swarm-field tool names by own-property, not the prototype chain
 - 🟣 [`#2100`](https://github.com/Gitlawb/openclaude/pull/2100) — fix(repomap): resolve file language by real extension, own-property only
 - 🟢 [`#2099`](https://github.com/Gitlawb/openclaude/pull/2099) — fix(provider): match MiniMax and Venice base URLs by hostname, not substring
 - 🟣 [`#2064`](https://github.com/Gitlawb/openclaude/pull/2064) — fix(cost): guard model-cost lookup against prototype-member model ids
@@ -523,6 +525,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#1133`](https://github.com/lightninglabs/loop/pull/1133) — staticaddr: move address.Parameters to script package
 
 </details>
+
+<details>
+<summary><b>&nbsp;🛠️&nbsp; openobserve / openobserve</b> &nbsp;·&nbsp; Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment. &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/openobserve/openobserve/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#13806`](https://github.com/openobserve/openobserve/pull/13806) — fix: reject empty org_id in POST /api/{org_id}/users
+
+</details>
 <!-- END:contributions -->
 
 ---
@@ -538,8 +549,8 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
 | **[Meridian](https://github.com/0xfandom/Meridian)** | `Solidity` `Go` | Non-custodial digital-asset prime brokerage: ERC-4626 lending pools, constrained on-chain margin accounts with up to ~5x leverage through whitelisted adapters, an off-chain portfolio margin engine, and liquidation keepers. |
 | **[chainpulse](https://github.com/0xfandom/chainpulse)** | `Go` `TypeScript` | Multi-chain blockchain event indexer with AI agent query layer (Go + Kafka + ClickHouse + MCP).  |
+| **[relay](https://github.com/0xfandom/relay)** | `Rust` `PLpgSQL` | Outbound webhook delivery service in Rust — signed, queued, retried, with circuit breaking and per-endpoint rate limiting. |
 | **[crossval-plan-tracker](https://github.com/0xfandom/crossval-plan-tracker)** | `TypeScript` `JavaScript` | — |
-| **[relay](https://github.com/0xfandom/relay)** | `Rust` | Outbound webhook delivery service in Rust — signed, queued, retried, with circuit breaking and per-endpoint rate limiting. |
 <!-- END:featured -->
 
 ---
