@@ -387,7 +387,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; oven-sh / bun</b> &nbsp;·&nbsp; Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one &nbsp;·&nbsp; <sub>5 PRs · 🟢 5 &middot; <a href="https://github.com/oven-sh/bun/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; oven-sh / bun</b> &nbsp;·&nbsp; Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one &nbsp;·&nbsp; <sub>5 PRs · 🟢 4 · 🔴 1 &middot; <a href="https://github.com/oven-sh/bun/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -395,7 +395,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟢 [`#32482`](https://github.com/oven-sh/bun/pull/32482) — fix(worker): don't keep the main thread alive for a global message listener
 - 🟢 [`#32481`](https://github.com/oven-sh/bun/pull/32481) — fix(node:perf_hooks): report nodeTiming milestones as offsets from timeOrigin
 - 🟢 [`#32460`](https://github.com/oven-sh/bun/pull/32460) — fix(node:util): correct numericSeparator for negative fractional numbers
-- 🟢 [`#32459`](https://github.com/oven-sh/bun/pull/32459) — feat(node:buffer): implement transcode()
+- 🔴 [`#32459`](https://github.com/oven-sh/bun/pull/32459) — feat(node:buffer): implement transcode()
 
 </details>
 
