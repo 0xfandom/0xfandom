@@ -171,12 +171,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>96 PRs · 🟣 80 · 🟢 7 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>96 PRs · 🟣 82 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#2124`](https://github.com/Gitlawb/openclaude/pull/2124) — fix(websearch): reject non-positive WEB_CUSTOM env overrides
-- 🟢 [`#2123`](https://github.com/Gitlawb/openclaude/pull/2123) — fix(api): resolve swarm-field tool names by own-property, not the prototype chain
+- 🟣 [`#2124`](https://github.com/Gitlawb/openclaude/pull/2124) — fix(websearch): reject non-positive WEB_CUSTOM env overrides
+- 🟣 [`#2123`](https://github.com/Gitlawb/openclaude/pull/2123) — fix(api): resolve swarm-field tool names by own-property, not the prototype chain
 - 🟣 [`#2100`](https://github.com/Gitlawb/openclaude/pull/2100) — fix(repomap): resolve file language by real extension, own-property only
 - 🟢 [`#2099`](https://github.com/Gitlawb/openclaude/pull/2099) — fix(provider): match MiniMax and Venice base URLs by hostname, not substring
 - 🟣 [`#2064`](https://github.com/Gitlawb/openclaude/pull/2064) — fix(cost): guard model-cost lookup against prototype-member model ids
