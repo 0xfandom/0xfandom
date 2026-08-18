@@ -171,7 +171,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>96 PRs · 🟣 82 · 🟢 5 · 🔴 9 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>96 PRs · 🟣 82 · 🟢 3 · 🔴 11 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -184,10 +184,10 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#2031`](https://github.com/Gitlawb/openclaude/pull/2031) — test(user): restore real modules from a pre-mock snapshot
 - 🟣 [`#2028`](https://github.com/Gitlawb/openclaude/pull/2028) — fix(sdk): report a permission timeout as a timeout
 - 🟢 [`#2027`](https://github.com/Gitlawb/openclaude/pull/2027) — fix(frontmatter): anchor the closing --- to the start of a line
-- 🟢 [`#2024`](https://github.com/Gitlawb/openclaude/pull/2024) — fix(api): validate API_TIMEOUT_MS instead of raw parseInt
+- 🔴 [`#2024`](https://github.com/Gitlawb/openclaude/pull/2024) — fix(api): validate API_TIMEOUT_MS instead of raw parseInt
 - 🟣 [`#2023`](https://github.com/Gitlawb/openclaude/pull/2023) — fix(output-style): resolve style names by own-property
 - 🟣 [`#1994`](https://github.com/Gitlawb/openclaude/pull/1994) — fix(permissions): anchor the session plan-file match on its exact shape
-- 🟢 [`#1993`](https://github.com/Gitlawb/openclaude/pull/1993) — fix(cli): validate --max-turns as a positive integer
+- 🔴 [`#1993`](https://github.com/Gitlawb/openclaude/pull/1993) — fix(cli): validate --max-turns as a positive integer
 - 🟢 [`#1983`](https://github.com/Gitlawb/openclaude/pull/1983) — fix(mcp): resolve server names by own-property, not the prototype chain
 - 🟣 [`#1982`](https://github.com/Gitlawb/openclaude/pull/1982) — fix(bridge): truncate derived session titles on grapheme boundaries
 - 🟣 [`#1975`](https://github.com/Gitlawb/openclaude/pull/1975) — fix(resume): read the session tag from its own entry, not a tool's tag input
