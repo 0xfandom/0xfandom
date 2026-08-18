@@ -402,11 +402,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>5 PRs · 🟣 2 · 🟢 3 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; solana-playground / solana-playground</b> &nbsp;·&nbsp; Quickly develop, deploy and test Solana programs from browsers &nbsp;·&nbsp; <sub>5 PRs · 🟣 3 · 🟢 2 &middot; <a href="https://github.com/solana-playground/solana-playground/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#472`](https://github.com/solana-playground/solana-playground/pull/472) — Suggest solutions for common build errors
+- 🟣 [`#472`](https://github.com/solana-playground/solana-playground/pull/472) — Suggest solutions for common build errors
 - 🟢 [`#471`](https://github.com/solana-playground/solana-playground/pull/471) — Fix enum variant case conversion not matching Anchor
 - 🟢 [`#470`](https://github.com/solana-playground/solana-playground/pull/470) — Display Rust Analyzer status in the bottom bar
 - 🟣 [`#466`](https://github.com/solana-playground/solana-playground/pull/466) — Automatically fetch on-chain IDL when a program is deployed
