@@ -518,6 +518,15 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; future-agi / future-agi</b> &nbsp;·&nbsp; Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0. &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/future-agi/future-agi/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#2211`](https://github.com/future-agi/future-agi/pull/2211) — fix: guard EE usage metering fallbacks so OSS dataset creation does not crash
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; lightninglabs / loop</b> &nbsp;·&nbsp; Lightning Loop: A Non-Custodial Off/On Chain Bridge &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/lightninglabs/loop/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
