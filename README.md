@@ -171,10 +171,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>98 PRs · 🟣 83 · 🟢 4 · 🔴 11 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>99 PRs · 🟣 83 · 🟢 5 · 🔴 11 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
+- 🟢 [`#2177`](https://github.com/Gitlawb/openclaude/pull/2177) — fix(plugins): anchor marketplace hostPattern against lookalike hosts
 - 🟣 [`#2170`](https://github.com/Gitlawb/openclaude/pull/2170) — fix(settings): stop proto-named permission rules from aborting validation
 - 🟢 [`#2169`](https://github.com/Gitlawb/openclaude/pull/2169) — fix(api): validate API_TIMEOUT_MS in the native Anthropic clients
 - 🟣 [`#2124`](https://github.com/Gitlawb/openclaude/pull/2124) — fix(websearch): reject non-positive WEB_CUSTOM env overrides
@@ -472,6 +473,16 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
+<summary><b>&nbsp;🛠️&nbsp; future-agi / future-agi</b> &nbsp;·&nbsp; Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0. &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/future-agi/future-agi/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+
+<br>
+
+- 🟢 [`#2360`](https://github.com/future-agi/future-agi/pull/2360) — feat(observe): add a free-text search box to the traces toolbar
+- 🟢 [`#2211`](https://github.com/future-agi/future-agi/pull/2211) — fix: guard EE usage metering fallbacks so OSS dataset creation does not crash
+
+</details>
+
+<details>
 <summary><b>&nbsp;🛠️&nbsp; juspay / hyperswitch</b> &nbsp;·&nbsp; Open source, composable payments platform \| PCI compliant \| SaaS and Self-host options \| Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers \| Uplifts authorization with intelligent routing and revenue recovery \| Reduce payment processing costs with cost observability \| Reduces payment ops with reconciliation &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/juspay/hyperswitch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
@@ -516,15 +527,6 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 <br>
 
 - 🟢 [`#14185`](https://github.com/anza-xyz/agave/pull/14185) — cli-config: don't panic computing websocket url for port 65535
-
-</details>
-
-<details>
-<summary><b>&nbsp;🛠️&nbsp; future-agi / future-agi</b> &nbsp;·&nbsp; Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0. &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/future-agi/future-agi/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
-
-<br>
-
-- 🟢 [`#2211`](https://github.com/future-agi/future-agi/pull/2211) — fix: guard EE usage metering fallbacks so OSS dataset creation does not crash
 
 </details>
 
