@@ -171,11 +171,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>99 PRs · 🟣 83 · 🟢 5 · 🔴 11 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>99 PRs · 🟣 84 · 🟢 4 · 🔴 11 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#2177`](https://github.com/Gitlawb/openclaude/pull/2177) — fix(plugins): anchor marketplace hostPattern against lookalike hosts
+- 🟣 [`#2177`](https://github.com/Gitlawb/openclaude/pull/2177) — fix(plugins): anchor marketplace hostPattern against lookalike hosts
 - 🟣 [`#2170`](https://github.com/Gitlawb/openclaude/pull/2170) — fix(settings): stop proto-named permission rules from aborting validation
 - 🟢 [`#2169`](https://github.com/Gitlawb/openclaude/pull/2169) — fix(api): validate API_TIMEOUT_MS in the native Anthropic clients
 - 🟣 [`#2124`](https://github.com/Gitlawb/openclaude/pull/2124) — fix(websearch): reject non-positive WEB_CUSTOM env overrides
