@@ -540,7 +540,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; openobserve / openobserve</b> &nbsp;·&nbsp; Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment. &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/openobserve/openobserve/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; openobserve / openobserve</b> &nbsp;·&nbsp; Open source observability platform for logs, metrics, traces, RUM, Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment. &nbsp;·&nbsp; <sub>1 PR · 🟣 1 &middot; <a href="https://github.com/openobserve/openobserve/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
