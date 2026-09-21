@@ -171,13 +171,13 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>99 PRs · 🟣 84 · 🟢 4 · 🔴 11 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Gitlawb / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>99 PRs · 🟣 87 · 🟢 1 · 🔴 11 &middot; <a href="https://github.com/Gitlawb/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟣 [`#2177`](https://github.com/Gitlawb/openclaude/pull/2177) — fix(plugins): anchor marketplace hostPattern against lookalike hosts
 - 🟣 [`#2170`](https://github.com/Gitlawb/openclaude/pull/2170) — fix(settings): stop proto-named permission rules from aborting validation
-- 🟢 [`#2169`](https://github.com/Gitlawb/openclaude/pull/2169) — fix(api): validate API_TIMEOUT_MS in the native Anthropic clients
+- 🟣 [`#2169`](https://github.com/Gitlawb/openclaude/pull/2169) — fix(api): validate API_TIMEOUT_MS in the native Anthropic clients
 - 🟣 [`#2124`](https://github.com/Gitlawb/openclaude/pull/2124) — fix(websearch): reject non-positive WEB_CUSTOM env overrides
 - 🟣 [`#2123`](https://github.com/Gitlawb/openclaude/pull/2123) — fix(api): resolve swarm-field tool names by own-property, not the prototype chain
 - 🟣 [`#2100`](https://github.com/Gitlawb/openclaude/pull/2100) — fix(repomap): resolve file language by real extension, own-property only
@@ -186,12 +186,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#2050`](https://github.com/Gitlawb/openclaude/pull/2050) — feat(auth): opt-in loopback proxy hosts that keep subscription (OAuth) auth
 - 🟣 [`#2031`](https://github.com/Gitlawb/openclaude/pull/2031) — test(user): restore real modules from a pre-mock snapshot
 - 🟣 [`#2028`](https://github.com/Gitlawb/openclaude/pull/2028) — fix(sdk): report a permission timeout as a timeout
-- 🟢 [`#2027`](https://github.com/Gitlawb/openclaude/pull/2027) — fix(frontmatter): anchor the closing --- to the start of a line
+- 🟣 [`#2027`](https://github.com/Gitlawb/openclaude/pull/2027) — fix(frontmatter): anchor the closing --- to the start of a line
 - 🔴 [`#2024`](https://github.com/Gitlawb/openclaude/pull/2024) — fix(api): validate API_TIMEOUT_MS instead of raw parseInt
 - 🟣 [`#2023`](https://github.com/Gitlawb/openclaude/pull/2023) — fix(output-style): resolve style names by own-property
 - 🟣 [`#1994`](https://github.com/Gitlawb/openclaude/pull/1994) — fix(permissions): anchor the session plan-file match on its exact shape
 - 🔴 [`#1993`](https://github.com/Gitlawb/openclaude/pull/1993) — fix(cli): validate --max-turns as a positive integer
-- 🟢 [`#1983`](https://github.com/Gitlawb/openclaude/pull/1983) — fix(mcp): resolve server names by own-property, not the prototype chain
+- 🟣 [`#1983`](https://github.com/Gitlawb/openclaude/pull/1983) — fix(mcp): resolve server names by own-property, not the prototype chain
 - 🟣 [`#1982`](https://github.com/Gitlawb/openclaude/pull/1982) — fix(bridge): truncate derived session titles on grapheme boundaries
 - 🟣 [`#1975`](https://github.com/Gitlawb/openclaude/pull/1975) — fix(resume): read the session tag from its own entry, not a tool's tag input
 - 🟣 [`#1974`](https://github.com/Gitlawb/openclaude/pull/1974) — fix(memory): match nested directories on path boundaries, not name prefixes
