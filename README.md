@@ -493,12 +493,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; lightningnetwork / lnd</b> &nbsp;·&nbsp; Lightning Network Daemon ⚡️ &nbsp;·&nbsp; <sub>2 PRs · 🟢 2 &middot; <a href="https://github.com/lightningnetwork/lnd/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; lightningnetwork / lnd</b> &nbsp;·&nbsp; Lightning Network Daemon ⚡️ &nbsp;·&nbsp; <sub>2 PRs · 🔴 2 &middot; <a href="https://github.com/lightningnetwork/lnd/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#10989`](https://github.com/lightningnetwork/lnd/pull/10989) — lnrpc+rpcserver: include short channel id in pending close channels
-- 🟢 [`#10784`](https://github.com/lightningnetwork/lnd/pull/10784) — cmd/commands: read full stdin for lncli unlock --stdin
+- 🔴 [`#10989`](https://github.com/lightningnetwork/lnd/pull/10989) — lnrpc+rpcserver: include short channel id in pending close channels
+- 🔴 [`#10784`](https://github.com/lightningnetwork/lnd/pull/10784) — cmd/commands: read full stdin for lncli unlock --stdin
 
 </details>
 
