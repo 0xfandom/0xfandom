@@ -430,12 +430,12 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>3 PRs · 🟣 2 · 🟢 1 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; PlakarKorp / plakar</b> &nbsp;·&nbsp; plakar is a backup solution powered by Kloset and ptar &nbsp;·&nbsp; <sub>3 PRs · 🟣 3 &middot; <a href="https://github.com/PlakarKorp/plakar/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
 - 🟣 [`#2301`](https://github.com/PlakarKorp/plakar/pull/2301) — ptar: allow filtering the snapshots pulled from a kloset
-- 🟢 [`#2295`](https://github.com/PlakarKorp/plakar/pull/2295) — ls: report the errors recorded in a snapshot
+- 🟣 [`#2295`](https://github.com/PlakarKorp/plakar/pull/2295) — ls: report the errors recorded in a snapshot
 - 🟣 [`#2294`](https://github.com/PlakarKorp/plakar/pull/2294) — mount: set a valid modification time on the root directory
 
 </details>
