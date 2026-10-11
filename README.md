@@ -418,7 +418,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for secrets, certificates, and privileged access management. &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Infisical / infisical</b> &nbsp;·&nbsp; Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents. &nbsp;·&nbsp; <sub>4 PRs · 🟢 4 &middot; <a href="https://github.com/Infisical/infisical/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
