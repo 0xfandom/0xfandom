@@ -522,11 +522,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; anza-xyz / agave</b> &nbsp;·&nbsp; Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces. &nbsp;·&nbsp; <sub>1 PR · 🟢 1 &middot; <a href="https://github.com/anza-xyz/agave/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; anza-xyz / agave</b> &nbsp;·&nbsp; Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces. &nbsp;·&nbsp; <sub>1 PR · 🔴 1 &middot; <a href="https://github.com/anza-xyz/agave/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#14185`](https://github.com/anza-xyz/agave/pull/14185) — cli-config: don't panic computing websocket url for port 65535
+- 🔴 [`#14185`](https://github.com/anza-xyz/agave/pull/14185) — cli-config: don't panic computing websocket url for port 65535
 
 </details>
 
