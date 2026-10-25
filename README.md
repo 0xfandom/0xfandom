@@ -171,7 +171,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 
 <!-- START:contributions -->
 <details>
-<summary><b>&nbsp;🛠️&nbsp; Twigpine / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>99 PRs · 🟣 87 · 🟢 1 · 🔴 11 &middot; <a href="https://github.com/Twigpine/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; Twigpine / openclaude</b> &nbsp;·&nbsp; runs anywhere. uses anything &nbsp;·&nbsp; <sub>99 PRs · 🟣 88 · 🔴 11 &middot; <a href="https://github.com/Twigpine/openclaude/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -181,7 +181,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 - 🟣 [`#2124`](https://github.com/Twigpine/openclaude/pull/2124) — fix(websearch): reject non-positive WEB_CUSTOM env overrides
 - 🟣 [`#2123`](https://github.com/Twigpine/openclaude/pull/2123) — fix(api): resolve swarm-field tool names by own-property, not the prototype chain
 - 🟣 [`#2100`](https://github.com/Twigpine/openclaude/pull/2100) — fix(repomap): resolve file language by real extension, own-property only
-- 🟢 [`#2099`](https://github.com/Twigpine/openclaude/pull/2099) — fix(provider): match MiniMax and Venice base URLs by hostname, not substring
+- 🟣 [`#2099`](https://github.com/Twigpine/openclaude/pull/2099) — fix(provider): match MiniMax and Venice base URLs by hostname, not substring
 - 🟣 [`#2064`](https://github.com/Twigpine/openclaude/pull/2064) — fix(cost): guard model-cost lookup against prototype-member model ids
 - 🟣 [`#2050`](https://github.com/Twigpine/openclaude/pull/2050) — feat(auth): opt-in loopback proxy hosts that keep subscription (OAuth) auth
 - 🟣 [`#2031`](https://github.com/Twigpine/openclaude/pull/2031) — test(user): restore real modules from a pre-mock snapshot
