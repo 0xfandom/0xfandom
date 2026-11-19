@@ -522,7 +522,7 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; anza-xyz / agave</b> &nbsp;·&nbsp; Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces. &nbsp;·&nbsp; <sub>1 PR · 🔴 1 &middot; <a href="https://github.com/anza-xyz/agave/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; anza-xyz / agave</b> &nbsp;·&nbsp; High-performance validator and RPC client for the Solana blockchain. &nbsp;·&nbsp; <sub>1 PR · 🔴 1 &middot; <a href="https://github.com/anza-xyz/agave/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
@@ -562,8 +562,8 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 | **[phantom-filler](https://github.com/0xfandom/phantom-filler)** | `Solidity` `Rust` | A high-performance, Rust-based intent-based order execution engine inspired by how UniswapX fillers operate. The system monitors mempools and order books across multiple EVM chains, discovers signed swap intents (Dutch auction orders), evaluates optimal fill strategies using on-chain and off-chain liquidity, and executes fills to capture profit |
 | **[Meridian](https://github.com/0xfandom/Meridian)** | `Solidity` `Go` | Non-custodial digital-asset prime brokerage: ERC-4626 lending pools, constrained on-chain margin accounts with up to ~5x leverage through whitelisted adapters, an off-chain portfolio margin engine, and liquidation keepers. |
 | **[chainpulse](https://github.com/0xfandom/chainpulse)** | `Go` `TypeScript` | Multi-chain blockchain event indexer with AI agent query layer (Go + Kafka + ClickHouse + MCP).  |
+| **[Rust-Training](https://github.com/0xfandom/Rust-Training)** | `Rust` | — |
 | **[evidence-aware-crypto-call-recognition](https://github.com/0xfandom/evidence-aware-crypto-call-recognition)** | `Python` | — |
-| **[relay](https://github.com/0xfandom/relay)** | `Rust` `PLpgSQL` | Outbound webhook delivery service in Rust — signed, queued, retried, with circuit breaking and per-endpoint rate limiting. |
 <!-- END:featured -->
 
 ---
