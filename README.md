@@ -359,11 +359,11 @@ Beyond Solidity and **Move (SUI)**, I build backend services in **Rust** and **G
 </details>
 
 <details>
-<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>9 PRs · 🟣 1 · 🟢 2 · 🔴 6 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
+<summary><b>&nbsp;🛠️&nbsp; meilisearch / meilisearch</b> &nbsp;·&nbsp; A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. &nbsp;·&nbsp; <sub>9 PRs · 🟣 2 · 🟢 1 · 🔴 6 &middot; <a href="https://github.com/meilisearch/meilisearch/pulls?q=author%3A0xfandom+is%3Apr">all PRs →</a></sub></summary>
 
 <br>
 
-- 🟢 [`#6496`](https://github.com/meilisearch/meilisearch/pull/6496) — Respect pagination.maxTotalHits in total hits metadata
+- 🟣 [`#6496`](https://github.com/meilisearch/meilisearch/pull/6496) — Respect pagination.maxTotalHits in total hits metadata
 - 🟢 [`#6483`](https://github.com/meilisearch/meilisearch/pull/6483) — Support target index names in the export route
 - 🟣 [`#6468`](https://github.com/meilisearch/meilisearch/pull/6468) — Split unit tests into separate files (one commit per file)
 - 🔴 [`#6465`](https://github.com/meilisearch/meilisearch/pull/6465) — Split facet range search unit tests into a separate file
